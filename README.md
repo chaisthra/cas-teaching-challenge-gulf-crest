@@ -1,4 +1,5 @@
 # Gulf Crest Insurance Company: AI-Augmented Catastrophe Claims Management
+AI-Augmented Catastrophe Claims Management: An Interactive Teaching Module for Property & Casualty Actuarial Science
 
 A self-contained actuarial and data science teaching module built for the **CAS Global Teaching Materials Innovation Challenge**.
 
