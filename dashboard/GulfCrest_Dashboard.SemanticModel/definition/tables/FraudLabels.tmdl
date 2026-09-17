@@ -1,0 +1,31 @@
+table FraudLabels
+	lineageTag: 2d8bebc0-de0b-4b8b-9cc4-77319430cc3c
+
+	column claim_id
+		dataType: string
+		lineageTag: 927ac518-44da-4944-a9a3-bca8eefdedc3
+		summarizeBy: none
+		sourceColumn: claim_id
+
+	column is_fraud
+		dataType: int64
+		lineageTag: 7b226b92-c0a6-426a-b2c2-5a94c20ed8b2
+		summarizeBy: none
+		sourceColumn: is_fraud
+
+	column fraud_indicator_notes
+		dataType: string
+		lineageTag: 8d8bf223-67fb-4209-94d3-61c9d47952f1
+		summarizeBy: none
+		sourceColumn: fraud_indicator_notes
+
+	partition FraudLabels-partition = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(DatasetsFolder & "06_fraud_labels.csv"),[Delimiter=",", Columns=3, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					#"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					#"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"claim_id", type text}, {"is_fraud", Int64.Type}, {"fraud_indicator_notes", type text}})
+				in
+					#"Changed Type"
+

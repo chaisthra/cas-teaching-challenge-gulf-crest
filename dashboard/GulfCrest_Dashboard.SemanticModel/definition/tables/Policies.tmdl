@@ -1,0 +1,68 @@
+table Policies
+	lineageTag: f0cd6bcd-687a-481e-84e0-3aadec66e73e
+
+	column policy_id
+		dataType: string
+		lineageTag: c0ff2173-1d8a-4504-9923-695d5fb53da2
+		summarizeBy: none
+		sourceColumn: policy_id
+
+	column zone_id
+		dataType: string
+		lineageTag: 1a20875c-0c48-4582-bdcd-0686b5510829
+		summarizeBy: none
+		sourceColumn: zone_id
+
+	column coastal_zone_flag
+		dataType: string
+		lineageTag: 8ac5340c-974e-4188-a6e8-a5b7584d2220
+		summarizeBy: none
+		sourceColumn: coastal_zone_flag
+
+	column construction_type
+		dataType: string
+		lineageTag: c49215a0-e968-4103-bea6-b1d03e25eddb
+		summarizeBy: none
+		sourceColumn: construction_type
+
+	column year_built
+		dataType: int64
+		lineageTag: bad6e903-d769-4270-afb1-04b4eda8a677
+		summarizeBy: none
+		sourceColumn: year_built
+
+	column coverage_type
+		dataType: string
+		lineageTag: 42ae788f-4f7a-47e3-a7a3-b4dcd801e456
+		summarizeBy: none
+		sourceColumn: coverage_type
+
+	column total_insured_value
+		dataType: double
+		lineageTag: 5842c69a-d393-4782-86fa-ec03e856b7c3
+		summarizeBy: sum
+		sourceColumn: total_insured_value
+
+	column policy_start_date
+		dataType: dateTime
+		lineageTag: d884bfe4-2892-47a6-b09a-9c9245702195
+		summarizeBy: none
+		sourceColumn: policy_start_date
+
+	column annual_premium
+		dataType: double
+		lineageTag: 9a7999a6-c5e0-4f7a-884c-6204aec4fff3
+		summarizeBy: sum
+		sourceColumn: annual_premium
+
+	partition Policies-partition = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(DatasetsFolder & "01_policies.csv"),[Delimiter=",", Columns=11, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					#"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					#"Removed Columns" = Table.RemoveColumns(#"Promoted Headers",{"policyholder_name", "property_address"}),
+					#"Changed Type" = Table.TransformColumnTypes(#"Removed Columns",{{"policy_id", type text}, {"zone_id", type text}, {"coastal_zone_flag", type text}, {"construction_type", type text}, {"year_built", Int64.Type}, {"coverage_type", type text}, {"total_insured_value", type number}, {"policy_start_date", type datetime}, {"annual_premium", type number}})
+				in
+					#"Changed Type"
+

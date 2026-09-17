@@ -1,0 +1,518 @@
+{
+  "config": "{\"version\":\"5.66\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU06\",\"type\":\"SharedResources\",\"version\":{\"visual\":\"2.12.0\",\"report\":\"3.4.0\",\"page\":\"2.3.1\"}}},\"activeSectionIndex\":0,\"linguisticSchemaSyncVersion\":2,\"objects\":{\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "report": {},
+  "sections": [
+    {
+      "config": "{\"objects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#F7F9FA'\"}}}}}}}]}}",
+      "displayName": "2. Claims Dashboard",
+      "displayOption": 0,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ClaimsPage",
+      "ordinal": 1,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"0cd9a5d7-cb91-49eb-b11e-0d222e4f5dfb\",\"layouts\":[{\"id\":0,\"position\":{\"x\":742.5,\"y\":80,\"z\":6000,\"width\":195,\"height\":83.75}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"_Measures.Closed Claims\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Closed Claims\"},\"Name\":\"_Measures.Closed Claims\"}]},\"drillFilterOtherVisuals\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Closed Claims'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#264653'\"}}}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#D8DEE4'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"4D\"}}}}}]}}}",
+          "height": 83.75,
+          "width": 195.00,
+          "x": 742.50,
+          "y": 80.00,
+          "z": 6000.00
+        },
+        {
+          "config": "{\"name\":\"1ac5493c-a3e8-4582-b75b-2af5e6d504e8\",\"layouts\":[{\"id\":0,\"position\":{\"x\":20,\"y\":175,\"z\":7000,\"width\":338.75,\"height\":253.75}}],\"singleVisual\":{\"visualType\":\"lineChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Claims.date_of_loss\",\"active\":true}],\"Y\":[{\"queryRef\":\"_Measures.Total Claims\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Claims\",\"Type\":0},{\"Name\":\"m\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"date_of_loss\"},\"Name\":\"Claims.date_of_loss\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Total Claims\"},\"Name\":\"_Measures.Total Claims\"}]},\"drillFilterOtherVisuals\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Claims Over Time'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#264653'\"}}}}}}}],\"general\":[{\"properties\":{}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#D8DEE4'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"4D\"}}}}}]}}}",
+          "height": 253.75,
+          "width": 338.75,
+          "x": 20.00,
+          "y": 175.00,
+          "z": 7000.00
+        },
+        {
+          "config": "{\"name\":\"1f44eb8c-d14d-493d-a4ec-b9b56070a3b6\",\"layouts\":[{\"id\":0,\"position\":{\"x\":20,\"y\":460,\"z\":10000,\"width\":338.75,\"height\":222.5}}],\"singleVisual\":{\"visualType\":\"clusteredColumnChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Policies.construction_type\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(Policies.total_insured_value)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Policies\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"construction_type\"},\"Name\":\"Policies.construction_type\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"total_insured_value\"}},\"Function\":0},\"Name\":\"Sum(Policies.total_insured_value)\"}]},\"drillFilterOtherVisuals\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Insured Value by Construction Type'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#264653'\"}}}}}}}],\"general\":[{\"properties\":{}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#D8DEE4'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"4D\"}}}}}]}}}",
+          "height": 222.50,
+          "width": 338.75,
+          "x": 20.00,
+          "y": 460.00,
+          "z": 10000.00
+        },
+        {
+          "config": "{\"name\":\"3ff08452-e1f9-4804-941a-115124d52bbc\",\"layouts\":[{\"id\":0,\"position\":{\"x\":565,\"y\":80,\"z\":5000,\"width\":168.75,\"height\":82.5}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"_Measures.Open Claims\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Open Claims\"},\"Name\":\"_Measures.Open Claims\"}]},\"drillFilterOtherVisuals\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Open Claims'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#264653'\"}}}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#D8DEE4'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"4D\"}}}}}]}}}",
+          "height": 82.50,
+          "width": 168.75,
+          "x": 565.00,
+          "y": 80.00,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"463a908e-cd45-401a-8594-cde33175e852\",\"layouts\":[{\"id\":0,\"position\":{\"x\":367.5,\"y\":460,\"z\":11000,\"width\":257.5,\"height\":223.75}}],\"singleVisual\":{\"visualType\":\"columnChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Policies.coverage_type\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(Policies.annual_premium)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Policies\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"coverage_type\"},\"Name\":\"Policies.coverage_type\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"annual_premium\"}},\"Function\":0},\"Name\":\"Sum(Policies.annual_premium)\"}]},\"drillFilterOtherVisuals\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Premium by Coverage Type'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#264653'\"}}}}}}}],\"general\":[{\"properties\":{}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#D8DEE4'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"4D\"}}}}}]}}}",
+          "height": 223.75,
+          "width": 257.50,
+          "x": 367.50,
+          "y": 460.00,
+          "z": 11000.00
+        },
+        {
+          "config": "{\"name\":\"72cff1d6-684f-4476-8033-c9c7e6e597c9\",\"layouts\":[{\"id\":0,\"position\":{\"x\":20,\"y\":40,\"z\":1000,\"width\":878.75,\"height\":40}}],\"singleVisual\":{\"visualType\":\"textbox\",\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Claims volume, severity, and status breakdown by cause and construction type\",\"textStyle\":{\"fontSize\":\"11pt\",\"color\":\"#5c6b73\"}}]}]}}]}}}",
+          "height": 40.00,
+          "width": 878.75,
+          "x": 20.00,
+          "y": 40.00,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"76bda709-dcfb-4baf-bab9-5b3a208df7cb\",\"layouts\":[{\"id\":0,\"position\":{\"x\":381.25,\"y\":80,\"z\":4000,\"width\":170,\"height\":82.5}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"_Measures.Catastrophe Claims\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Catastrophe Claims\"},\"Name\":\"_Measures.Catastrophe Claims\"}]},\"drillFilterOtherVisuals\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Catastrophe Claims'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#264653'\"}}}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#D8DEE4'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"4D\"}}}}}]}}}",
+          "height": 82.50,
+          "width": 170.00,
+          "x": 381.25,
+          "y": 80.00,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"7a8bb243-054d-42ee-be5a-019c960699df\",\"layouts\":[{\"id\":0,\"position\":{\"x\":367.5,\"y\":175,\"z\":8000,\"width\":366.25,\"height\":253.75}}],\"singleVisual\":{\"visualType\":\"clusteredBarChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Claims.cause_of_loss\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(Claims.reported_severity)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Claims\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"cause_of_loss\"},\"Name\":\"Claims.cause_of_loss\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"reported_severity\"}},\"Function\":0},\"Name\":\"Sum(Claims.reported_severity)\"}]},\"drillFilterOtherVisuals\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Severity by Cause of Loss'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#264653'\"}}}}}}}],\"general\":[{\"properties\":{}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#D8DEE4'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"4D\"}}}}}]}}}",
+          "height": 253.75,
+          "width": 366.25,
+          "x": 367.50,
+          "y": 175.00,
+          "z": 8000.00
+        },
+        {
+          "config": "{\"name\":\"a5656619-e3ba-42f7-899d-bd3bcf99114b\",\"layouts\":[{\"id\":0,\"position\":{\"x\":20,\"y\":80,\"z\":2000,\"width\":170,\"height\":82.5}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"_Measures.Total Claims\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Total Claims\"},\"Name\":\"_Measures.Total Claims\"}]},\"drillFilterOtherVisuals\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Total Claims'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#264653'\"}}}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#D8DEE4'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"4D\"}}}}}]}}}",
+          "height": 82.50,
+          "width": 170.00,
+          "x": 20.00,
+          "y": 80.00,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"b47ecc3b-5db8-4821-979a-a04a4a016285\",\"layouts\":[{\"id\":0,\"position\":{\"x\":635,\"y\":460,\"z\":12000,\"width\":302.5,\"height\":222.5}}],\"singleVisual\":{\"visualType\":\"areaChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Claims.date_reported\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(Claims.reported_severity)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Claims\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"date_reported\"},\"Name\":\"Claims.date_reported\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"reported_severity\"}},\"Function\":0},\"Name\":\"Sum(Claims.reported_severity)\"}]},\"drillFilterOtherVisuals\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Reported Severity Trend'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#264653'\"}}}}}}}],\"general\":[{\"properties\":{}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#D8DEE4'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"4D\"}}}}}]}}}",
+          "height": 222.50,
+          "width": 302.50,
+          "x": 635.00,
+          "y": 460.00,
+          "z": 12000.00
+        },
+        {
+          "config": "{\"name\":\"ba952dac-a261-49a7-8406-524f87e955ee\",\"layouts\":[{\"id\":0,\"position\":{\"x\":20,\"y\":7.5,\"z\":0,\"width\":900,\"height\":42.5}}],\"singleVisual\":{\"visualType\":\"textbox\",\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Claims Dashboard\",\"textStyle\":{\"fontSize\":\"18pt\",\"color\":\"#264653\",\"fontWeight\":\"bold\"}}],\"horizontalTextAlignment\":\"left\"}]}}]}}}",
+          "height": 42.50,
+          "width": 900.00,
+          "x": 20.00,
+          "y": 7.50,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"ccad8a3d-fd19-44f0-a45d-9cf6e3e86e78\",\"layouts\":[{\"id\":0,\"position\":{\"x\":741.25,\"y\":175,\"z\":9000,\"width\":196.25,\"height\":253.75}}],\"singleVisual\":{\"visualType\":\"pieChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Claims.claim_status\",\"active\":true}],\"Y\":[{\"queryRef\":\"Count(Claims.claim_id)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Claims\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"claim_status\"},\"Name\":\"Claims.claim_status\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"claim_id\"}},\"Function\":5},\"Name\":\"Count(Claims.claim_id)\"}]},\"drillFilterOtherVisuals\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Claim Count by Status'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#264653'\"}}}}}}}],\"general\":[{\"properties\":{}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#D8DEE4'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"4D\"}}}}}]}}}",
+          "height": 253.75,
+          "width": 196.25,
+          "x": 741.25,
+          "y": 175.00,
+          "z": 9000.00
+        },
+        {
+          "config": "{\"name\":\"cd569e8c-6560-4bba-95eb-a6230d5a3cbc\",\"layouts\":[{\"id\":0,\"position\":{\"x\":197.5,\"y\":80,\"z\":3000,\"width\":170,\"height\":83.75}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"_Measures.Routine Claims\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Routine Claims\"},\"Name\":\"_Measures.Routine Claims\"}]},\"drillFilterOtherVisuals\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Routine Claims'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#264653'\"}}}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#D8DEE4'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"4D\"}}}}}]}}}",
+          "height": 83.75,
+          "width": 170.00,
+          "x": 197.50,
+          "y": 80.00,
+          "z": 3000.00
+        }
+      ],
+      "width": 960.00
+    },
+    {
+      "config": "{\"objects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#F7F9FA'\"}}}}}}}]}}",
+      "displayName": "1. Executive Summary",
+      "displayOption": 0,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ExecutiveSummaryPage",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"025bd271-56c2-40d6-90fa-e08828bf6c8d\",\"layouts\":[{\"id\":0,\"position\":{\"x\":20,\"y\":42.5,\"z\":1000,\"width\":1220,\"height\":32.5}}],\"singleVisual\":{\"visualType\":\"textbox\",\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Portfolio-wide overview of claims volume, severity, and status across all catastrophe events\",\"textStyle\":{\"fontSize\":\"11pt\",\"color\":\"#5c6b73\"}}]}]}}]}}}",
+          "height": 32.50,
+          "width": 1220.00,
+          "x": 20.00,
+          "y": 42.50,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"0978c18d-a1ef-453d-be37-15e310891e45\",\"layouts\":[{\"id\":0,\"position\":{\"x\":241.25,\"y\":88.75,\"z\":3000,\"width\":220,\"height\":105}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"_Measures.Catastrophe Claims\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Catastrophe Claims\"},\"Name\":\"_Measures.Catastrophe Claims\"}]},\"drillFilterOtherVisuals\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Catastrophe Claims'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#264653'\"}}}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#D8DEE4'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"4D\"}}}}}]}}}",
+          "height": 105.00,
+          "width": 220.00,
+          "x": 241.25,
+          "y": 88.75,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"2f7739c9-cb87-4ca6-bd76-f7ca863d3c31\",\"layouts\":[{\"id\":0,\"position\":{\"x\":19.375,\"y\":532.5,\"z\":10000,\"width\":917.5,\"height\":160}}],\"singleVisual\":{\"visualType\":\"lineChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Claims.date_of_loss\",\"active\":true}],\"Y\":[{\"queryRef\":\"_Measures.Total Claims\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Claims\",\"Type\":0},{\"Name\":\"m\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"date_of_loss\"},\"Name\":\"Claims.date_of_loss\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Total Claims\"},\"Name\":\"_Measures.Total Claims\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Claims Volume Over Time'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#264653'\"}}}}}}}],\"general\":[{\"properties\":{}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#D8DEE4'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"4D\"}}}}}]}}}",
+          "height": 160.00,
+          "width": 917.50,
+          "x": 19.38,
+          "y": 532.50,
+          "z": 10000.00
+        },
+        {
+          "config": "{\"name\":\"3169bc78-b01e-4dde-836b-b7c28c12a16f\",\"layouts\":[{\"id\":0,\"position\":{\"x\":20,\"y\":7.5,\"z\":0,\"width\":900,\"height\":51.25}}],\"singleVisual\":{\"visualType\":\"textbox\",\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Gulf Crest Insurance Catastrophe Claims Executive Summary\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"20pt\",\"color\":\"#264653\"}}]}]}}]}}}",
+          "height": 51.25,
+          "width": 900.00,
+          "x": 20.00,
+          "y": 7.50,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"4d3eb0b0-b2a8-40e6-b568-b08b545c4027\",\"layouts\":[{\"id\":0,\"position\":{\"x\":536.875,\"y\":220,\"z\":9000,\"width\":400,\"height\":300}}],\"singleVisual\":{\"visualType\":\"pieChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Claims.claim_status\",\"active\":true}],\"Y\":[{\"queryRef\":\"_Measures.Total Claims\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Claims\",\"Type\":0},{\"Name\":\"m\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"claim_status\"},\"Name\":\"Claims.claim_status\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Total Claims\"},\"Name\":\"_Measures.Total Claims\"}]},\"drillFilterOtherVisuals\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Claims by Status'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#264653'\"}}}}}}}],\"general\":[{\"properties\":{}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#D8DEE4'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"4D\"}}}}}]}}}",
+          "height": 300.00,
+          "width": 400.00,
+          "x": 536.88,
+          "y": 220.00,
+          "z": 9000.00
+        },
+        {
+          "config": "{\"name\":\"5cd67bfa-7b5a-4a36-bef0-e9894480e3e3\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1045,\"y\":75,\"z\":7000,\"width\":195,\"height\":105}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"_Measures.Total Written Premium\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Total Written Premium\"},\"Name\":\"_Measures.Total Written Premium\"}]},\"drillFilterOtherVisuals\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Total Written Premium'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#264653'\"}}}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#D8DEE4'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"4D\"}}}}}]}}}",
+          "height": 105.00,
+          "width": 195.00,
+          "x": 1045.00,
+          "y": 75.00,
+          "z": 7000.00
+        },
+        {
+          "config": "{\"name\":\"84ba371b-85da-4f22-8c67-64f740e41aa3\",\"layouts\":[{\"id\":0,\"position\":{\"x\":19.375,\"y\":220,\"z\":8000,\"width\":507.5,\"height\":300}}],\"singleVisual\":{\"visualType\":\"clusteredColumnChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Claims.cause_of_loss\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(Claims.reported_severity)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Claims\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"cause_of_loss\"},\"Name\":\"Claims.cause_of_loss\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"reported_severity\"}},\"Function\":0},\"Name\":\"Sum(Claims.reported_severity)\"}]},\"drillFilterOtherVisuals\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Claims Severity by Cause of Loss'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#264653'\"}}}}}}}],\"general\":[{\"properties\":{}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#D8DEE4'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"4D\"}}}}}]}}}",
+          "height": 300.00,
+          "width": 507.50,
+          "x": 19.38,
+          "y": 220.00,
+          "z": 8000.00
+        },
+        {
+          "config": "{\"name\":\"b4d3a1cf-46c4-4490-abf8-5c069b4b70a4\",\"layouts\":[{\"id\":0,\"position\":{\"x\":711.25,\"y\":88.75,\"z\":5000,\"width\":226.25,\"height\":105}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"_Measures.Average Claim Severity\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Average Claim Severity\"},\"Name\":\"_Measures.Average Claim Severity\"}]},\"drillFilterOtherVisuals\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Avg Claim Severity'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#264653'\"}}}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#D8DEE4'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"4D\"}}}}}]}}}",
+          "height": 105.00,
+          "width": 226.25,
+          "x": 711.25,
+          "y": 88.75,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"ccfd85f3-4e74-4020-9d7d-e85341c57421\",\"layouts\":[{\"id\":0,\"position\":{\"x\":470,\"y\":88.75,\"z\":4000,\"width\":230,\"height\":105}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"_Measures.Open Claims\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Open Claims\"},\"Name\":\"_Measures.Open Claims\"}]},\"drillFilterOtherVisuals\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Open Claims'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#264653'\"}}}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#D8DEE4'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"4D\"}}}}}]}}}",
+          "height": 105.00,
+          "width": 230.00,
+          "x": 470.00,
+          "y": 88.75,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"daa514d3-4704-4a51-827b-799a0c9099a5\",\"layouts\":[{\"id\":0,\"position\":{\"x\":20,\"y\":88.75,\"z\":2000,\"width\":210,\"height\":105}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"_Measures.Total Claims\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Total Claims\"},\"Name\":\"_Measures.Total Claims\"}]},\"drillFilterOtherVisuals\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Total Claims'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#264653'\"}}}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#D8DEE4'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"4D\"}}}}}]}}}",
+          "height": 105.00,
+          "width": 210.00,
+          "x": 20.00,
+          "y": 88.75,
+          "z": 2000.00
+        }
+      ],
+      "width": 960.00
+    },
+    {
+      "config": "{\"objects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#F7F9FA'\"}}}}}}}]}}",
+      "displayName": "5. Financial Dashboard",
+      "displayOption": 0,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "FinancialPage",
+      "ordinal": 4,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"29fdfaef-ef04-4f05-a942-1862e8b24cbf\",\"layouts\":[{\"id\":0,\"position\":{\"x\":20,\"y\":43.75,\"z\":1000,\"width\":563.75,\"height\":37.5}}],\"singleVisual\":{\"visualType\":\"textbox\",\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Premium, loss, and surplus trends across reporting periods\",\"textStyle\":{\"fontSize\":\"11pt\",\"color\":\"#5C6B73\"}}],\"horizontalTextAlignment\":\"left\"}]}}]}}}",
+          "height": 37.50,
+          "width": 563.75,
+          "x": 20.00,
+          "y": 43.75,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"39ab1602-998d-4ada-925d-184511d4955a\",\"layouts\":[{\"id\":0,\"position\":{\"x\":530,\"y\":495,\"z\":7000,\"width\":412.5,\"height\":211.25}}],\"singleVisual\":{\"visualType\":\"columnChart\",\"projections\":{\"Category\":[{\"queryRef\":\"CompanyFinancials.period\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(CompanyFinancials.loss_adjustment_expenses)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"cf\",\"Entity\":\"CompanyFinancials\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"cf\"}},\"Property\":\"period\"},\"Name\":\"CompanyFinancials.period\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"cf\"}},\"Property\":\"loss_adjustment_expenses\"}},\"Function\":0},\"Name\":\"Sum(CompanyFinancials.loss_adjustment_expenses)\"}]},\"drillFilterOtherVisuals\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Loss Adjustment Expenses by Period'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#264653'\"}}}}}}}],\"general\":[{\"properties\":{}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#D8DEE4'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"4D\"}}}}}]}}}",
+          "height": 211.25,
+          "width": 412.50,
+          "x": 530.00,
+          "y": 495.00,
+          "z": 7000.00
+        },
+        {
+          "config": "{\"name\":\"53641c8c-a5aa-4ef3-ba12-b4a133f57af6\",\"layouts\":[{\"id\":0,\"position\":{\"x\":20,\"y\":495,\"z\":6000,\"width\":500,\"height\":211.25}}],\"singleVisual\":{\"visualType\":\"areaChart\",\"projections\":{\"Category\":[{\"queryRef\":\"CompanyFinancials.period\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(CompanyFinancials.policyholder_surplus)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"cf\",\"Entity\":\"CompanyFinancials\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"cf\"}},\"Property\":\"period\"},\"Name\":\"CompanyFinancials.period\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"cf\"}},\"Property\":\"policyholder_surplus\"}},\"Function\":0},\"Name\":\"Sum(CompanyFinancials.policyholder_surplus)\"}]},\"drillFilterOtherVisuals\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Policyholder Surplus by Period'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#264653'\"}}}}}}}],\"general\":[{\"properties\":{}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#D8DEE4'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"4D\"}}}}}]}}}",
+          "height": 211.25,
+          "width": 500.00,
+          "x": 20.00,
+          "y": 495.00,
+          "z": 6000.00
+        },
+        {
+          "config": "{\"name\":\"5877ee20-c450-4d81-9580-8cca48f57f5d\",\"layouts\":[{\"id\":0,\"position\":{\"x\":20,\"y\":190,\"z\":4000,\"width\":500,\"height\":290}}],\"singleVisual\":{\"visualType\":\"columnChart\",\"projections\":{\"Category\":[{\"queryRef\":\"CompanyFinancials.period\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(CompanyFinancials.gross_written_premium)\"},{\"queryRef\":\"Sum(CompanyFinancials.earned_premium)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"cf\",\"Entity\":\"CompanyFinancials\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"cf\"}},\"Property\":\"period\"},\"Name\":\"CompanyFinancials.period\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"cf\"}},\"Property\":\"gross_written_premium\"}},\"Function\":0},\"Name\":\"Sum(CompanyFinancials.gross_written_premium)\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"cf\"}},\"Property\":\"earned_premium\"}},\"Function\":0},\"Name\":\"Sum(CompanyFinancials.earned_premium)\"}]},\"drillFilterOtherVisuals\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Gross Written vs Earned Premium'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#264653'\"}}}}}}}],\"general\":[{\"properties\":{}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#D8DEE4'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"4D\"}}}}}]}}}",
+          "height": 290.00,
+          "width": 500.00,
+          "x": 20.00,
+          "y": 190.00,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"89cea8fc-439a-44bf-b18b-2b9ab9665793\",\"layouts\":[{\"id\":0,\"position\":{\"x\":530,\"y\":190,\"z\":5000,\"width\":413.75,\"height\":290}}],\"singleVisual\":{\"visualType\":\"lineChart\",\"projections\":{\"Category\":[{\"queryRef\":\"CompanyFinancials.period\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(CompanyFinancials.incurred_losses)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"cf\",\"Entity\":\"CompanyFinancials\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"cf\"}},\"Property\":\"period\"},\"Name\":\"CompanyFinancials.period\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"cf\"}},\"Property\":\"incurred_losses\"}},\"Function\":0},\"Name\":\"Sum(CompanyFinancials.incurred_losses)\"}]},\"drillFilterOtherVisuals\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Incurred Losses by Period'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#264653'\"}}}}}}}],\"general\":[{\"properties\":{}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#D8DEE4'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"4D\"}}}}}]}}}",
+          "height": 290.00,
+          "width": 413.75,
+          "x": 530.00,
+          "y": 190.00,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"a0073b48-07cf-4f23-9640-9185809884f6\",\"layouts\":[{\"id\":0,\"position\":{\"x\":20,\"y\":7.5,\"z\":0,\"width\":900,\"height\":45}}],\"singleVisual\":{\"visualType\":\"textbox\",\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Financial Dashboard\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"18pt\",\"color\":\"#264653\"}}]}]}}]}}}",
+          "height": 45.00,
+          "width": 900.00,
+          "x": 20.00,
+          "y": 7.50,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"f3de21d1-87f7-4f07-9c71-e661f00200ee\",\"layouts\":[{\"id\":0,\"position\":{\"x\":20,\"y\":81.25,\"z\":2000,\"width\":290,\"height\":100}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"_Measures.Total Written Premium\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Total Written Premium\"},\"Name\":\"_Measures.Total Written Premium\"}]},\"drillFilterOtherVisuals\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Total Written Premium'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#264653'\"}}}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#D8DEE4'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"4D\"}}}}}]}}}",
+          "height": 100.00,
+          "width": 290.00,
+          "x": 20.00,
+          "y": 81.25,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"f4cd2057-c164-46b6-84ba-157ead100506\",\"layouts\":[{\"id\":0,\"position\":{\"x\":325,\"y\":81.25,\"z\":3000,\"width\":290,\"height\":100}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"_Measures.Total Insured Value\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Total Insured Value\"},\"Name\":\"_Measures.Total Insured Value\"}]},\"drillFilterOtherVisuals\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Total Insured Value'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#264653'\"}}}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#D8DEE4'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"4D\"}}}}}]}}}",
+          "height": 100.00,
+          "width": 290.00,
+          "x": 325.00,
+          "y": 81.25,
+          "z": 3000.00
+        }
+      ],
+      "width": 960.00
+    },
+    {
+      "config": "{\"objects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#F7F9FA'\"}}}}}}}]}}",
+      "displayName": "3. Fraud Dashboard",
+      "displayOption": 0,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "FraudPage",
+      "ordinal": 2,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"13b57224-5420-44c2-b115-d4b0799ac3ac\",\"layouts\":[{\"id\":0,\"position\":{\"x\":20,\"y\":78.75,\"z\":2000,\"width\":200,\"height\":100}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"_Measures.Investigated Claims\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Investigated Claims\"},\"Name\":\"_Measures.Investigated Claims\"}]},\"drillFilterOtherVisuals\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Investigated Claims'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#264653'\"}}}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#D8DEE4'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"4D\"}}}}}]}}}",
+          "height": 100.00,
+          "width": 200.00,
+          "x": 20.00,
+          "y": 78.75,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"2ff88213-1ddc-479a-a473-0782639c2ddf\",\"layouts\":[{\"id\":0,\"position\":{\"x\":20,\"y\":7.5,\"z\":0,\"width\":900,\"height\":42.5}}],\"singleVisual\":{\"visualType\":\"textbox\",\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Fraud Dashboard\",\"textStyle\":{\"fontSize\":\"18pt\",\"color\":\"#264653\",\"fontWeight\":\"bold\"}}],\"horizontalTextAlignment\":\"left\"}]}}]}}}",
+          "height": 42.50,
+          "width": 900.00,
+          "x": 20.00,
+          "y": 7.50,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"31663301-acbc-41b1-a768-641383a20fdf\",\"layouts\":[{\"id\":0,\"position\":{\"x\":508.75,\"y\":78.75,\"z\":4000,\"width\":200,\"height\":100}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"_Measures.Fraud Rate\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Fraud Rate\"},\"Name\":\"_Measures.Fraud Rate\"}]},\"drillFilterOtherVisuals\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Fraud Rate'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#264653'\"}}}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#D8DEE4'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"4D\"}}}}}]}}}",
+          "height": 100.00,
+          "width": 200.00,
+          "x": 508.75,
+          "y": 78.75,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"619f716a-8115-4675-8af4-366f3294f0f3\",\"layouts\":[{\"id\":0,\"position\":{\"x\":585,\"y\":190,\"z\":8000,\"width\":358.75,\"height\":517.5}}],\"singleVisual\":{\"visualType\":\"clusteredBarChart\",\"projections\":{\"Category\":[{\"queryRef\":\"RepairCosts.repair_category\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(RepairCosts.estimated_cost)\"},{\"queryRef\":\"Sum(RepairCosts.actual_cost)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"rc\",\"Entity\":\"RepairCosts\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"rc\"}},\"Property\":\"repair_category\"},\"Name\":\"RepairCosts.repair_category\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"rc\"}},\"Property\":\"estimated_cost\"}},\"Function\":0},\"Name\":\"Sum(RepairCosts.estimated_cost)\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"rc\"}},\"Property\":\"actual_cost\"}},\"Function\":0},\"Name\":\"Sum(RepairCosts.actual_cost)\"}]},\"drillFilterOtherVisuals\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Estimated vs Actual Repair Cost'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#264653'\"}}}}}}}],\"general\":[{\"properties\":{}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#D8DEE4'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"4D\"}}}}}]}}}",
+          "height": 517.50,
+          "width": 358.75,
+          "x": 585.00,
+          "y": 190.00,
+          "z": 8000.00
+        },
+        {
+          "config": "{\"name\":\"a36a6327-66c5-44fa-bf1c-c2c4166d0f6c\",\"layouts\":[{\"id\":0,\"position\":{\"x\":270,\"y\":78.75,\"z\":3000,\"width\":200,\"height\":100}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"_Measures.Confirmed Fraud Claims\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Confirmed Fraud Claims\"},\"Name\":\"_Measures.Confirmed Fraud Claims\"}]},\"drillFilterOtherVisuals\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Confirmed Fraud'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#264653'\"}}}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#D8DEE4'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"4D\"}}}}}]}}}",
+          "height": 100.00,
+          "width": 200.00,
+          "x": 270.00,
+          "y": 78.75,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"a45080b4-f0a8-49d5-8b1e-f65c2c8ace9c\",\"layouts\":[{\"id\":0,\"position\":{\"x\":743.75,\"y\":78.75,\"z\":5000,\"width\":200,\"height\":100}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Sum(FraudLabels.is_fraud)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"FraudLabels\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"is_fraud\"}},\"Function\":0},\"Name\":\"Sum(FraudLabels.is_fraud)\"}]},\"drillFilterOtherVisuals\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Flagged Claims'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#264653'\"}}}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#D8DEE4'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"4D\"}}}}}]}}}",
+          "height": 100.00,
+          "width": 200.00,
+          "x": 743.75,
+          "y": 78.75,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"adcc0769-7ac2-4756-a298-1433343807e5\",\"layouts\":[{\"id\":0,\"position\":{\"x\":20,\"y\":40,\"z\":1000,\"width\":1220,\"height\":38.75}}],\"singleVisual\":{\"visualType\":\"textbox\",\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Investigation outcomes, fraud rate, and severity patterns among flagged claims\",\"textStyle\":{\"fontSize\":\"11pt\",\"color\":\"#5C6B73\"}}],\"horizontalTextAlignment\":\"left\"}]}}]}}}",
+          "height": 38.75,
+          "width": 1220.00,
+          "x": 20.00,
+          "y": 40.00,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"bda816a3-d816-4601-8c96-420b7dc3ad56\",\"layouts\":[{\"id\":0,\"position\":{\"x\":220,\"y\":190,\"z\":7000,\"width\":353.75,\"height\":517.5}}],\"singleVisual\":{\"visualType\":\"clusteredColumnChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Claims.cause_of_loss\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(Claims.reported_severity)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Claims\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"cause_of_loss\"},\"Name\":\"Claims.cause_of_loss\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"reported_severity\"}},\"Function\":0},\"Name\":\"Sum(Claims.reported_severity)\"}]},\"drillFilterOtherVisuals\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Severity by Cause (Fraud Review)'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#264653'\"}}}}}}}],\"general\":[{\"properties\":{}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#D8DEE4'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"4D\"}}}}}]}}}",
+          "height": 517.50,
+          "width": 353.75,
+          "x": 220.00,
+          "y": 190.00,
+          "z": 7000.00
+        },
+        {
+          "config": "{\"name\":\"e580cb38-8fef-46b2-85d9-46129954a836\",\"layouts\":[{\"id\":0,\"position\":{\"x\":20,\"y\":190,\"z\":6000,\"width\":185,\"height\":191.25}}],\"singleVisual\":{\"visualType\":\"pieChart\",\"projections\":{\"Category\":[{\"queryRef\":\"FraudLabels.is_fraud\",\"active\":true}],\"Y\":[{\"queryRef\":\"Count(FraudLabels.claim_id)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"FraudLabels\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"is_fraud\"},\"Name\":\"FraudLabels.is_fraud\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"claim_id\"}},\"Function\":5},\"Name\":\"Count(FraudLabels.claim_id)\"}]},\"drillFilterOtherVisuals\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Fraud Flag Distribution'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#264653'\"}}}}}}}],\"general\":[{\"properties\":{}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#D8DEE4'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"4D\"}}}}}]}}}",
+          "height": 191.25,
+          "width": 185.00,
+          "x": 20.00,
+          "y": 190.00,
+          "z": 6000.00
+        }
+      ],
+      "width": 960.00
+    },
+    {
+      "config": "{\"objects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#F7F9FA'\"}}}}}}}]}}",
+      "displayName": "4. Reserve Dashboard",
+      "displayOption": 0,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ReservePage",
+      "ordinal": 3,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"01079074-1b3d-46bb-8da1-c5a05751ebb8\",\"layouts\":[{\"id\":0,\"position\":{\"x\":517.5,\"y\":495,\"z\":7000,\"width\":422.5,\"height\":210}}],\"singleVisual\":{\"visualType\":\"lineChart\",\"projections\":{\"Category\":[{\"queryRef\":\"ReserveHistory.development_month\",\"active\":true}],\"Y\":[{\"queryRef\":\"Avg(ReserveHistory.cumulative_paid)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"r\",\"Entity\":\"ReserveHistory\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"development_month\"},\"Name\":\"ReserveHistory.development_month\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"cumulative_paid\"}},\"Function\":1},\"Name\":\"Avg(ReserveHistory.cumulative_paid)\"}]},\"drillFilterOtherVisuals\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Avg Cumulative Paid by Development Month'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#264653'\"}}}}}}}],\"general\":[{\"properties\":{}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#D8DEE4'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"4D\"}}}}}]}}}",
+          "height": 210.00,
+          "width": 422.50,
+          "x": 517.50,
+          "y": 495.00,
+          "z": 7000.00
+        },
+        {
+          "config": "{\"name\":\"639d37e5-845a-4768-bc98-ebc0136ddb21\",\"layouts\":[{\"id\":0,\"position\":{\"x\":20,\"y\":7.5,\"z\":0,\"width\":900,\"height\":47.5}}],\"singleVisual\":{\"visualType\":\"textbox\",\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Reserve Dashboard\",\"textStyle\":{\"fontSize\":\"18pt\",\"color\":\"#264653\",\"fontWeight\":\"bold\"}}],\"horizontalTextAlignment\":\"left\"}]}}]}}}",
+          "height": 47.50,
+          "width": 900.00,
+          "x": 20.00,
+          "y": 7.50,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"63ffd64a-578e-4c45-b8ec-87a9273ac902\",\"layouts\":[{\"id\":0,\"position\":{\"x\":20,\"y\":77.5,\"z\":2000,\"width\":290,\"height\":100}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"_Measures.Total Reserve Estimate\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Total Reserve Estimate\"},\"Name\":\"_Measures.Total Reserve Estimate\"}]},\"drillFilterOtherVisuals\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Total Reserve Estimate'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#264653'\"}}}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#D8DEE4'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"4D\"}}}}}]}}}",
+          "height": 100.00,
+          "width": 290.00,
+          "x": 20.00,
+          "y": 77.50,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"995a20f1-103e-434f-b849-2f2b0535aa31\",\"layouts\":[{\"id\":0,\"position\":{\"x\":20,\"y\":40,\"z\":1000,\"width\":1220,\"height\":28.75}}],\"singleVisual\":{\"visualType\":\"textbox\",\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Reserve development and paid-loss trends over the claim lifecycle\",\"textStyle\":{\"fontSize\":\"11pt\",\"color\":\"#5C6B73\"}}],\"horizontalTextAlignment\":\"left\"}]}}]}}}",
+          "height": 28.75,
+          "width": 1220.00,
+          "x": 20.00,
+          "y": 40.00,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"a1013039-d332-4ef3-849b-613637abbfdb\",\"layouts\":[{\"id\":0,\"position\":{\"x\":20,\"y\":190,\"z\":4000,\"width\":590,\"height\":290}}],\"singleVisual\":{\"visualType\":\"lineChart\",\"projections\":{\"Category\":[{\"queryRef\":\"ReserveHistory.evaluation_date\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(ReserveHistory.reserve_estimate)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"r\",\"Entity\":\"ReserveHistory\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"evaluation_date\"},\"Name\":\"ReserveHistory.evaluation_date\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"reserve_estimate\"}},\"Function\":0},\"Name\":\"Sum(ReserveHistory.reserve_estimate)\"}]},\"drillFilterOtherVisuals\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Reserve Estimate Over Time'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#264653'\"}}}}}}}],\"general\":[{\"properties\":{}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#D8DEE4'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"4D\"}}}}}]}}}",
+          "height": 290.00,
+          "width": 590.00,
+          "x": 20.00,
+          "y": 190.00,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"a9e064dd-017e-4c6f-9b11-7b6aeefdbd56\",\"layouts\":[{\"id\":0,\"position\":{\"x\":320,\"y\":77.5,\"z\":3000,\"width\":290,\"height\":100}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"_Measures.Total Paid to Date\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Total Paid to Date\"},\"Name\":\"_Measures.Total Paid to Date\"}]},\"drillFilterOtherVisuals\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Total Paid to Date'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#264653'\"}}}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#D8DEE4'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"4D\"}}}}}]}}}",
+          "height": 100.00,
+          "width": 290.00,
+          "x": 320.00,
+          "y": 77.50,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"afb44d24-cac3-4ec3-97ca-bc28a7db7130\",\"layouts\":[{\"id\":0,\"position\":{\"x\":621.25,\"y\":190,\"z\":5000,\"width\":318.75,\"height\":290}}],\"singleVisual\":{\"visualType\":\"areaChart\",\"projections\":{\"Category\":[{\"queryRef\":\"ReserveHistory.evaluation_date\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(ReserveHistory.cumulative_paid)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"r\",\"Entity\":\"ReserveHistory\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"evaluation_date\"},\"Name\":\"ReserveHistory.evaluation_date\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"cumulative_paid\"}},\"Function\":0},\"Name\":\"Sum(ReserveHistory.cumulative_paid)\"}]},\"drillFilterOtherVisuals\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Cumulative Paid Over Time'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#264653'\"}}}}}}}],\"general\":[{\"properties\":{}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#D8DEE4'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"4D\"}}}}}]}}}",
+          "height": 290.00,
+          "width": 318.75,
+          "x": 621.25,
+          "y": 190.00,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"c74337c4-222c-48bc-b35d-9922c1646ab9\",\"layouts\":[{\"id\":0,\"position\":{\"x\":20,\"y\":495,\"z\":6000,\"width\":486.25,\"height\":210}}],\"singleVisual\":{\"visualType\":\"clusteredColumnChart\",\"projections\":{\"Category\":[{\"queryRef\":\"ReserveHistory.development_month\",\"active\":true}],\"Y\":[{\"queryRef\":\"Avg(ReserveHistory.reserve_estimate)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"r\",\"Entity\":\"ReserveHistory\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"development_month\"},\"Name\":\"ReserveHistory.development_month\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"reserve_estimate\"}},\"Function\":1},\"Name\":\"Avg(ReserveHistory.reserve_estimate)\"}]},\"drillFilterOtherVisuals\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Avg Reserve by Development Month'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#264653'\"}}}}}}}],\"general\":[{\"properties\":{}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#D8DEE4'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"4D\"}}}}}]}}}",
+          "height": 210.00,
+          "width": 486.25,
+          "x": 20.00,
+          "y": 495.00,
+          "z": 6000.00
+        }
+      ],
+      "width": 960.00
+    },
+    {
+      "config": "{\"objects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#F7F9FA'\"}}}}}}}]}}",
+      "displayName": "6. Scenario Dashboard",
+      "displayOption": 0,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ScenarioPage",
+      "ordinal": 5,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"044e70b2-801f-41ac-9320-979c8a052007\",\"layouts\":[{\"id\":0,\"position\":{\"x\":618.75,\"y\":233.75,\"z\":5000,\"width\":322.5,\"height\":241.25}}],\"singleVisual\":{\"visualType\":\"scatterChart\",\"projections\":{\"Category\":[{\"queryRef\":\"WeatherZoneImpact.zone_name\",\"active\":true}],\"Y\":[{\"queryRef\":\"Avg(WeatherZoneImpact.storm_surge_ft)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"w\",\"Entity\":\"WeatherZoneImpact\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"w\"}},\"Property\":\"zone_name\"},\"Name\":\"WeatherZoneImpact.zone_name\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"w\"}},\"Property\":\"storm_surge_ft\"}},\"Function\":1},\"Name\":\"Avg(WeatherZoneImpact.storm_surge_ft)\"}]},\"drillFilterOtherVisuals\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Avg Storm Surge by Zone'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#264653'\"}}}}}}}],\"general\":[{\"properties\":{}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#D8DEE4'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"4D\"}}}}}]}}}",
+          "height": 241.25,
+          "width": 322.50,
+          "x": 618.75,
+          "y": 233.75,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"322cfdfe-f136-41d0-880a-0bf1ba825ce9\",\"layouts\":[{\"id\":0,\"position\":{\"x\":20,\"y\":487.5,\"z\":6000,\"width\":921.25,\"height\":217.5}}],\"singleVisual\":{\"visualType\":\"clusteredBarChart\",\"projections\":{\"Category\":[{\"queryRef\":\"RepairCosts.repair_category\",\"active\":true}],\"Y\":[{\"queryRef\":\"Avg(RepairCosts.estimated_cost)\"},{\"queryRef\":\"Avg(RepairCosts.actual_cost)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"rc\",\"Entity\":\"RepairCosts\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"rc\"}},\"Property\":\"repair_category\"},\"Name\":\"RepairCosts.repair_category\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"rc\"}},\"Property\":\"estimated_cost\"}},\"Function\":1},\"Name\":\"Avg(RepairCosts.estimated_cost)\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"rc\"}},\"Property\":\"actual_cost\"}},\"Function\":1},\"Name\":\"Avg(RepairCosts.actual_cost)\"}]},\"drillFilterOtherVisuals\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Avg Estimated vs Actual Repair Cost by Category'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#264653'\"}}}}}}}],\"general\":[{\"properties\":{}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#D8DEE4'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"4D\"}}}}}]}}}",
+          "height": 217.50,
+          "width": 921.25,
+          "x": 20.00,
+          "y": 487.50,
+          "z": 6000.00
+        },
+        {
+          "config": "{\"name\":\"3e9e849f-167b-4f71-b6de-a4f5d1afae93\",\"layouts\":[{\"id\":0,\"position\":{\"x\":20,\"y\":120,\"z\":2000,\"width\":290,\"height\":100}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Avg(WeatherZoneImpact.peak_wind_experienced_mph)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"w\",\"Entity\":\"WeatherZoneImpact\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"w\"}},\"Property\":\"peak_wind_experienced_mph\"}},\"Function\":1},\"Name\":\"Avg(WeatherZoneImpact.peak_wind_experienced_mph)\"}]},\"drillFilterOtherVisuals\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Avg Peak Wind (mph)'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#264653'\"}}}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#D8DEE4'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"4D\"}}}}}]}}}",
+          "height": 100.00,
+          "width": 290.00,
+          "x": 20.00,
+          "y": 120.00,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"503e4dea-18bf-4d76-bbae-b641b669d0f8\",\"layouts\":[{\"id\":0,\"position\":{\"x\":20,\"y\":70,\"z\":1000,\"width\":795,\"height\":37.5}}],\"singleVisual\":{\"visualType\":\"textbox\",\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Weather zone impact severity used for catastrophe scenario stress-testing\",\"textStyle\":{\"fontSize\":\"11pt\",\"color\":\"#5c6b73\"}}]}]}}]}}}",
+          "height": 37.50,
+          "width": 795.00,
+          "x": 20.00,
+          "y": 70.00,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"6487a969-ae20-4e1f-9f65-85a0b02dbd36\",\"layouts\":[{\"id\":0,\"position\":{\"x\":315,\"y\":120,\"z\":3000,\"width\":290,\"height\":100}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Avg(WeatherZoneImpact.storm_surge_ft)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"w\",\"Entity\":\"WeatherZoneImpact\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"w\"}},\"Property\":\"storm_surge_ft\"}},\"Function\":1},\"Name\":\"Avg(WeatherZoneImpact.storm_surge_ft)\"}]},\"drillFilterOtherVisuals\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Avg Storm Surge (ft)'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#264653'\"}}}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#D8DEE4'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"4D\"}}}}}]}}}",
+          "height": 100.00,
+          "width": 290.00,
+          "x": 315.00,
+          "y": 120.00,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"899ba4ae-c542-422b-8fc7-75740a2d8b0a\",\"layouts\":[{\"id\":0,\"position\":{\"x\":20,\"y\":17.5,\"z\":0,\"width\":900,\"height\":52.5}}],\"singleVisual\":{\"visualType\":\"textbox\",\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Scenario Dashboard\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"18pt\",\"color\":\"#264653\"}}]}]}}]}}}",
+          "height": 52.50,
+          "width": 900.00,
+          "x": 20.00,
+          "y": 17.50,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"f0e85a05-3e01-4fdd-a346-3d4a5c75efbd\",\"layouts\":[{\"id\":0,\"position\":{\"x\":20,\"y\":233.75,\"z\":4000,\"width\":585,\"height\":241.25}}],\"singleVisual\":{\"visualType\":\"clusteredColumnChart\",\"projections\":{\"Category\":[{\"queryRef\":\"WeatherZoneImpact.zone_name\",\"active\":true}],\"Y\":[{\"queryRef\":\"Avg(WeatherZoneImpact.peak_wind_experienced_mph)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"w\",\"Entity\":\"WeatherZoneImpact\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"w\"}},\"Property\":\"zone_name\"},\"Name\":\"WeatherZoneImpact.zone_name\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"w\"}},\"Property\":\"peak_wind_experienced_mph\"}},\"Function\":1},\"Name\":\"Avg(WeatherZoneImpact.peak_wind_experienced_mph)\"}]},\"drillFilterOtherVisuals\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Avg Peak Wind by Zone'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#264653'\"}}}}}}}],\"general\":[{\"properties\":{}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#D8DEE4'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"4D\"}}}}}]}}}",
+          "height": 241.25,
+          "width": 585.00,
+          "x": 20.00,
+          "y": 233.75,
+          "z": 4000.00
+        }
+      ],
+      "width": 960.00
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 1136.5627918964442,
+            "y": 304.462758265786
+          },
+          "nodeIndex": "_Measures",
+          "nodeLineageTag": "5386b0c6-5cf8-492d-869a-25395cd1a418",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 618.37514008808978,
+            "y": 152.21102158564463
+          },
+          "nodeIndex": "Claims",
+          "nodeLineageTag": "d9c3f2ba-71da-4218-b209-5739191a8ff9",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1420.5627918964442,
+            "y": 342.462758265786
+          },
+          "nodeIndex": "CompanyFinancials",
+          "nodeLineageTag": "5e07ec61-c95c-4503-9b84-45643d603d76",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1704.5627918964442,
+            "y": 354.462758265786
+          },
+          "nodeIndex": "EconomicIndicators",
+          "nodeLineageTag": "97e51978-cf27-4c14-93e9-7048e3c785b4",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 470.09130883882244,
+            "y": -50
+          },
+          "nodeIndex": "FraudLabels",
+          "nodeLineageTag": "2d8bebc0-de0b-4b8b-9cc4-77319430cc3c",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 334.16957993302066,
+            "y": 369.7419435107862
+          },
+          "nodeIndex": "Policies",
+          "nodeLineageTag": "f0cd6bcd-687a-481e-84e0-3aadec66e73e",
+          "size": {
+            "height": 296,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 902.5627918964442,
+            "y": -23.189418830053796
+          },
+          "nodeIndex": "RepairCosts",
+          "nodeLineageTag": "cecca0cf-4bda-4eb6-8d44-23a39c850284",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 902.5553498761019,
+            "y": 439.46128399208209
+          },
+          "nodeIndex": "ReserveHistory",
+          "nodeLineageTag": "9d50a332-1db1-4add-aa35-c9e7d8674197",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 50,
+            "y": 658.925516531572
+          },
+          "nodeIndex": "WeatherZoneImpact",
+          "nodeLineageTag": "e6746a9c-3fb2-427c-83c2-6a3a44ea9c23",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "All tables",
+      "zoomValue": 100,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "All tables",
+  "defaultDiagram": "All tables"
+}

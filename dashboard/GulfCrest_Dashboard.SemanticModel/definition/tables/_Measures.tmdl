@@ -1,0 +1,64 @@
+table _Measures
+	isHidden
+	lineageTag: 5386b0c6-5cf8-492d-869a-25395cd1a418
+
+	measure 'Total Claims' = COUNTROWS(Claims)
+		formatString: #,##0
+		lineageTag: ab20a42b-7eb5-4be6-ae5c-e7f023a2d3a8
+
+	measure 'Catastrophe Claims' = CALCULATE([Total Claims], Claims[is_catastrophe_flag] = "Y")
+		formatString: #,##0
+		lineageTag: 54ea22bf-ff10-438e-aa31-b0fec0958e1f
+
+	measure 'Routine Claims' = CALCULATE([Total Claims], Claims[is_catastrophe_flag] = "N")
+		formatString: #,##0
+		lineageTag: c79c4a0f-7e80-4d6c-a583-f3354c0eb4c4
+
+	measure 'Open Claims' = CALCULATE([Total Claims], Claims[claim_status] = "Open")
+		formatString: #,##0
+		lineageTag: 13bec547-2b14-43b4-aefb-2087cc3fd5f2
+
+	measure 'Closed Claims' = CALCULATE([Total Claims], Claims[claim_status] = "Closed")
+		formatString: #,##0
+		lineageTag: eb0ea0a0-cce5-424b-b833-29692f34eb8f
+
+	measure 'Total Reported Severity' = SUM(Claims[reported_severity])
+		formatString: $ #,##0
+		lineageTag: c9d2fedf-f98d-4c3f-96d4-c10c5e087814
+
+	measure 'Average Claim Severity' = AVERAGE(Claims[reported_severity])
+		formatString: $ #,##0
+		lineageTag: 857b199c-9e4f-4cb5-8938-d35cc870846b
+
+	measure 'Total Insured Value' = SUM(Policies[total_insured_value])
+		formatString: $ #,##0,,"M"
+		lineageTag: e0444f32-fb61-4c95-b15a-973fb57fc263
+
+	measure 'Total Written Premium' = SUM(CompanyFinancials[gross_written_premium])
+		formatString: $ #,##0,,"M"
+		lineageTag: 6941f6c8-0462-4626-b28f-f53808134c51
+
+	measure 'Investigated Claims' = CALCULATE(COUNTROWS(FraudLabels), NOT ISBLANK(FraudLabels[is_fraud]))
+		formatString: #,##0
+		lineageTag: c6d8f01a-e004-4e19-b7bc-71b78a971fbe
+
+	measure 'Confirmed Fraud Claims' = CALCULATE(COUNTROWS(FraudLabels), FraudLabels[is_fraud] = 1)
+		formatString: #,##0
+		lineageTag: 9b788b85-8396-4c2d-9d67-d29ff37a5404
+
+	measure 'Fraud Rate' = DIVIDE([Confirmed Fraud Claims], [Investigated Claims])
+		formatString: 0.0%
+		lineageTag: 47669b41-455b-4f7f-aa49-a05e275d0b1f
+
+	measure 'Total Paid to Date' = SUMX(VALUES(ReserveHistory[claim_id]), CALCULATE(MAX(ReserveHistory[cumulative_paid])))
+		formatString: $ #,##0
+		lineageTag: 747deff7-fc05-4f6b-ac4f-f6986ee4b5a9
+
+	measure 'Total Reserve Estimate' = SUMX(VALUES(ReserveHistory[claim_id]), CALCULATE(MAX(ReserveHistory[reserve_estimate])))
+		formatString: $ #,##0
+		lineageTag: 3bdb17a0-8aca-48e1-89bf-04218ff3f401
+
+	partition _Measures-partition = m
+		mode: import
+		source = #table({"Anchor"}, {{1}})
+

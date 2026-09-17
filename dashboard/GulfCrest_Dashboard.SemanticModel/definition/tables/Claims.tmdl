@@ -1,0 +1,73 @@
+table Claims
+	lineageTag: d9c3f2ba-71da-4218-b209-5739191a8ff9
+
+	column claim_id
+		dataType: string
+		lineageTag: 300dfeb7-d230-430b-aad8-f2a4af2f978a
+		summarizeBy: none
+		sourceColumn: claim_id
+
+	column policy_id
+		dataType: string
+		lineageTag: 84e68a65-869d-4d55-b4f2-f32ac0b6ca32
+		summarizeBy: none
+		sourceColumn: policy_id
+
+	column date_of_loss
+		dataType: dateTime
+		lineageTag: c8e63fe4-a156-4a64-a68b-581fcbef5e16
+		summarizeBy: none
+		sourceColumn: date_of_loss
+
+	column date_reported
+		dataType: dateTime
+		lineageTag: bf0e9fad-cc2e-48b8-baa5-e92717cdf141
+		summarizeBy: none
+		sourceColumn: date_reported
+
+	column cause_of_loss
+		dataType: string
+		lineageTag: 1e8b461c-cd13-46f3-8f07-e9c44a5ac490
+		summarizeBy: none
+		sourceColumn: cause_of_loss
+
+	column claim_status
+		dataType: string
+		lineageTag: c7b71186-f62c-476e-b52b-33d75ae408ef
+		summarizeBy: none
+		sourceColumn: claim_status
+
+	column is_catastrophe_flag
+		dataType: string
+		lineageTag: 4be962ea-b13e-472d-a51b-277c8d720f75
+		summarizeBy: none
+		sourceColumn: is_catastrophe_flag
+
+	column storm_id
+		dataType: string
+		lineageTag: 4c277ac4-aac6-4c86-9196-000b9a69f8b5
+		summarizeBy: none
+		sourceColumn: storm_id
+
+	column reported_severity
+		dataType: double
+		lineageTag: 5b291983-c351-4b7e-9b19-d94ab875364d
+		summarizeBy: sum
+		sourceColumn: reported_severity
+
+	column settlement_date
+		dataType: dateTime
+		lineageTag: 1dcc5784-e4c3-4a6f-a541-80bd7c5e9efa
+		summarizeBy: none
+		sourceColumn: settlement_date
+
+	partition Claims-partition = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(DatasetsFolder & "02_claims.csv"),[Delimiter=",", Columns=10, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					#"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					#"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"claim_id", type text}, {"policy_id", type text}, {"date_of_loss", type datetime}, {"date_reported", type datetime}, {"cause_of_loss", type text}, {"claim_status", type text}, {"is_catastrophe_flag", type text}, {"storm_id", type text}, {"reported_severity", type number}, {"settlement_date", type datetime}})
+				in
+					#"Changed Type"
+

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "GulfCrest_Dashboard"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "2deea8a3-1531-46c5-991e-a6540dd3ff3e"
+  }
+}

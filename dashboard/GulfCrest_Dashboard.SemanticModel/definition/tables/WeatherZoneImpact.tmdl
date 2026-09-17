@@ -1,0 +1,43 @@
+table WeatherZoneImpact
+	lineageTag: e6746a9c-3fb2-427c-83c2-6a3a44ea9c23
+
+	column storm_id
+		dataType: string
+		lineageTag: b7857ceb-50a6-4db6-a5aa-5184a2c72c2f
+		summarizeBy: none
+		sourceColumn: storm_id
+
+	column zone_id
+		dataType: string
+		lineageTag: 56511629-bde4-484f-b6da-47f13156616b
+		summarizeBy: none
+		sourceColumn: zone_id
+
+	column zone_name
+		dataType: string
+		lineageTag: 482c8682-c8f5-48c5-9c58-31f76ede76a0
+		summarizeBy: none
+		sourceColumn: zone_name
+
+	column peak_wind_experienced_mph
+		dataType: int64
+		lineageTag: 3a0f85b6-006e-4622-beef-47fe739aa639
+		summarizeBy: none
+		sourceColumn: peak_wind_experienced_mph
+
+	column storm_surge_ft
+		dataType: double
+		lineageTag: 8e0c3e12-aa4e-44ef-8145-06200ca01e8a
+		summarizeBy: none
+		sourceColumn: storm_surge_ft
+
+	partition WeatherZoneImpact-partition = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(DatasetsFolder & "03_weather_zone_impact.csv"),[Delimiter=",", Columns=5, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					#"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					#"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"storm_id", type text}, {"zone_id", type text}, {"zone_name", type text}, {"peak_wind_experienced_mph", Int64.Type}, {"storm_surge_ft", type number}})
+				in
+					#"Changed Type"
+

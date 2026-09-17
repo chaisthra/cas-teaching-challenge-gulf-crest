@@ -1,0 +1,43 @@
+table ReserveHistory
+	lineageTag: 9d50a332-1db1-4add-aa35-c9e7d8674197
+
+	column claim_id
+		dataType: string
+		lineageTag: 640a7efd-5209-4dce-9d9d-280a3fa9f3d6
+		summarizeBy: none
+		sourceColumn: claim_id
+
+	column evaluation_date
+		dataType: dateTime
+		lineageTag: 2497100c-7cd5-4f26-93c0-003b14bf434e
+		summarizeBy: none
+		sourceColumn: evaluation_date
+
+	column development_month
+		dataType: int64
+		lineageTag: 54dbc9b2-1321-4c69-b759-63fb8d748c09
+		summarizeBy: none
+		sourceColumn: development_month
+
+	column reserve_estimate
+		dataType: double
+		lineageTag: 676db510-ffb0-4d87-83ad-581474200a56
+		summarizeBy: sum
+		sourceColumn: reserve_estimate
+
+	column cumulative_paid
+		dataType: double
+		lineageTag: 7d3597b0-fef5-4488-9ad1-44580dd73122
+		summarizeBy: sum
+		sourceColumn: cumulative_paid
+
+	partition ReserveHistory-partition = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(DatasetsFolder & "07_reserve_history.csv"),[Delimiter=",", Columns=5, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					#"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					#"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"claim_id", type text}, {"evaluation_date", type datetime}, {"development_month", Int64.Type}, {"reserve_estimate", type number}, {"cumulative_paid", type number}})
+				in
+					#"Changed Type"
+

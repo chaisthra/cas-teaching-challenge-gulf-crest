@@ -1,0 +1,49 @@
+table CompanyFinancials
+	lineageTag: 5e07ec61-c95c-4503-9b84-45643d603d76
+
+	column period
+		dataType: string
+		lineageTag: 9a9d4ba5-4309-4920-b461-69bae84dea36
+		summarizeBy: none
+		sourceColumn: period
+
+	column gross_written_premium
+		dataType: double
+		lineageTag: c1091244-9b4b-473e-b60e-5ba41f2fe96a
+		summarizeBy: sum
+		sourceColumn: gross_written_premium
+
+	column earned_premium
+		dataType: double
+		lineageTag: 083ebea3-8a0f-45ef-bb46-bf1c50caf194
+		summarizeBy: sum
+		sourceColumn: earned_premium
+
+	column incurred_losses
+		dataType: double
+		lineageTag: 119fe907-2083-4dd8-98c0-a599464953e6
+		summarizeBy: sum
+		sourceColumn: incurred_losses
+
+	column loss_adjustment_expenses
+		dataType: double
+		lineageTag: 05aecf39-923a-4dfa-8f2e-53cc2ab832c2
+		summarizeBy: sum
+		sourceColumn: loss_adjustment_expenses
+
+	column policyholder_surplus
+		dataType: double
+		lineageTag: 6542cc3e-61e8-4656-b45c-f0b3d883b3d2
+		summarizeBy: sum
+		sourceColumn: policyholder_surplus
+
+	partition CompanyFinancials-partition = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(DatasetsFolder & "08_company_financials.csv"),[Delimiter=",", Columns=6, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					#"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					#"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"period", type text}, {"gross_written_premium", type number}, {"earned_premium", type number}, {"incurred_losses", type number}, {"loss_adjustment_expenses", type number}, {"policyholder_surplus", type number}})
+				in
+					#"Changed Type"
+

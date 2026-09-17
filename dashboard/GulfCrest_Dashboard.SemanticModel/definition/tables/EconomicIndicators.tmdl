@@ -1,0 +1,43 @@
+table EconomicIndicators
+	lineageTag: 97e51978-cf27-4c14-93e9-7048e3c785b4
+
+	column date
+		dataType: dateTime
+		lineageTag: a4648793-29b9-4239-9977-8c6c854783ca
+		summarizeBy: none
+		sourceColumn: date
+
+	column region
+		dataType: string
+		lineageTag: 130a2662-bfdd-4567-9ab0-ceb5d2f8d184
+		summarizeBy: none
+		sourceColumn: region
+
+	column cpi_index
+		dataType: double
+		lineageTag: 626a8440-3307-4908-93e2-e65e010b9ee3
+		summarizeBy: none
+		sourceColumn: cpi_index
+
+	column construction_cost_index
+		dataType: double
+		lineageTag: e694f7eb-f4db-4aff-8227-b90749989c5e
+		summarizeBy: none
+		sourceColumn: construction_cost_index
+
+	column wage_index
+		dataType: double
+		lineageTag: cb960799-d217-4ab6-8ff1-ec16489c96b3
+		summarizeBy: none
+		sourceColumn: wage_index
+
+	partition EconomicIndicators-partition = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(DatasetsFolder & "04_economic_indicators.csv"),[Delimiter=",", Columns=5, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					#"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					#"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"date", type datetime}, {"region", type text}, {"cpi_index", type number}, {"construction_cost_index", type number}, {"wage_index", type number}})
+				in
+					#"Changed Type"
+

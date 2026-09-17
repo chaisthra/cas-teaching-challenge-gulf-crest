@@ -1,0 +1,43 @@
+table RepairCosts
+	lineageTag: cecca0cf-4bda-4eb6-8d44-23a39c850284
+
+	column claim_id
+		dataType: string
+		lineageTag: 7772049f-988c-4267-8f9d-f47782278663
+		summarizeBy: none
+		sourceColumn: claim_id
+
+	column repair_category
+		dataType: string
+		lineageTag: 96bef563-2a74-473b-bab2-f65a3bf0dba9
+		summarizeBy: none
+		sourceColumn: repair_category
+
+	column estimated_cost
+		dataType: double
+		lineageTag: 95814f3e-4a89-4c46-bd18-efa786985f3e
+		summarizeBy: sum
+		sourceColumn: estimated_cost
+
+	column actual_cost
+		dataType: double
+		lineageTag: 01cb61c1-616b-4946-b2c9-8b73838374c0
+		summarizeBy: sum
+		sourceColumn: actual_cost
+
+	column cost_date
+		dataType: dateTime
+		lineageTag: 221bd229-d0ff-45e0-bae6-74220c361db3
+		summarizeBy: none
+		sourceColumn: cost_date
+
+	partition RepairCosts-partition = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(DatasetsFolder & "05_repair_costs.csv"),[Delimiter=",", Columns=5, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					#"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					#"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"claim_id", type text}, {"repair_category", type text}, {"estimated_cost", type number}, {"actual_cost", type number}, {"cost_date", type datetime}})
+				in
+					#"Changed Type"
+

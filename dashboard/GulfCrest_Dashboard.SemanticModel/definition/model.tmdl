@@ -1,0 +1,22 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-US
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation PBI_QueryOrder = ["Policies", "Claims", "WeatherZoneImpact", "EconomicIndicators", "RepairCosts", "FraudLabels", "ReserveHistory", "CompanyFinancials", "_Measures"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table Policies
+ref table Claims
+ref table WeatherZoneImpact
+ref table EconomicIndicators
+ref table RepairCosts
+ref table FraudLabels
+ref table ReserveHistory
+ref table CompanyFinancials
+ref table _Measures
+

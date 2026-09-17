@@ -1,0 +1,20 @@
+relationship fcc1db27-ef13-482f-8bd7-e770f3e2a5eb
+	fromColumn: Claims.policy_id
+	toColumn: Policies.policy_id
+
+relationship 78a8ac03-c2ae-43c7-be42-939fecf7cf84
+	fromColumn: RepairCosts.claim_id
+	toColumn: Claims.claim_id
+
+relationship 748cbd3b-cd5b-412e-98a0-171e5936c4e4
+	fromColumn: FraudLabels.claim_id
+	toColumn: Claims.claim_id
+
+relationship 02903fc9-d34c-4a85-8bc1-4bab7100d991
+	fromColumn: ReserveHistory.claim_id
+	toColumn: Claims.claim_id
+
+relationship fe047819-1e15-4019-98f2-84ff24ba96e3
+	fromColumn: Policies.zone_id
+	toColumn: WeatherZoneImpact.zone_id
+

@@ -1,0 +1,2884 @@
+claim_id,is_fraud,fraud_indicator_notes
+CLM-000001,0.0,"Reviewed, no fraud indicators found"
+CLM-000002,1.0,Confirmed fraud indicators found in review
+CLM-000003,0.0,"Reviewed, no fraud indicators found"
+CLM-000004,,
+CLM-000005,1.0,Confirmed fraud indicators found in review
+CLM-000006,0.0,"Reviewed, no fraud indicators found"
+CLM-000007,0.0,"Reviewed, no fraud indicators found"
+CLM-000008,0.0,"Reviewed, no fraud indicators found"
+CLM-000009,0.0,"Reviewed, no fraud indicators found"
+CLM-000010,,
+CLM-000011,0.0,"Reviewed, no fraud indicators found"
+CLM-000012,0.0,"Reviewed, no fraud indicators found"
+CLM-000013,0.0,"Reviewed, no fraud indicators found"
+CLM-000014,0.0,"Reviewed, no fraud indicators found"
+CLM-000015,0.0,"Reviewed, no fraud indicators found"
+CLM-000016,0.0,"Reviewed, no fraud indicators found"
+CLM-000017,0.0,"Reviewed, no fraud indicators found"
+CLM-000018,0.0,"Reviewed, no fraud indicators found"
+CLM-000019,0.0,"Reviewed, no fraud indicators found"
+CLM-000020,0.0,"Reviewed, no fraud indicators found"
+CLM-000021,0.0,"Reviewed, no fraud indicators found"
+CLM-000022,,
+CLM-000023,0.0,"Reviewed, no fraud indicators found"
+CLM-000024,0.0,"Reviewed, no fraud indicators found"
+CLM-000025,0.0,"Reviewed, no fraud indicators found"
+CLM-000026,0.0,"Reviewed, no fraud indicators found"
+CLM-000027,0.0,"Reviewed, no fraud indicators found"
+CLM-000028,0.0,"Reviewed, no fraud indicators found"
+CLM-000029,0.0,"Reviewed, no fraud indicators found"
+CLM-000030,0.0,"Reviewed, no fraud indicators found"
+CLM-000031,0.0,"Reviewed, no fraud indicators found"
+CLM-000032,0.0,"Reviewed, no fraud indicators found"
+CLM-000033,0.0,"Reviewed, no fraud indicators found"
+CLM-000034,0.0,"Reviewed, no fraud indicators found"
+CLM-000035,0.0,"Reviewed, no fraud indicators found"
+CLM-000036,0.0,"Reviewed, no fraud indicators found"
+CLM-000037,0.0,"Reviewed, no fraud indicators found"
+CLM-000038,0.0,"Reviewed, no fraud indicators found"
+CLM-000039,1.0,Confirmed fraud indicators found in review
+CLM-000040,0.0,"Reviewed, no fraud indicators found"
+CLM-000041,0.0,"Reviewed, no fraud indicators found"
+CLM-000042,0.0,"Reviewed, no fraud indicators found"
+CLM-000043,0.0,"Reviewed, no fraud indicators found"
+CLM-000044,0.0,"Reviewed, no fraud indicators found"
+CLM-000045,1.0,Confirmed fraud indicators found in review
+CLM-000046,0.0,"Reviewed, no fraud indicators found"
+CLM-000047,1.0,Confirmed fraud indicators found in review
+CLM-000048,0.0,"Reviewed, no fraud indicators found"
+CLM-000049,0.0,"Reviewed, no fraud indicators found"
+CLM-000050,0.0,"Reviewed, no fraud indicators found"
+CLM-000051,0.0,"Reviewed, no fraud indicators found"
+CLM-000052,1.0,Confirmed fraud indicators found in review
+CLM-000053,0.0,"Reviewed, no fraud indicators found"
+CLM-000054,0.0,"Reviewed, no fraud indicators found"
+CLM-000055,0.0,"Reviewed, no fraud indicators found"
+CLM-000056,0.0,"Reviewed, no fraud indicators found"
+CLM-000057,0.0,"Reviewed, no fraud indicators found"
+CLM-000058,0.0,"Reviewed, no fraud indicators found"
+CLM-000059,0.0,"Reviewed, no fraud indicators found"
+CLM-000060,0.0,"Reviewed, no fraud indicators found"
+CLM-000061,0.0,"Reviewed, no fraud indicators found"
+CLM-000062,0.0,"Reviewed, no fraud indicators found"
+CLM-000063,0.0,"Reviewed, no fraud indicators found"
+CLM-000064,0.0,"Reviewed, no fraud indicators found"
+CLM-000065,0.0,"Reviewed, no fraud indicators found"
+CLM-000066,0.0,"Reviewed, no fraud indicators found"
+CLM-000067,0.0,"Reviewed, no fraud indicators found"
+CLM-000068,0.0,"Reviewed, no fraud indicators found"
+CLM-000069,0.0,"Reviewed, no fraud indicators found"
+CLM-000070,0.0,"Reviewed, no fraud indicators found"
+CLM-000071,0.0,"Reviewed, no fraud indicators found"
+CLM-000072,0.0,"Reviewed, no fraud indicators found"
+CLM-000073,0.0,"Reviewed, no fraud indicators found"
+CLM-000074,0.0,"Reviewed, no fraud indicators found"
+CLM-000075,,
+CLM-000076,0.0,"Reviewed, no fraud indicators found"
+CLM-000077,0.0,"Reviewed, no fraud indicators found"
+CLM-000078,0.0,"Reviewed, no fraud indicators found"
+CLM-000079,0.0,"Reviewed, no fraud indicators found"
+CLM-000080,1.0,Confirmed fraud indicators found in review
+CLM-000081,0.0,"Reviewed, no fraud indicators found"
+CLM-000082,1.0,Confirmed fraud indicators found in review
+CLM-000083,0.0,"Reviewed, no fraud indicators found"
+CLM-000084,0.0,"Reviewed, no fraud indicators found"
+CLM-000085,0.0,"Reviewed, no fraud indicators found"
+CLM-000086,0.0,"Reviewed, no fraud indicators found"
+CLM-000087,0.0,"Reviewed, no fraud indicators found"
+CLM-000088,0.0,"Reviewed, no fraud indicators found"
+CLM-000089,1.0,Confirmed fraud indicators found in review
+CLM-000090,1.0,Confirmed fraud indicators found in review
+CLM-000091,0.0,"Reviewed, no fraud indicators found"
+CLM-000092,0.0,"Reviewed, no fraud indicators found"
+CLM-000093,0.0,"Reviewed, no fraud indicators found"
+CLM-000094,0.0,"Reviewed, no fraud indicators found"
+CLM-000095,0.0,"Reviewed, no fraud indicators found"
+CLM-000096,0.0,"Reviewed, no fraud indicators found"
+CLM-000097,0.0,"Reviewed, no fraud indicators found"
+CLM-000098,0.0,"Reviewed, no fraud indicators found"
+CLM-000099,0.0,"Reviewed, no fraud indicators found"
+CLM-000100,1.0,Confirmed fraud indicators found in review
+CLM-000101,0.0,"Reviewed, no fraud indicators found"
+CLM-000102,0.0,"Reviewed, no fraud indicators found"
+CLM-000103,0.0,"Reviewed, no fraud indicators found"
+CLM-000104,0.0,"Reviewed, no fraud indicators found"
+CLM-000105,0.0,"Reviewed, no fraud indicators found"
+CLM-000106,,
+CLM-000107,,
+CLM-000108,0.0,"Reviewed, no fraud indicators found"
+CLM-000109,0.0,"Reviewed, no fraud indicators found"
+CLM-000110,1.0,Confirmed fraud indicators found in review
+CLM-000111,0.0,"Reviewed, no fraud indicators found"
+CLM-000112,0.0,"Reviewed, no fraud indicators found"
+CLM-000113,1.0,Confirmed fraud indicators found in review
+CLM-000114,0.0,"Reviewed, no fraud indicators found"
+CLM-000115,1.0,Confirmed fraud indicators found in review
+CLM-000116,,
+CLM-000117,0.0,"Reviewed, no fraud indicators found"
+CLM-000118,0.0,"Reviewed, no fraud indicators found"
+CLM-000119,0.0,"Reviewed, no fraud indicators found"
+CLM-000120,0.0,"Reviewed, no fraud indicators found"
+CLM-000121,1.0,Confirmed fraud indicators found in review
+CLM-000122,0.0,"Reviewed, no fraud indicators found"
+CLM-000123,0.0,"Reviewed, no fraud indicators found"
+CLM-000124,0.0,"Reviewed, no fraud indicators found"
+CLM-000125,,
+CLM-000126,1.0,Confirmed fraud indicators found in review
+CLM-000127,0.0,"Reviewed, no fraud indicators found"
+CLM-000128,0.0,"Reviewed, no fraud indicators found"
+CLM-000129,0.0,"Reviewed, no fraud indicators found"
+CLM-000130,1.0,Confirmed fraud indicators found in review
+CLM-000131,0.0,"Reviewed, no fraud indicators found"
+CLM-000132,0.0,"Reviewed, no fraud indicators found"
+CLM-000133,0.0,"Reviewed, no fraud indicators found"
+CLM-000134,0.0,"Reviewed, no fraud indicators found"
+CLM-000135,,
+CLM-000136,0.0,"Reviewed, no fraud indicators found"
+CLM-000137,0.0,"Reviewed, no fraud indicators found"
+CLM-000138,0.0,"Reviewed, no fraud indicators found"
+CLM-000139,0.0,"Reviewed, no fraud indicators found"
+CLM-000140,0.0,"Reviewed, no fraud indicators found"
+CLM-000141,1.0,Confirmed fraud indicators found in review
+CLM-000142,1.0,Confirmed fraud indicators found in review
+CLM-000143,0.0,"Reviewed, no fraud indicators found"
+CLM-000144,0.0,"Reviewed, no fraud indicators found"
+CLM-000145,1.0,Confirmed fraud indicators found in review
+CLM-000146,0.0,"Reviewed, no fraud indicators found"
+CLM-000147,0.0,"Reviewed, no fraud indicators found"
+CLM-000148,0.0,"Reviewed, no fraud indicators found"
+CLM-000149,,
+CLM-000150,0.0,"Reviewed, no fraud indicators found"
+CLM-000151,0.0,"Reviewed, no fraud indicators found"
+CLM-000152,0.0,"Reviewed, no fraud indicators found"
+CLM-000153,0.0,"Reviewed, no fraud indicators found"
+CLM-000154,0.0,"Reviewed, no fraud indicators found"
+CLM-000155,0.0,"Reviewed, no fraud indicators found"
+CLM-000156,,
+CLM-000157,0.0,"Reviewed, no fraud indicators found"
+CLM-000158,,
+CLM-000159,0.0,"Reviewed, no fraud indicators found"
+CLM-000160,1.0,Confirmed fraud indicators found in review
+CLM-000161,0.0,"Reviewed, no fraud indicators found"
+CLM-000162,0.0,"Reviewed, no fraud indicators found"
+CLM-000163,0.0,"Reviewed, no fraud indicators found"
+CLM-000164,0.0,"Reviewed, no fraud indicators found"
+CLM-000165,0.0,"Reviewed, no fraud indicators found"
+CLM-000166,0.0,"Reviewed, no fraud indicators found"
+CLM-000167,0.0,"Reviewed, no fraud indicators found"
+CLM-000168,0.0,"Reviewed, no fraud indicators found"
+CLM-000169,0.0,"Reviewed, no fraud indicators found"
+CLM-000170,0.0,"Reviewed, no fraud indicators found"
+CLM-000171,0.0,"Reviewed, no fraud indicators found"
+CLM-000172,0.0,"Reviewed, no fraud indicators found"
+CLM-000173,0.0,"Reviewed, no fraud indicators found"
+CLM-000174,0.0,"Reviewed, no fraud indicators found"
+CLM-000175,,
+CLM-000176,0.0,"Reviewed, no fraud indicators found"
+CLM-000177,0.0,"Reviewed, no fraud indicators found"
+CLM-000178,0.0,"Reviewed, no fraud indicators found"
+CLM-000179,0.0,"Reviewed, no fraud indicators found"
+CLM-000180,0.0,"Reviewed, no fraud indicators found"
+CLM-000181,0.0,"Reviewed, no fraud indicators found"
+CLM-000182,0.0,"Reviewed, no fraud indicators found"
+CLM-000183,0.0,"Reviewed, no fraud indicators found"
+CLM-000184,0.0,"Reviewed, no fraud indicators found"
+CLM-000185,,
+CLM-000186,,
+CLM-000187,0.0,"Reviewed, no fraud indicators found"
+CLM-000188,0.0,"Reviewed, no fraud indicators found"
+CLM-000189,0.0,"Reviewed, no fraud indicators found"
+CLM-000190,0.0,"Reviewed, no fraud indicators found"
+CLM-000191,0.0,"Reviewed, no fraud indicators found"
+CLM-000192,0.0,"Reviewed, no fraud indicators found"
+CLM-000193,0.0,"Reviewed, no fraud indicators found"
+CLM-000194,0.0,"Reviewed, no fraud indicators found"
+CLM-000195,0.0,"Reviewed, no fraud indicators found"
+CLM-000196,0.0,"Reviewed, no fraud indicators found"
+CLM-000197,0.0,"Reviewed, no fraud indicators found"
+CLM-000198,,
+CLM-000199,0.0,"Reviewed, no fraud indicators found"
+CLM-000200,0.0,"Reviewed, no fraud indicators found"
+CLM-000201,0.0,"Reviewed, no fraud indicators found"
+CLM-000202,0.0,"Reviewed, no fraud indicators found"
+CLM-000203,0.0,"Reviewed, no fraud indicators found"
+CLM-000204,0.0,"Reviewed, no fraud indicators found"
+CLM-000205,0.0,"Reviewed, no fraud indicators found"
+CLM-000206,0.0,"Reviewed, no fraud indicators found"
+CLM-000207,0.0,"Reviewed, no fraud indicators found"
+CLM-000208,0.0,"Reviewed, no fraud indicators found"
+CLM-000209,0.0,"Reviewed, no fraud indicators found"
+CLM-000210,,
+CLM-000211,0.0,"Reviewed, no fraud indicators found"
+CLM-000212,0.0,"Reviewed, no fraud indicators found"
+CLM-000213,0.0,"Reviewed, no fraud indicators found"
+CLM-000214,,
+CLM-000215,1.0,Confirmed fraud indicators found in review
+CLM-000216,,
+CLM-000217,0.0,"Reviewed, no fraud indicators found"
+CLM-000218,0.0,"Reviewed, no fraud indicators found"
+CLM-000219,0.0,"Reviewed, no fraud indicators found"
+CLM-000220,0.0,"Reviewed, no fraud indicators found"
+CLM-000221,0.0,"Reviewed, no fraud indicators found"
+CLM-000222,0.0,"Reviewed, no fraud indicators found"
+CLM-000223,0.0,"Reviewed, no fraud indicators found"
+CLM-000224,0.0,"Reviewed, no fraud indicators found"
+CLM-000225,0.0,"Reviewed, no fraud indicators found"
+CLM-000226,0.0,"Reviewed, no fraud indicators found"
+CLM-000227,0.0,"Reviewed, no fraud indicators found"
+CLM-000228,0.0,"Reviewed, no fraud indicators found"
+CLM-000229,0.0,"Reviewed, no fraud indicators found"
+CLM-000230,0.0,"Reviewed, no fraud indicators found"
+CLM-000231,,
+CLM-000232,0.0,"Reviewed, no fraud indicators found"
+CLM-000233,0.0,"Reviewed, no fraud indicators found"
+CLM-000234,0.0,"Reviewed, no fraud indicators found"
+CLM-000235,0.0,"Reviewed, no fraud indicators found"
+CLM-000236,0.0,"Reviewed, no fraud indicators found"
+CLM-000237,0.0,"Reviewed, no fraud indicators found"
+CLM-000238,0.0,"Reviewed, no fraud indicators found"
+CLM-000239,0.0,"Reviewed, no fraud indicators found"
+CLM-000240,1.0,Confirmed fraud indicators found in review
+CLM-000241,0.0,"Reviewed, no fraud indicators found"
+CLM-000242,,
+CLM-000243,0.0,"Reviewed, no fraud indicators found"
+CLM-000244,0.0,"Reviewed, no fraud indicators found"
+CLM-000245,0.0,"Reviewed, no fraud indicators found"
+CLM-000246,0.0,"Reviewed, no fraud indicators found"
+CLM-000247,0.0,"Reviewed, no fraud indicators found"
+CLM-000248,1.0,Confirmed fraud indicators found in review
+CLM-000249,,
+CLM-000250,0.0,"Reviewed, no fraud indicators found"
+CLM-000251,1.0,Confirmed fraud indicators found in review
+CLM-000252,0.0,"Reviewed, no fraud indicators found"
+CLM-000253,,
+CLM-000254,0.0,"Reviewed, no fraud indicators found"
+CLM-000255,1.0,Confirmed fraud indicators found in review
+CLM-000256,0.0,"Reviewed, no fraud indicators found"
+CLM-000257,0.0,"Reviewed, no fraud indicators found"
+CLM-000258,0.0,"Reviewed, no fraud indicators found"
+CLM-000259,0.0,"Reviewed, no fraud indicators found"
+CLM-000260,0.0,"Reviewed, no fraud indicators found"
+CLM-000261,0.0,"Reviewed, no fraud indicators found"
+CLM-000262,0.0,"Reviewed, no fraud indicators found"
+CLM-000263,1.0,Confirmed fraud indicators found in review
+CLM-000264,0.0,"Reviewed, no fraud indicators found"
+CLM-000265,1.0,Confirmed fraud indicators found in review
+CLM-000266,1.0,Confirmed fraud indicators found in review
+CLM-000267,0.0,"Reviewed, no fraud indicators found"
+CLM-000268,0.0,"Reviewed, no fraud indicators found"
+CLM-000269,0.0,"Reviewed, no fraud indicators found"
+CLM-000270,0.0,"Reviewed, no fraud indicators found"
+CLM-000271,0.0,"Reviewed, no fraud indicators found"
+CLM-000272,0.0,"Reviewed, no fraud indicators found"
+CLM-000273,0.0,"Reviewed, no fraud indicators found"
+CLM-000274,0.0,"Reviewed, no fraud indicators found"
+CLM-000275,1.0,Confirmed fraud indicators found in review
+CLM-000276,0.0,"Reviewed, no fraud indicators found"
+CLM-000277,0.0,"Reviewed, no fraud indicators found"
+CLM-000278,0.0,"Reviewed, no fraud indicators found"
+CLM-000279,0.0,"Reviewed, no fraud indicators found"
+CLM-000280,0.0,"Reviewed, no fraud indicators found"
+CLM-000281,0.0,"Reviewed, no fraud indicators found"
+CLM-000282,0.0,"Reviewed, no fraud indicators found"
+CLM-000283,0.0,"Reviewed, no fraud indicators found"
+CLM-000284,0.0,"Reviewed, no fraud indicators found"
+CLM-000285,1.0,Confirmed fraud indicators found in review
+CLM-000286,0.0,"Reviewed, no fraud indicators found"
+CLM-000287,1.0,Confirmed fraud indicators found in review
+CLM-000288,1.0,Confirmed fraud indicators found in review
+CLM-000289,0.0,"Reviewed, no fraud indicators found"
+CLM-000290,,
+CLM-000291,0.0,"Reviewed, no fraud indicators found"
+CLM-000292,0.0,"Reviewed, no fraud indicators found"
+CLM-000293,0.0,"Reviewed, no fraud indicators found"
+CLM-000294,1.0,Confirmed fraud indicators found in review
+CLM-000295,0.0,"Reviewed, no fraud indicators found"
+CLM-000296,0.0,"Reviewed, no fraud indicators found"
+CLM-000297,0.0,"Reviewed, no fraud indicators found"
+CLM-000298,1.0,Confirmed fraud indicators found in review
+CLM-000299,0.0,"Reviewed, no fraud indicators found"
+CLM-000300,0.0,"Reviewed, no fraud indicators found"
+CLM-000301,0.0,"Reviewed, no fraud indicators found"
+CLM-000302,1.0,Confirmed fraud indicators found in review
+CLM-000303,0.0,"Reviewed, no fraud indicators found"
+CLM-000304,0.0,"Reviewed, no fraud indicators found"
+CLM-000305,1.0,Confirmed fraud indicators found in review
+CLM-000306,0.0,"Reviewed, no fraud indicators found"
+CLM-000307,0.0,"Reviewed, no fraud indicators found"
+CLM-000308,0.0,"Reviewed, no fraud indicators found"
+CLM-000309,0.0,"Reviewed, no fraud indicators found"
+CLM-000310,0.0,"Reviewed, no fraud indicators found"
+CLM-000311,0.0,"Reviewed, no fraud indicators found"
+CLM-000312,0.0,"Reviewed, no fraud indicators found"
+CLM-000313,0.0,"Reviewed, no fraud indicators found"
+CLM-000314,0.0,"Reviewed, no fraud indicators found"
+CLM-000315,0.0,"Reviewed, no fraud indicators found"
+CLM-000316,0.0,"Reviewed, no fraud indicators found"
+CLM-000317,0.0,"Reviewed, no fraud indicators found"
+CLM-000318,0.0,"Reviewed, no fraud indicators found"
+CLM-000319,0.0,"Reviewed, no fraud indicators found"
+CLM-000320,,
+CLM-000321,1.0,Confirmed fraud indicators found in review
+CLM-000322,,
+CLM-000323,0.0,"Reviewed, no fraud indicators found"
+CLM-000324,0.0,"Reviewed, no fraud indicators found"
+CLM-000325,0.0,"Reviewed, no fraud indicators found"
+CLM-000326,0.0,"Reviewed, no fraud indicators found"
+CLM-000327,0.0,"Reviewed, no fraud indicators found"
+CLM-000328,0.0,"Reviewed, no fraud indicators found"
+CLM-000329,0.0,"Reviewed, no fraud indicators found"
+CLM-000330,1.0,Confirmed fraud indicators found in review
+CLM-000331,0.0,"Reviewed, no fraud indicators found"
+CLM-000332,0.0,"Reviewed, no fraud indicators found"
+CLM-000333,1.0,Confirmed fraud indicators found in review
+CLM-000334,,
+CLM-000335,0.0,"Reviewed, no fraud indicators found"
+CLM-000336,0.0,"Reviewed, no fraud indicators found"
+CLM-000337,,
+CLM-000338,0.0,"Reviewed, no fraud indicators found"
+CLM-000339,0.0,"Reviewed, no fraud indicators found"
+CLM-000340,1.0,Confirmed fraud indicators found in review
+CLM-000341,0.0,"Reviewed, no fraud indicators found"
+CLM-000342,0.0,"Reviewed, no fraud indicators found"
+CLM-000343,0.0,"Reviewed, no fraud indicators found"
+CLM-000344,0.0,"Reviewed, no fraud indicators found"
+CLM-000345,0.0,"Reviewed, no fraud indicators found"
+CLM-000346,0.0,"Reviewed, no fraud indicators found"
+CLM-000347,0.0,"Reviewed, no fraud indicators found"
+CLM-000348,,
+CLM-000349,0.0,"Reviewed, no fraud indicators found"
+CLM-000350,0.0,"Reviewed, no fraud indicators found"
+CLM-000351,0.0,"Reviewed, no fraud indicators found"
+CLM-000352,1.0,Confirmed fraud indicators found in review
+CLM-000353,0.0,"Reviewed, no fraud indicators found"
+CLM-000354,0.0,"Reviewed, no fraud indicators found"
+CLM-000355,0.0,"Reviewed, no fraud indicators found"
+CLM-000356,,
+CLM-000357,0.0,"Reviewed, no fraud indicators found"
+CLM-000358,0.0,"Reviewed, no fraud indicators found"
+CLM-000359,0.0,"Reviewed, no fraud indicators found"
+CLM-000360,,
+CLM-000361,,
+CLM-000362,0.0,"Reviewed, no fraud indicators found"
+CLM-000363,0.0,"Reviewed, no fraud indicators found"
+CLM-000364,1.0,Confirmed fraud indicators found in review
+CLM-000365,0.0,"Reviewed, no fraud indicators found"
+CLM-000366,0.0,"Reviewed, no fraud indicators found"
+CLM-000367,0.0,"Reviewed, no fraud indicators found"
+CLM-000368,0.0,"Reviewed, no fraud indicators found"
+CLM-000369,0.0,"Reviewed, no fraud indicators found"
+CLM-000370,,
+CLM-000371,0.0,"Reviewed, no fraud indicators found"
+CLM-000372,,
+CLM-000373,0.0,"Reviewed, no fraud indicators found"
+CLM-000374,0.0,"Reviewed, no fraud indicators found"
+CLM-000375,0.0,"Reviewed, no fraud indicators found"
+CLM-000376,0.0,"Reviewed, no fraud indicators found"
+CLM-000377,0.0,"Reviewed, no fraud indicators found"
+CLM-000378,0.0,"Reviewed, no fraud indicators found"
+CLM-000379,0.0,"Reviewed, no fraud indicators found"
+CLM-000380,,
+CLM-000381,0.0,"Reviewed, no fraud indicators found"
+CLM-000382,0.0,"Reviewed, no fraud indicators found"
+CLM-000383,0.0,"Reviewed, no fraud indicators found"
+CLM-000384,0.0,"Reviewed, no fraud indicators found"
+CLM-000385,0.0,"Reviewed, no fraud indicators found"
+CLM-000386,0.0,"Reviewed, no fraud indicators found"
+CLM-000387,,
+CLM-000388,0.0,"Reviewed, no fraud indicators found"
+CLM-000389,1.0,Confirmed fraud indicators found in review
+CLM-000390,1.0,Confirmed fraud indicators found in review
+CLM-000391,0.0,"Reviewed, no fraud indicators found"
+CLM-000392,0.0,"Reviewed, no fraud indicators found"
+CLM-000393,0.0,"Reviewed, no fraud indicators found"
+CLM-000394,0.0,"Reviewed, no fraud indicators found"
+CLM-000395,1.0,Confirmed fraud indicators found in review
+CLM-000396,0.0,"Reviewed, no fraud indicators found"
+CLM-000397,1.0,Confirmed fraud indicators found in review
+CLM-000398,0.0,"Reviewed, no fraud indicators found"
+CLM-000399,0.0,"Reviewed, no fraud indicators found"
+CLM-000400,0.0,"Reviewed, no fraud indicators found"
+CLM-000401,0.0,"Reviewed, no fraud indicators found"
+CLM-000402,0.0,"Reviewed, no fraud indicators found"
+CLM-000403,0.0,"Reviewed, no fraud indicators found"
+CLM-000404,0.0,"Reviewed, no fraud indicators found"
+CLM-000405,0.0,"Reviewed, no fraud indicators found"
+CLM-000406,0.0,"Reviewed, no fraud indicators found"
+CLM-000407,0.0,"Reviewed, no fraud indicators found"
+CLM-000408,1.0,Confirmed fraud indicators found in review
+CLM-000409,0.0,"Reviewed, no fraud indicators found"
+CLM-000410,0.0,"Reviewed, no fraud indicators found"
+CLM-000411,0.0,"Reviewed, no fraud indicators found"
+CLM-000412,0.0,"Reviewed, no fraud indicators found"
+CLM-000413,,
+CLM-000414,0.0,"Reviewed, no fraud indicators found"
+CLM-000415,0.0,"Reviewed, no fraud indicators found"
+CLM-000416,0.0,"Reviewed, no fraud indicators found"
+CLM-000417,0.0,"Reviewed, no fraud indicators found"
+CLM-000418,0.0,"Reviewed, no fraud indicators found"
+CLM-000419,0.0,"Reviewed, no fraud indicators found"
+CLM-000420,1.0,Confirmed fraud indicators found in review
+CLM-000421,,
+CLM-000422,0.0,"Reviewed, no fraud indicators found"
+CLM-000423,0.0,"Reviewed, no fraud indicators found"
+CLM-000424,0.0,"Reviewed, no fraud indicators found"
+CLM-000425,0.0,"Reviewed, no fraud indicators found"
+CLM-000426,0.0,"Reviewed, no fraud indicators found"
+CLM-000427,0.0,"Reviewed, no fraud indicators found"
+CLM-000428,0.0,"Reviewed, no fraud indicators found"
+CLM-000429,0.0,"Reviewed, no fraud indicators found"
+CLM-000430,0.0,"Reviewed, no fraud indicators found"
+CLM-000431,,
+CLM-000432,0.0,"Reviewed, no fraud indicators found"
+CLM-000433,0.0,"Reviewed, no fraud indicators found"
+CLM-000434,0.0,"Reviewed, no fraud indicators found"
+CLM-000435,0.0,"Reviewed, no fraud indicators found"
+CLM-000436,1.0,Confirmed fraud indicators found in review
+CLM-000437,0.0,"Reviewed, no fraud indicators found"
+CLM-000438,0.0,"Reviewed, no fraud indicators found"
+CLM-000439,0.0,"Reviewed, no fraud indicators found"
+CLM-000440,0.0,"Reviewed, no fraud indicators found"
+CLM-000441,1.0,Confirmed fraud indicators found in review
+CLM-000442,0.0,"Reviewed, no fraud indicators found"
+CLM-000443,0.0,"Reviewed, no fraud indicators found"
+CLM-000444,0.0,"Reviewed, no fraud indicators found"
+CLM-000445,0.0,"Reviewed, no fraud indicators found"
+CLM-000446,0.0,"Reviewed, no fraud indicators found"
+CLM-000447,0.0,"Reviewed, no fraud indicators found"
+CLM-000448,0.0,"Reviewed, no fraud indicators found"
+CLM-000449,0.0,"Reviewed, no fraud indicators found"
+CLM-000450,0.0,"Reviewed, no fraud indicators found"
+CLM-000451,0.0,"Reviewed, no fraud indicators found"
+CLM-000452,,
+CLM-000453,0.0,"Reviewed, no fraud indicators found"
+CLM-000454,1.0,Confirmed fraud indicators found in review
+CLM-000455,0.0,"Reviewed, no fraud indicators found"
+CLM-000456,0.0,"Reviewed, no fraud indicators found"
+CLM-000457,1.0,Confirmed fraud indicators found in review
+CLM-000458,0.0,"Reviewed, no fraud indicators found"
+CLM-000459,0.0,"Reviewed, no fraud indicators found"
+CLM-000460,0.0,"Reviewed, no fraud indicators found"
+CLM-000461,0.0,"Reviewed, no fraud indicators found"
+CLM-000462,0.0,"Reviewed, no fraud indicators found"
+CLM-000463,0.0,"Reviewed, no fraud indicators found"
+CLM-000464,0.0,"Reviewed, no fraud indicators found"
+CLM-000465,1.0,Confirmed fraud indicators found in review
+CLM-000466,0.0,"Reviewed, no fraud indicators found"
+CLM-000467,0.0,"Reviewed, no fraud indicators found"
+CLM-000468,0.0,"Reviewed, no fraud indicators found"
+CLM-000469,0.0,"Reviewed, no fraud indicators found"
+CLM-000470,0.0,"Reviewed, no fraud indicators found"
+CLM-000471,0.0,"Reviewed, no fraud indicators found"
+CLM-000472,0.0,"Reviewed, no fraud indicators found"
+CLM-000473,1.0,Confirmed fraud indicators found in review
+CLM-000474,0.0,"Reviewed, no fraud indicators found"
+CLM-000475,0.0,"Reviewed, no fraud indicators found"
+CLM-000476,1.0,Confirmed fraud indicators found in review
+CLM-000477,0.0,"Reviewed, no fraud indicators found"
+CLM-000478,0.0,"Reviewed, no fraud indicators found"
+CLM-000479,0.0,"Reviewed, no fraud indicators found"
+CLM-000480,0.0,"Reviewed, no fraud indicators found"
+CLM-000481,0.0,"Reviewed, no fraud indicators found"
+CLM-000482,0.0,"Reviewed, no fraud indicators found"
+CLM-000483,0.0,"Reviewed, no fraud indicators found"
+CLM-000484,0.0,"Reviewed, no fraud indicators found"
+CLM-000485,1.0,Confirmed fraud indicators found in review
+CLM-000486,0.0,"Reviewed, no fraud indicators found"
+CLM-000487,1.0,Confirmed fraud indicators found in review
+CLM-000488,1.0,Confirmed fraud indicators found in review
+CLM-000489,1.0,Confirmed fraud indicators found in review
+CLM-000490,0.0,"Reviewed, no fraud indicators found"
+CLM-000491,0.0,"Reviewed, no fraud indicators found"
+CLM-000492,0.0,"Reviewed, no fraud indicators found"
+CLM-000493,0.0,"Reviewed, no fraud indicators found"
+CLM-000494,0.0,"Reviewed, no fraud indicators found"
+CLM-000495,0.0,"Reviewed, no fraud indicators found"
+CLM-000496,0.0,"Reviewed, no fraud indicators found"
+CLM-000497,0.0,"Reviewed, no fraud indicators found"
+CLM-000498,0.0,"Reviewed, no fraud indicators found"
+CLM-000499,0.0,"Reviewed, no fraud indicators found"
+CLM-000500,0.0,"Reviewed, no fraud indicators found"
+CLM-000501,0.0,"Reviewed, no fraud indicators found"
+CLM-000502,0.0,"Reviewed, no fraud indicators found"
+CLM-000503,0.0,"Reviewed, no fraud indicators found"
+CLM-000504,0.0,"Reviewed, no fraud indicators found"
+CLM-000505,0.0,"Reviewed, no fraud indicators found"
+CLM-000506,,
+CLM-000507,0.0,"Reviewed, no fraud indicators found"
+CLM-000508,0.0,"Reviewed, no fraud indicators found"
+CLM-000509,0.0,"Reviewed, no fraud indicators found"
+CLM-000510,0.0,"Reviewed, no fraud indicators found"
+CLM-000511,0.0,"Reviewed, no fraud indicators found"
+CLM-000512,0.0,"Reviewed, no fraud indicators found"
+CLM-000513,0.0,"Reviewed, no fraud indicators found"
+CLM-000514,0.0,"Reviewed, no fraud indicators found"
+CLM-000515,0.0,"Reviewed, no fraud indicators found"
+CLM-000516,0.0,"Reviewed, no fraud indicators found"
+CLM-000517,0.0,"Reviewed, no fraud indicators found"
+CLM-000518,0.0,"Reviewed, no fraud indicators found"
+CLM-000519,0.0,"Reviewed, no fraud indicators found"
+CLM-000520,1.0,Confirmed fraud indicators found in review
+CLM-000521,0.0,"Reviewed, no fraud indicators found"
+CLM-000522,1.0,Confirmed fraud indicators found in review
+CLM-000523,0.0,"Reviewed, no fraud indicators found"
+CLM-000524,0.0,"Reviewed, no fraud indicators found"
+CLM-000525,0.0,"Reviewed, no fraud indicators found"
+CLM-000526,0.0,"Reviewed, no fraud indicators found"
+CLM-000527,0.0,"Reviewed, no fraud indicators found"
+CLM-000528,0.0,"Reviewed, no fraud indicators found"
+CLM-000529,0.0,"Reviewed, no fraud indicators found"
+CLM-000530,0.0,"Reviewed, no fraud indicators found"
+CLM-000531,0.0,"Reviewed, no fraud indicators found"
+CLM-000532,,
+CLM-000533,0.0,"Reviewed, no fraud indicators found"
+CLM-000534,0.0,"Reviewed, no fraud indicators found"
+CLM-000535,0.0,"Reviewed, no fraud indicators found"
+CLM-000536,0.0,"Reviewed, no fraud indicators found"
+CLM-000537,0.0,"Reviewed, no fraud indicators found"
+CLM-000538,0.0,"Reviewed, no fraud indicators found"
+CLM-000539,,
+CLM-000540,0.0,"Reviewed, no fraud indicators found"
+CLM-000541,0.0,"Reviewed, no fraud indicators found"
+CLM-000542,1.0,Confirmed fraud indicators found in review
+CLM-000543,0.0,"Reviewed, no fraud indicators found"
+CLM-000544,1.0,Confirmed fraud indicators found in review
+CLM-000545,0.0,"Reviewed, no fraud indicators found"
+CLM-000546,0.0,"Reviewed, no fraud indicators found"
+CLM-000547,0.0,"Reviewed, no fraud indicators found"
+CLM-000548,1.0,Confirmed fraud indicators found in review
+CLM-000549,0.0,"Reviewed, no fraud indicators found"
+CLM-000550,0.0,"Reviewed, no fraud indicators found"
+CLM-000551,0.0,"Reviewed, no fraud indicators found"
+CLM-000552,,
+CLM-000553,0.0,"Reviewed, no fraud indicators found"
+CLM-000554,1.0,Confirmed fraud indicators found in review
+CLM-000555,0.0,"Reviewed, no fraud indicators found"
+CLM-000556,0.0,"Reviewed, no fraud indicators found"
+CLM-000557,1.0,Confirmed fraud indicators found in review
+CLM-000558,0.0,"Reviewed, no fraud indicators found"
+CLM-000559,0.0,"Reviewed, no fraud indicators found"
+CLM-000560,0.0,"Reviewed, no fraud indicators found"
+CLM-000561,0.0,"Reviewed, no fraud indicators found"
+CLM-000562,0.0,"Reviewed, no fraud indicators found"
+CLM-000563,,
+CLM-000564,0.0,"Reviewed, no fraud indicators found"
+CLM-000565,1.0,Confirmed fraud indicators found in review
+CLM-000566,0.0,"Reviewed, no fraud indicators found"
+CLM-000567,1.0,Confirmed fraud indicators found in review
+CLM-000568,0.0,"Reviewed, no fraud indicators found"
+CLM-000569,0.0,"Reviewed, no fraud indicators found"
+CLM-000570,0.0,"Reviewed, no fraud indicators found"
+CLM-000571,0.0,"Reviewed, no fraud indicators found"
+CLM-000572,0.0,"Reviewed, no fraud indicators found"
+CLM-000573,0.0,"Reviewed, no fraud indicators found"
+CLM-000574,0.0,"Reviewed, no fraud indicators found"
+CLM-000575,0.0,"Reviewed, no fraud indicators found"
+CLM-000576,0.0,"Reviewed, no fraud indicators found"
+CLM-000577,0.0,"Reviewed, no fraud indicators found"
+CLM-000578,0.0,"Reviewed, no fraud indicators found"
+CLM-000579,0.0,"Reviewed, no fraud indicators found"
+CLM-000580,0.0,"Reviewed, no fraud indicators found"
+CLM-000581,0.0,"Reviewed, no fraud indicators found"
+CLM-000582,0.0,"Reviewed, no fraud indicators found"
+CLM-000583,0.0,"Reviewed, no fraud indicators found"
+CLM-000584,0.0,"Reviewed, no fraud indicators found"
+CLM-000585,0.0,"Reviewed, no fraud indicators found"
+CLM-000586,1.0,Confirmed fraud indicators found in review
+CLM-000587,0.0,"Reviewed, no fraud indicators found"
+CLM-000588,,
+CLM-000589,0.0,"Reviewed, no fraud indicators found"
+CLM-000590,0.0,"Reviewed, no fraud indicators found"
+CLM-000591,0.0,"Reviewed, no fraud indicators found"
+CLM-000592,0.0,"Reviewed, no fraud indicators found"
+CLM-000593,0.0,"Reviewed, no fraud indicators found"
+CLM-000594,0.0,"Reviewed, no fraud indicators found"
+CLM-000595,0.0,"Reviewed, no fraud indicators found"
+CLM-000596,0.0,"Reviewed, no fraud indicators found"
+CLM-000597,1.0,Confirmed fraud indicators found in review
+CLM-000598,0.0,"Reviewed, no fraud indicators found"
+CLM-000599,,
+CLM-000600,0.0,"Reviewed, no fraud indicators found"
+CLM-000601,,
+CLM-000602,0.0,"Reviewed, no fraud indicators found"
+CLM-000603,0.0,"Reviewed, no fraud indicators found"
+CLM-000604,0.0,"Reviewed, no fraud indicators found"
+CLM-000605,0.0,"Reviewed, no fraud indicators found"
+CLM-000606,,
+CLM-000607,0.0,"Reviewed, no fraud indicators found"
+CLM-000608,0.0,"Reviewed, no fraud indicators found"
+CLM-000609,0.0,"Reviewed, no fraud indicators found"
+CLM-000610,0.0,"Reviewed, no fraud indicators found"
+CLM-000611,0.0,"Reviewed, no fraud indicators found"
+CLM-000612,0.0,"Reviewed, no fraud indicators found"
+CLM-000613,0.0,"Reviewed, no fraud indicators found"
+CLM-000614,0.0,"Reviewed, no fraud indicators found"
+CLM-000615,0.0,"Reviewed, no fraud indicators found"
+CLM-000616,0.0,"Reviewed, no fraud indicators found"
+CLM-000617,0.0,"Reviewed, no fraud indicators found"
+CLM-000618,1.0,Confirmed fraud indicators found in review
+CLM-000619,0.0,"Reviewed, no fraud indicators found"
+CLM-000620,0.0,"Reviewed, no fraud indicators found"
+CLM-000621,,
+CLM-000622,0.0,"Reviewed, no fraud indicators found"
+CLM-000623,0.0,"Reviewed, no fraud indicators found"
+CLM-000624,,
+CLM-000625,0.0,"Reviewed, no fraud indicators found"
+CLM-000626,0.0,"Reviewed, no fraud indicators found"
+CLM-000627,0.0,"Reviewed, no fraud indicators found"
+CLM-000628,0.0,"Reviewed, no fraud indicators found"
+CLM-000629,0.0,"Reviewed, no fraud indicators found"
+CLM-000630,0.0,"Reviewed, no fraud indicators found"
+CLM-000631,0.0,"Reviewed, no fraud indicators found"
+CLM-000632,0.0,"Reviewed, no fraud indicators found"
+CLM-000633,0.0,"Reviewed, no fraud indicators found"
+CLM-000634,0.0,"Reviewed, no fraud indicators found"
+CLM-000635,0.0,"Reviewed, no fraud indicators found"
+CLM-000636,0.0,"Reviewed, no fraud indicators found"
+CLM-000637,0.0,"Reviewed, no fraud indicators found"
+CLM-000638,0.0,"Reviewed, no fraud indicators found"
+CLM-000639,0.0,"Reviewed, no fraud indicators found"
+CLM-000640,0.0,"Reviewed, no fraud indicators found"
+CLM-000641,0.0,"Reviewed, no fraud indicators found"
+CLM-000642,0.0,"Reviewed, no fraud indicators found"
+CLM-000643,0.0,"Reviewed, no fraud indicators found"
+CLM-000644,1.0,Confirmed fraud indicators found in review
+CLM-000645,0.0,"Reviewed, no fraud indicators found"
+CLM-000646,0.0,"Reviewed, no fraud indicators found"
+CLM-000647,1.0,Confirmed fraud indicators found in review
+CLM-000648,0.0,"Reviewed, no fraud indicators found"
+CLM-000649,0.0,"Reviewed, no fraud indicators found"
+CLM-000650,1.0,Confirmed fraud indicators found in review
+CLM-000651,0.0,"Reviewed, no fraud indicators found"
+CLM-000652,0.0,"Reviewed, no fraud indicators found"
+CLM-000653,0.0,"Reviewed, no fraud indicators found"
+CLM-000654,0.0,"Reviewed, no fraud indicators found"
+CLM-000655,0.0,"Reviewed, no fraud indicators found"
+CLM-000656,0.0,"Reviewed, no fraud indicators found"
+CLM-000657,0.0,"Reviewed, no fraud indicators found"
+CLM-000658,0.0,"Reviewed, no fraud indicators found"
+CLM-000659,0.0,"Reviewed, no fraud indicators found"
+CLM-000660,0.0,"Reviewed, no fraud indicators found"
+CLM-000661,0.0,"Reviewed, no fraud indicators found"
+CLM-000662,0.0,"Reviewed, no fraud indicators found"
+CLM-000663,0.0,"Reviewed, no fraud indicators found"
+CLM-000664,0.0,"Reviewed, no fraud indicators found"
+CLM-000665,0.0,"Reviewed, no fraud indicators found"
+CLM-000666,0.0,"Reviewed, no fraud indicators found"
+CLM-000667,1.0,Confirmed fraud indicators found in review
+CLM-000668,0.0,"Reviewed, no fraud indicators found"
+CLM-000669,0.0,"Reviewed, no fraud indicators found"
+CLM-000670,1.0,Confirmed fraud indicators found in review
+CLM-000671,0.0,"Reviewed, no fraud indicators found"
+CLM-000672,0.0,"Reviewed, no fraud indicators found"
+CLM-000673,0.0,"Reviewed, no fraud indicators found"
+CLM-000674,0.0,"Reviewed, no fraud indicators found"
+CLM-000675,0.0,"Reviewed, no fraud indicators found"
+CLM-000676,0.0,"Reviewed, no fraud indicators found"
+CLM-000677,0.0,"Reviewed, no fraud indicators found"
+CLM-000678,,
+CLM-000679,0.0,"Reviewed, no fraud indicators found"
+CLM-000680,0.0,"Reviewed, no fraud indicators found"
+CLM-000681,0.0,"Reviewed, no fraud indicators found"
+CLM-000682,0.0,"Reviewed, no fraud indicators found"
+CLM-000683,1.0,Confirmed fraud indicators found in review
+CLM-000684,0.0,"Reviewed, no fraud indicators found"
+CLM-000685,0.0,"Reviewed, no fraud indicators found"
+CLM-000686,,
+CLM-000687,0.0,"Reviewed, no fraud indicators found"
+CLM-000688,0.0,"Reviewed, no fraud indicators found"
+CLM-000689,0.0,"Reviewed, no fraud indicators found"
+CLM-000690,0.0,"Reviewed, no fraud indicators found"
+CLM-000691,0.0,"Reviewed, no fraud indicators found"
+CLM-000692,0.0,"Reviewed, no fraud indicators found"
+CLM-000693,0.0,"Reviewed, no fraud indicators found"
+CLM-000694,0.0,"Reviewed, no fraud indicators found"
+CLM-000695,0.0,"Reviewed, no fraud indicators found"
+CLM-000696,0.0,"Reviewed, no fraud indicators found"
+CLM-000697,0.0,"Reviewed, no fraud indicators found"
+CLM-000698,,
+CLM-000699,0.0,"Reviewed, no fraud indicators found"
+CLM-000700,1.0,Confirmed fraud indicators found in review
+CLM-000701,0.0,"Reviewed, no fraud indicators found"
+CLM-000702,0.0,"Reviewed, no fraud indicators found"
+CLM-000703,0.0,"Reviewed, no fraud indicators found"
+CLM-000704,0.0,"Reviewed, no fraud indicators found"
+CLM-000705,0.0,"Reviewed, no fraud indicators found"
+CLM-000706,1.0,Confirmed fraud indicators found in review
+CLM-000707,1.0,Confirmed fraud indicators found in review
+CLM-000708,0.0,"Reviewed, no fraud indicators found"
+CLM-000709,0.0,"Reviewed, no fraud indicators found"
+CLM-000710,0.0,"Reviewed, no fraud indicators found"
+CLM-000711,0.0,"Reviewed, no fraud indicators found"
+CLM-000712,,
+CLM-000713,0.0,"Reviewed, no fraud indicators found"
+CLM-000714,0.0,"Reviewed, no fraud indicators found"
+CLM-000715,0.0,"Reviewed, no fraud indicators found"
+CLM-000716,0.0,"Reviewed, no fraud indicators found"
+CLM-000717,0.0,"Reviewed, no fraud indicators found"
+CLM-000718,0.0,"Reviewed, no fraud indicators found"
+CLM-000719,0.0,"Reviewed, no fraud indicators found"
+CLM-000720,0.0,"Reviewed, no fraud indicators found"
+CLM-000721,0.0,"Reviewed, no fraud indicators found"
+CLM-000722,0.0,"Reviewed, no fraud indicators found"
+CLM-000723,0.0,"Reviewed, no fraud indicators found"
+CLM-000724,0.0,"Reviewed, no fraud indicators found"
+CLM-000725,0.0,"Reviewed, no fraud indicators found"
+CLM-000726,0.0,"Reviewed, no fraud indicators found"
+CLM-000727,0.0,"Reviewed, no fraud indicators found"
+CLM-000728,0.0,"Reviewed, no fraud indicators found"
+CLM-000729,0.0,"Reviewed, no fraud indicators found"
+CLM-000730,0.0,"Reviewed, no fraud indicators found"
+CLM-000731,0.0,"Reviewed, no fraud indicators found"
+CLM-000732,0.0,"Reviewed, no fraud indicators found"
+CLM-000733,0.0,"Reviewed, no fraud indicators found"
+CLM-000734,0.0,"Reviewed, no fraud indicators found"
+CLM-000735,0.0,"Reviewed, no fraud indicators found"
+CLM-000736,0.0,"Reviewed, no fraud indicators found"
+CLM-000737,0.0,"Reviewed, no fraud indicators found"
+CLM-000738,0.0,"Reviewed, no fraud indicators found"
+CLM-000739,0.0,"Reviewed, no fraud indicators found"
+CLM-000740,0.0,"Reviewed, no fraud indicators found"
+CLM-000741,1.0,Confirmed fraud indicators found in review
+CLM-000742,0.0,"Reviewed, no fraud indicators found"
+CLM-000743,0.0,"Reviewed, no fraud indicators found"
+CLM-000744,0.0,"Reviewed, no fraud indicators found"
+CLM-000745,0.0,"Reviewed, no fraud indicators found"
+CLM-000746,0.0,"Reviewed, no fraud indicators found"
+CLM-000747,0.0,"Reviewed, no fraud indicators found"
+CLM-000748,1.0,Confirmed fraud indicators found in review
+CLM-000749,0.0,"Reviewed, no fraud indicators found"
+CLM-000750,0.0,"Reviewed, no fraud indicators found"
+CLM-000751,0.0,"Reviewed, no fraud indicators found"
+CLM-000752,,
+CLM-000753,0.0,"Reviewed, no fraud indicators found"
+CLM-000754,0.0,"Reviewed, no fraud indicators found"
+CLM-000755,0.0,"Reviewed, no fraud indicators found"
+CLM-000756,0.0,"Reviewed, no fraud indicators found"
+CLM-000757,0.0,"Reviewed, no fraud indicators found"
+CLM-000758,0.0,"Reviewed, no fraud indicators found"
+CLM-000759,0.0,"Reviewed, no fraud indicators found"
+CLM-000760,0.0,"Reviewed, no fraud indicators found"
+CLM-000761,0.0,"Reviewed, no fraud indicators found"
+CLM-000762,0.0,"Reviewed, no fraud indicators found"
+CLM-000763,0.0,"Reviewed, no fraud indicators found"
+CLM-000764,0.0,"Reviewed, no fraud indicators found"
+CLM-000765,0.0,"Reviewed, no fraud indicators found"
+CLM-000766,0.0,"Reviewed, no fraud indicators found"
+CLM-000767,0.0,"Reviewed, no fraud indicators found"
+CLM-000768,0.0,"Reviewed, no fraud indicators found"
+CLM-000769,0.0,"Reviewed, no fraud indicators found"
+CLM-000770,0.0,"Reviewed, no fraud indicators found"
+CLM-000771,1.0,Confirmed fraud indicators found in review
+CLM-000772,0.0,"Reviewed, no fraud indicators found"
+CLM-000773,0.0,"Reviewed, no fraud indicators found"
+CLM-000774,0.0,"Reviewed, no fraud indicators found"
+CLM-000775,0.0,"Reviewed, no fraud indicators found"
+CLM-000776,0.0,"Reviewed, no fraud indicators found"
+CLM-000777,0.0,"Reviewed, no fraud indicators found"
+CLM-000778,0.0,"Reviewed, no fraud indicators found"
+CLM-000779,0.0,"Reviewed, no fraud indicators found"
+CLM-000780,0.0,"Reviewed, no fraud indicators found"
+CLM-000781,0.0,"Reviewed, no fraud indicators found"
+CLM-000782,0.0,"Reviewed, no fraud indicators found"
+CLM-000783,0.0,"Reviewed, no fraud indicators found"
+CLM-000784,0.0,"Reviewed, no fraud indicators found"
+CLM-000785,0.0,"Reviewed, no fraud indicators found"
+CLM-000786,0.0,"Reviewed, no fraud indicators found"
+CLM-000787,0.0,"Reviewed, no fraud indicators found"
+CLM-000788,0.0,"Reviewed, no fraud indicators found"
+CLM-000789,,
+CLM-000790,0.0,"Reviewed, no fraud indicators found"
+CLM-000791,0.0,"Reviewed, no fraud indicators found"
+CLM-000792,0.0,"Reviewed, no fraud indicators found"
+CLM-000793,0.0,"Reviewed, no fraud indicators found"
+CLM-000794,1.0,Confirmed fraud indicators found in review
+CLM-000795,0.0,"Reviewed, no fraud indicators found"
+CLM-000796,0.0,"Reviewed, no fraud indicators found"
+CLM-000797,0.0,"Reviewed, no fraud indicators found"
+CLM-000798,0.0,"Reviewed, no fraud indicators found"
+CLM-000799,0.0,"Reviewed, no fraud indicators found"
+CLM-000800,0.0,"Reviewed, no fraud indicators found"
+CLM-000801,0.0,"Reviewed, no fraud indicators found"
+CLM-000802,0.0,"Reviewed, no fraud indicators found"
+CLM-000803,0.0,"Reviewed, no fraud indicators found"
+CLM-000804,0.0,"Reviewed, no fraud indicators found"
+CLM-000805,1.0,Confirmed fraud indicators found in review
+CLM-000806,0.0,"Reviewed, no fraud indicators found"
+CLM-000807,0.0,"Reviewed, no fraud indicators found"
+CLM-000808,0.0,"Reviewed, no fraud indicators found"
+CLM-000809,0.0,"Reviewed, no fraud indicators found"
+CLM-000810,0.0,"Reviewed, no fraud indicators found"
+CLM-000811,0.0,"Reviewed, no fraud indicators found"
+CLM-000812,0.0,"Reviewed, no fraud indicators found"
+CLM-000813,0.0,"Reviewed, no fraud indicators found"
+CLM-000814,0.0,"Reviewed, no fraud indicators found"
+CLM-000815,0.0,"Reviewed, no fraud indicators found"
+CLM-000816,0.0,"Reviewed, no fraud indicators found"
+CLM-000817,1.0,Confirmed fraud indicators found in review
+CLM-000818,0.0,"Reviewed, no fraud indicators found"
+CLM-000819,0.0,"Reviewed, no fraud indicators found"
+CLM-000820,0.0,"Reviewed, no fraud indicators found"
+CLM-000821,0.0,"Reviewed, no fraud indicators found"
+CLM-000822,0.0,"Reviewed, no fraud indicators found"
+CLM-000823,0.0,"Reviewed, no fraud indicators found"
+CLM-000824,0.0,"Reviewed, no fraud indicators found"
+CLM-000825,0.0,"Reviewed, no fraud indicators found"
+CLM-000826,0.0,"Reviewed, no fraud indicators found"
+CLM-000827,0.0,"Reviewed, no fraud indicators found"
+CLM-000828,0.0,"Reviewed, no fraud indicators found"
+CLM-000829,0.0,"Reviewed, no fraud indicators found"
+CLM-000830,0.0,"Reviewed, no fraud indicators found"
+CLM-000831,0.0,"Reviewed, no fraud indicators found"
+CLM-000832,0.0,"Reviewed, no fraud indicators found"
+CLM-000833,,
+CLM-000834,0.0,"Reviewed, no fraud indicators found"
+CLM-000835,0.0,"Reviewed, no fraud indicators found"
+CLM-000836,0.0,"Reviewed, no fraud indicators found"
+CLM-000837,0.0,"Reviewed, no fraud indicators found"
+CLM-000838,0.0,"Reviewed, no fraud indicators found"
+CLM-000839,0.0,"Reviewed, no fraud indicators found"
+CLM-000840,0.0,"Reviewed, no fraud indicators found"
+CLM-000841,0.0,"Reviewed, no fraud indicators found"
+CLM-000842,1.0,Confirmed fraud indicators found in review
+CLM-000843,,
+CLM-000844,0.0,"Reviewed, no fraud indicators found"
+CLM-000845,,
+CLM-000846,0.0,"Reviewed, no fraud indicators found"
+CLM-000847,1.0,Confirmed fraud indicators found in review
+CLM-000848,,
+CLM-000849,0.0,"Reviewed, no fraud indicators found"
+CLM-000850,0.0,"Reviewed, no fraud indicators found"
+CLM-000851,0.0,"Reviewed, no fraud indicators found"
+CLM-000852,0.0,"Reviewed, no fraud indicators found"
+CLM-000853,0.0,"Reviewed, no fraud indicators found"
+CLM-000854,,
+CLM-000855,,
+CLM-000856,0.0,"Reviewed, no fraud indicators found"
+CLM-000857,0.0,"Reviewed, no fraud indicators found"
+CLM-000858,,
+CLM-000859,,
+CLM-000860,0.0,"Reviewed, no fraud indicators found"
+CLM-000861,0.0,"Reviewed, no fraud indicators found"
+CLM-000862,1.0,Confirmed fraud indicators found in review
+CLM-000863,,
+CLM-000864,0.0,"Reviewed, no fraud indicators found"
+CLM-000865,0.0,"Reviewed, no fraud indicators found"
+CLM-000866,0.0,"Reviewed, no fraud indicators found"
+CLM-000867,0.0,"Reviewed, no fraud indicators found"
+CLM-000868,0.0,"Reviewed, no fraud indicators found"
+CLM-000869,0.0,"Reviewed, no fraud indicators found"
+CLM-000870,,
+CLM-000871,,
+CLM-000872,0.0,"Reviewed, no fraud indicators found"
+CLM-000873,,
+CLM-000874,0.0,"Reviewed, no fraud indicators found"
+CLM-000875,,
+CLM-000876,,
+CLM-000877,0.0,"Reviewed, no fraud indicators found"
+CLM-000878,0.0,"Reviewed, no fraud indicators found"
+CLM-000879,0.0,"Reviewed, no fraud indicators found"
+CLM-000880,,
+CLM-000881,1.0,Confirmed fraud indicators found in review
+CLM-000882,,
+CLM-000883,,
+CLM-000884,1.0,Confirmed fraud indicators found in review
+CLM-000885,0.0,"Reviewed, no fraud indicators found"
+CLM-000886,,
+CLM-000887,,
+CLM-000888,,
+CLM-000889,0.0,"Reviewed, no fraud indicators found"
+CLM-000890,0.0,"Reviewed, no fraud indicators found"
+CLM-000891,0.0,"Reviewed, no fraud indicators found"
+CLM-000892,,
+CLM-000893,,
+CLM-000894,,
+CLM-000895,,
+CLM-000896,1.0,Confirmed fraud indicators found in review
+CLM-000897,0.0,"Reviewed, no fraud indicators found"
+CLM-000898,,
+CLM-000899,0.0,"Reviewed, no fraud indicators found"
+CLM-000900,1.0,Confirmed fraud indicators found in review
+CLM-000901,0.0,"Reviewed, no fraud indicators found"
+CLM-000902,,
+CLM-000903,1.0,Confirmed fraud indicators found in review
+CLM-000904,,
+CLM-000905,,
+CLM-000906,,
+CLM-000907,0.0,"Reviewed, no fraud indicators found"
+CLM-000908,0.0,"Reviewed, no fraud indicators found"
+CLM-000909,,
+CLM-000910,,
+CLM-000911,,
+CLM-000912,,
+CLM-000913,,
+CLM-000914,1.0,Confirmed fraud indicators found in review
+CLM-000915,,
+CLM-000916,0.0,"Reviewed, no fraud indicators found"
+CLM-000917,0.0,"Reviewed, no fraud indicators found"
+CLM-000918,0.0,"Reviewed, no fraud indicators found"
+CLM-000919,,
+CLM-000920,,
+CLM-000921,,
+CLM-000922,0.0,"Reviewed, no fraud indicators found"
+CLM-000923,1.0,Confirmed fraud indicators found in review
+CLM-000924,0.0,"Reviewed, no fraud indicators found"
+CLM-000925,,
+CLM-000926,1.0,Confirmed fraud indicators found in review
+CLM-000927,,
+CLM-000928,,
+CLM-000929,,
+CLM-000930,,
+CLM-000931,,
+CLM-000932,,
+CLM-000933,,
+CLM-000934,,
+CLM-000935,,
+CLM-000936,0.0,"Reviewed, no fraud indicators found"
+CLM-000937,0.0,"Reviewed, no fraud indicators found"
+CLM-000938,,
+CLM-000939,,
+CLM-000940,,
+CLM-000941,0.0,"Reviewed, no fraud indicators found"
+CLM-000942,0.0,"Reviewed, no fraud indicators found"
+CLM-000943,,
+CLM-000944,,
+CLM-000945,,
+CLM-000946,,
+CLM-000947,,
+CLM-000948,0.0,"Reviewed, no fraud indicators found"
+CLM-000949,,
+CLM-000950,1.0,Confirmed fraud indicators found in review
+CLM-000951,1.0,Confirmed fraud indicators found in review
+CLM-000952,1.0,Confirmed fraud indicators found in review
+CLM-000953,,
+CLM-000954,,
+CLM-000955,1.0,Confirmed fraud indicators found in review
+CLM-000956,,
+CLM-000957,,
+CLM-000958,1.0,Confirmed fraud indicators found in review
+CLM-000959,0.0,"Reviewed, no fraud indicators found"
+CLM-000960,0.0,"Reviewed, no fraud indicators found"
+CLM-000961,0.0,"Reviewed, no fraud indicators found"
+CLM-000962,,
+CLM-000963,0.0,"Reviewed, no fraud indicators found"
+CLM-000964,,
+CLM-000965,0.0,"Reviewed, no fraud indicators found"
+CLM-000966,,
+CLM-000967,,
+CLM-000968,,
+CLM-000969,0.0,"Reviewed, no fraud indicators found"
+CLM-000970,0.0,"Reviewed, no fraud indicators found"
+CLM-000971,0.0,"Reviewed, no fraud indicators found"
+CLM-000972,0.0,"Reviewed, no fraud indicators found"
+CLM-000973,,
+CLM-000974,0.0,"Reviewed, no fraud indicators found"
+CLM-000975,,
+CLM-000976,,
+CLM-000977,0.0,"Reviewed, no fraud indicators found"
+CLM-000978,,
+CLM-000979,,
+CLM-000980,,
+CLM-000981,,
+CLM-000982,0.0,"Reviewed, no fraud indicators found"
+CLM-000983,1.0,Confirmed fraud indicators found in review
+CLM-000984,0.0,"Reviewed, no fraud indicators found"
+CLM-000985,,
+CLM-000986,0.0,"Reviewed, no fraud indicators found"
+CLM-000987,,
+CLM-000988,,
+CLM-000989,,
+CLM-000990,0.0,"Reviewed, no fraud indicators found"
+CLM-000991,,
+CLM-000992,0.0,"Reviewed, no fraud indicators found"
+CLM-000993,,
+CLM-000994,1.0,Confirmed fraud indicators found in review
+CLM-000995,,
+CLM-000996,0.0,"Reviewed, no fraud indicators found"
+CLM-000997,0.0,"Reviewed, no fraud indicators found"
+CLM-000998,,
+CLM-000999,,
+CLM-001000,0.0,"Reviewed, no fraud indicators found"
+CLM-001001,,
+CLM-001002,0.0,"Reviewed, no fraud indicators found"
+CLM-001003,1.0,Confirmed fraud indicators found in review
+CLM-001004,,
+CLM-001005,,
+CLM-001006,,
+CLM-001007,1.0,Confirmed fraud indicators found in review
+CLM-001008,,
+CLM-001009,0.0,"Reviewed, no fraud indicators found"
+CLM-001010,,
+CLM-001011,,
+CLM-001012,,
+CLM-001013,0.0,"Reviewed, no fraud indicators found"
+CLM-001014,0.0,"Reviewed, no fraud indicators found"
+CLM-001015,,
+CLM-001016,,
+CLM-001017,,
+CLM-001018,,
+CLM-001019,,
+CLM-001020,,
+CLM-001021,0.0,"Reviewed, no fraud indicators found"
+CLM-001022,0.0,"Reviewed, no fraud indicators found"
+CLM-001023,,
+CLM-001024,,
+CLM-001025,0.0,"Reviewed, no fraud indicators found"
+CLM-001026,0.0,"Reviewed, no fraud indicators found"
+CLM-001027,,
+CLM-001028,,
+CLM-001029,0.0,"Reviewed, no fraud indicators found"
+CLM-001030,,
+CLM-001031,,
+CLM-001032,,
+CLM-001033,,
+CLM-001034,0.0,"Reviewed, no fraud indicators found"
+CLM-001035,,
+CLM-001036,,
+CLM-001037,0.0,"Reviewed, no fraud indicators found"
+CLM-001038,,
+CLM-001039,,
+CLM-001040,0.0,"Reviewed, no fraud indicators found"
+CLM-001041,,
+CLM-001042,0.0,"Reviewed, no fraud indicators found"
+CLM-001043,,
+CLM-001044,,
+CLM-001045,,
+CLM-001046,,
+CLM-001047,,
+CLM-001048,,
+CLM-001049,,
+CLM-001050,,
+CLM-001051,,
+CLM-001052,,
+CLM-001053,,
+CLM-001054,,
+CLM-001055,1.0,Confirmed fraud indicators found in review
+CLM-001056,0.0,"Reviewed, no fraud indicators found"
+CLM-001057,,
+CLM-001058,,
+CLM-001059,,
+CLM-001060,,
+CLM-001061,0.0,"Reviewed, no fraud indicators found"
+CLM-001062,,
+CLM-001063,0.0,"Reviewed, no fraud indicators found"
+CLM-001064,0.0,"Reviewed, no fraud indicators found"
+CLM-001065,0.0,"Reviewed, no fraud indicators found"
+CLM-001066,,
+CLM-001067,,
+CLM-001068,1.0,Confirmed fraud indicators found in review
+CLM-001069,,
+CLM-001070,0.0,"Reviewed, no fraud indicators found"
+CLM-001071,0.0,"Reviewed, no fraud indicators found"
+CLM-001072,,
+CLM-001073,,
+CLM-001074,0.0,"Reviewed, no fraud indicators found"
+CLM-001075,0.0,"Reviewed, no fraud indicators found"
+CLM-001076,,
+CLM-001077,1.0,Confirmed fraud indicators found in review
+CLM-001078,0.0,"Reviewed, no fraud indicators found"
+CLM-001079,0.0,"Reviewed, no fraud indicators found"
+CLM-001080,,
+CLM-001081,0.0,"Reviewed, no fraud indicators found"
+CLM-001082,,
+CLM-001083,0.0,"Reviewed, no fraud indicators found"
+CLM-001084,0.0,"Reviewed, no fraud indicators found"
+CLM-001085,,
+CLM-001086,,
+CLM-001087,,
+CLM-001088,,
+CLM-001089,,
+CLM-001090,,
+CLM-001091,0.0,"Reviewed, no fraud indicators found"
+CLM-001092,0.0,"Reviewed, no fraud indicators found"
+CLM-001093,,
+CLM-001094,,
+CLM-001095,,
+CLM-001096,,
+CLM-001097,,
+CLM-001098,,
+CLM-001099,1.0,Confirmed fraud indicators found in review
+CLM-001100,1.0,Confirmed fraud indicators found in review
+CLM-001101,1.0,Confirmed fraud indicators found in review
+CLM-001102,1.0,Confirmed fraud indicators found in review
+CLM-001103,,
+CLM-001104,,
+CLM-001105,,
+CLM-001106,0.0,"Reviewed, no fraud indicators found"
+CLM-001107,1.0,Confirmed fraud indicators found in review
+CLM-001108,0.0,"Reviewed, no fraud indicators found"
+CLM-001109,1.0,Confirmed fraud indicators found in review
+CLM-001110,,
+CLM-001111,1.0,Confirmed fraud indicators found in review
+CLM-001112,,
+CLM-001113,,
+CLM-001114,,
+CLM-001115,,
+CLM-001116,1.0,Confirmed fraud indicators found in review
+CLM-001117,,
+CLM-001118,,
+CLM-001119,,
+CLM-001120,,
+CLM-001121,,
+CLM-001122,,
+CLM-001123,,
+CLM-001124,,
+CLM-001125,0.0,"Reviewed, no fraud indicators found"
+CLM-001126,,
+CLM-001127,0.0,"Reviewed, no fraud indicators found"
+CLM-001128,0.0,"Reviewed, no fraud indicators found"
+CLM-001129,,
+CLM-001130,1.0,Confirmed fraud indicators found in review
+CLM-001131,,
+CLM-001132,0.0,"Reviewed, no fraud indicators found"
+CLM-001133,0.0,"Reviewed, no fraud indicators found"
+CLM-001134,,
+CLM-001135,,
+CLM-001136,0.0,"Reviewed, no fraud indicators found"
+CLM-001137,,
+CLM-001138,,
+CLM-001139,,
+CLM-001140,,
+CLM-001141,0.0,"Reviewed, no fraud indicators found"
+CLM-001142,1.0,Confirmed fraud indicators found in review
+CLM-001143,0.0,"Reviewed, no fraud indicators found"
+CLM-001144,0.0,"Reviewed, no fraud indicators found"
+CLM-001145,0.0,"Reviewed, no fraud indicators found"
+CLM-001146,,
+CLM-001147,0.0,"Reviewed, no fraud indicators found"
+CLM-001148,,
+CLM-001149,,
+CLM-001150,,
+CLM-001151,,
+CLM-001152,,
+CLM-001153,,
+CLM-001154,,
+CLM-001155,1.0,Confirmed fraud indicators found in review
+CLM-001156,,
+CLM-001157,,
+CLM-001158,,
+CLM-001159,,
+CLM-001160,0.0,"Reviewed, no fraud indicators found"
+CLM-001161,1.0,Confirmed fraud indicators found in review
+CLM-001162,0.0,"Reviewed, no fraud indicators found"
+CLM-001163,0.0,"Reviewed, no fraud indicators found"
+CLM-001164,,
+CLM-001165,,
+CLM-001166,0.0,"Reviewed, no fraud indicators found"
+CLM-001167,,
+CLM-001168,,
+CLM-001169,,
+CLM-001170,0.0,"Reviewed, no fraud indicators found"
+CLM-001171,0.0,"Reviewed, no fraud indicators found"
+CLM-001172,,
+CLM-001173,0.0,"Reviewed, no fraud indicators found"
+CLM-001174,1.0,Confirmed fraud indicators found in review
+CLM-001175,0.0,"Reviewed, no fraud indicators found"
+CLM-001176,,
+CLM-001177,,
+CLM-001178,,
+CLM-001179,1.0,Confirmed fraud indicators found in review
+CLM-001180,,
+CLM-001181,0.0,"Reviewed, no fraud indicators found"
+CLM-001182,,
+CLM-001183,,
+CLM-001184,0.0,"Reviewed, no fraud indicators found"
+CLM-001185,0.0,"Reviewed, no fraud indicators found"
+CLM-001186,,
+CLM-001187,0.0,"Reviewed, no fraud indicators found"
+CLM-001188,,
+CLM-001189,,
+CLM-001190,,
+CLM-001191,,
+CLM-001192,,
+CLM-001193,0.0,"Reviewed, no fraud indicators found"
+CLM-001194,,
+CLM-001195,,
+CLM-001196,,
+CLM-001197,,
+CLM-001198,,
+CLM-001199,,
+CLM-001200,1.0,Confirmed fraud indicators found in review
+CLM-001201,,
+CLM-001202,,
+CLM-001203,0.0,"Reviewed, no fraud indicators found"
+CLM-001204,,
+CLM-001205,1.0,Confirmed fraud indicators found in review
+CLM-001206,0.0,"Reviewed, no fraud indicators found"
+CLM-001207,1.0,Confirmed fraud indicators found in review
+CLM-001208,,
+CLM-001209,0.0,"Reviewed, no fraud indicators found"
+CLM-001210,0.0,"Reviewed, no fraud indicators found"
+CLM-001211,,
+CLM-001212,0.0,"Reviewed, no fraud indicators found"
+CLM-001213,0.0,"Reviewed, no fraud indicators found"
+CLM-001214,0.0,"Reviewed, no fraud indicators found"
+CLM-001215,1.0,Confirmed fraud indicators found in review
+CLM-001216,,
+CLM-001217,,
+CLM-001218,0.0,"Reviewed, no fraud indicators found"
+CLM-001219,0.0,"Reviewed, no fraud indicators found"
+CLM-001220,1.0,Confirmed fraud indicators found in review
+CLM-001221,,
+CLM-001222,0.0,"Reviewed, no fraud indicators found"
+CLM-001223,,
+CLM-001224,,
+CLM-001225,,
+CLM-001226,,
+CLM-001227,,
+CLM-001228,0.0,"Reviewed, no fraud indicators found"
+CLM-001229,1.0,Confirmed fraud indicators found in review
+CLM-001230,,
+CLM-001231,0.0,"Reviewed, no fraud indicators found"
+CLM-001232,,
+CLM-001233,0.0,"Reviewed, no fraud indicators found"
+CLM-001234,0.0,"Reviewed, no fraud indicators found"
+CLM-001235,,
+CLM-001236,,
+CLM-001237,1.0,Confirmed fraud indicators found in review
+CLM-001238,,
+CLM-001239,,
+CLM-001240,1.0,Confirmed fraud indicators found in review
+CLM-001241,0.0,"Reviewed, no fraud indicators found"
+CLM-001242,,
+CLM-001243,1.0,Confirmed fraud indicators found in review
+CLM-001244,,
+CLM-001245,,
+CLM-001246,,
+CLM-001247,,
+CLM-001248,0.0,"Reviewed, no fraud indicators found"
+CLM-001249,0.0,"Reviewed, no fraud indicators found"
+CLM-001250,,
+CLM-001251,,
+CLM-001252,,
+CLM-001253,,
+CLM-001254,,
+CLM-001255,1.0,Confirmed fraud indicators found in review
+CLM-001256,0.0,"Reviewed, no fraud indicators found"
+CLM-001257,0.0,"Reviewed, no fraud indicators found"
+CLM-001258,,
+CLM-001259,1.0,Confirmed fraud indicators found in review
+CLM-001260,0.0,"Reviewed, no fraud indicators found"
+CLM-001261,,
+CLM-001262,,
+CLM-001263,,
+CLM-001264,,
+CLM-001265,0.0,"Reviewed, no fraud indicators found"
+CLM-001266,0.0,"Reviewed, no fraud indicators found"
+CLM-001267,,
+CLM-001268,0.0,"Reviewed, no fraud indicators found"
+CLM-001269,0.0,"Reviewed, no fraud indicators found"
+CLM-001270,,
+CLM-001271,,
+CLM-001272,,
+CLM-001273,0.0,"Reviewed, no fraud indicators found"
+CLM-001274,,
+CLM-001275,,
+CLM-001276,0.0,"Reviewed, no fraud indicators found"
+CLM-001277,0.0,"Reviewed, no fraud indicators found"
+CLM-001278,,
+CLM-001279,,
+CLM-001280,,
+CLM-001281,,
+CLM-001282,,
+CLM-001283,,
+CLM-001284,,
+CLM-001285,1.0,Confirmed fraud indicators found in review
+CLM-001286,,
+CLM-001287,,
+CLM-001288,,
+CLM-001289,0.0,"Reviewed, no fraud indicators found"
+CLM-001290,,
+CLM-001291,,
+CLM-001292,,
+CLM-001293,,
+CLM-001294,0.0,"Reviewed, no fraud indicators found"
+CLM-001295,1.0,Confirmed fraud indicators found in review
+CLM-001296,0.0,"Reviewed, no fraud indicators found"
+CLM-001297,0.0,"Reviewed, no fraud indicators found"
+CLM-001298,0.0,"Reviewed, no fraud indicators found"
+CLM-001299,,
+CLM-001300,0.0,"Reviewed, no fraud indicators found"
+CLM-001301,,
+CLM-001302,,
+CLM-001303,0.0,"Reviewed, no fraud indicators found"
+CLM-001304,,
+CLM-001305,,
+CLM-001306,,
+CLM-001307,,
+CLM-001308,1.0,Confirmed fraud indicators found in review
+CLM-001309,,
+CLM-001310,0.0,"Reviewed, no fraud indicators found"
+CLM-001311,0.0,"Reviewed, no fraud indicators found"
+CLM-001312,0.0,"Reviewed, no fraud indicators found"
+CLM-001313,0.0,"Reviewed, no fraud indicators found"
+CLM-001314,,
+CLM-001315,,
+CLM-001316,0.0,"Reviewed, no fraud indicators found"
+CLM-001317,0.0,"Reviewed, no fraud indicators found"
+CLM-001318,,
+CLM-001319,1.0,Confirmed fraud indicators found in review
+CLM-001320,0.0,"Reviewed, no fraud indicators found"
+CLM-001321,0.0,"Reviewed, no fraud indicators found"
+CLM-001322,,
+CLM-001323,,
+CLM-001324,,
+CLM-001325,0.0,"Reviewed, no fraud indicators found"
+CLM-001326,,
+CLM-001327,0.0,"Reviewed, no fraud indicators found"
+CLM-001328,,
+CLM-001329,,
+CLM-001330,,
+CLM-001331,0.0,"Reviewed, no fraud indicators found"
+CLM-001332,0.0,"Reviewed, no fraud indicators found"
+CLM-001333,,
+CLM-001334,1.0,Confirmed fraud indicators found in review
+CLM-001335,0.0,"Reviewed, no fraud indicators found"
+CLM-001336,,
+CLM-001337,,
+CLM-001338,,
+CLM-001339,,
+CLM-001340,,
+CLM-001341,0.0,"Reviewed, no fraud indicators found"
+CLM-001342,,
+CLM-001343,,
+CLM-001344,0.0,"Reviewed, no fraud indicators found"
+CLM-001345,0.0,"Reviewed, no fraud indicators found"
+CLM-001346,,
+CLM-001347,,
+CLM-001348,,
+CLM-001349,,
+CLM-001350,0.0,"Reviewed, no fraud indicators found"
+CLM-001351,,
+CLM-001352,,
+CLM-001353,0.0,"Reviewed, no fraud indicators found"
+CLM-001354,0.0,"Reviewed, no fraud indicators found"
+CLM-001355,1.0,Confirmed fraud indicators found in review
+CLM-001356,,
+CLM-001357,0.0,"Reviewed, no fraud indicators found"
+CLM-001358,0.0,"Reviewed, no fraud indicators found"
+CLM-001359,,
+CLM-001360,0.0,"Reviewed, no fraud indicators found"
+CLM-001361,,
+CLM-001362,0.0,"Reviewed, no fraud indicators found"
+CLM-001363,0.0,"Reviewed, no fraud indicators found"
+CLM-001364,0.0,"Reviewed, no fraud indicators found"
+CLM-001365,0.0,"Reviewed, no fraud indicators found"
+CLM-001366,1.0,Confirmed fraud indicators found in review
+CLM-001367,,
+CLM-001368,,
+CLM-001369,,
+CLM-001370,0.0,"Reviewed, no fraud indicators found"
+CLM-001371,0.0,"Reviewed, no fraud indicators found"
+CLM-001372,0.0,"Reviewed, no fraud indicators found"
+CLM-001373,,
+CLM-001374,0.0,"Reviewed, no fraud indicators found"
+CLM-001375,,
+CLM-001376,1.0,Confirmed fraud indicators found in review
+CLM-001377,,
+CLM-001378,,
+CLM-001379,1.0,Confirmed fraud indicators found in review
+CLM-001380,,
+CLM-001381,,
+CLM-001382,,
+CLM-001383,0.0,"Reviewed, no fraud indicators found"
+CLM-001384,0.0,"Reviewed, no fraud indicators found"
+CLM-001385,,
+CLM-001386,1.0,Confirmed fraud indicators found in review
+CLM-001387,,
+CLM-001388,,
+CLM-001389,,
+CLM-001390,,
+CLM-001391,0.0,"Reviewed, no fraud indicators found"
+CLM-001392,,
+CLM-001393,,
+CLM-001394,,
+CLM-001395,,
+CLM-001396,0.0,"Reviewed, no fraud indicators found"
+CLM-001397,1.0,Confirmed fraud indicators found in review
+CLM-001398,0.0,"Reviewed, no fraud indicators found"
+CLM-001399,0.0,"Reviewed, no fraud indicators found"
+CLM-001400,0.0,"Reviewed, no fraud indicators found"
+CLM-001401,0.0,"Reviewed, no fraud indicators found"
+CLM-001402,,
+CLM-001403,,
+CLM-001404,1.0,Confirmed fraud indicators found in review
+CLM-001405,,
+CLM-001406,,
+CLM-001407,,
+CLM-001408,1.0,Confirmed fraud indicators found in review
+CLM-001409,0.0,"Reviewed, no fraud indicators found"
+CLM-001410,0.0,"Reviewed, no fraud indicators found"
+CLM-001411,,
+CLM-001412,,
+CLM-001413,0.0,"Reviewed, no fraud indicators found"
+CLM-001414,0.0,"Reviewed, no fraud indicators found"
+CLM-001415,,
+CLM-001416,,
+CLM-001417,,
+CLM-001418,,
+CLM-001419,1.0,Confirmed fraud indicators found in review
+CLM-001420,,
+CLM-001421,,
+CLM-001422,,
+CLM-001423,,
+CLM-001424,,
+CLM-001425,0.0,"Reviewed, no fraud indicators found"
+CLM-001426,,
+CLM-001427,0.0,"Reviewed, no fraud indicators found"
+CLM-001428,0.0,"Reviewed, no fraud indicators found"
+CLM-001429,,
+CLM-001430,1.0,Confirmed fraud indicators found in review
+CLM-001431,,
+CLM-001432,,
+CLM-001433,,
+CLM-001434,,
+CLM-001435,,
+CLM-001436,,
+CLM-001437,,
+CLM-001438,,
+CLM-001439,,
+CLM-001440,,
+CLM-001441,1.0,Confirmed fraud indicators found in review
+CLM-001442,,
+CLM-001443,,
+CLM-001444,0.0,"Reviewed, no fraud indicators found"
+CLM-001445,,
+CLM-001446,0.0,"Reviewed, no fraud indicators found"
+CLM-001447,0.0,"Reviewed, no fraud indicators found"
+CLM-001448,,
+CLM-001449,0.0,"Reviewed, no fraud indicators found"
+CLM-001450,,
+CLM-001451,1.0,Confirmed fraud indicators found in review
+CLM-001452,0.0,"Reviewed, no fraud indicators found"
+CLM-001453,0.0,"Reviewed, no fraud indicators found"
+CLM-001454,,
+CLM-001455,,
+CLM-001456,,
+CLM-001457,,
+CLM-001458,,
+CLM-001459,,
+CLM-001460,,
+CLM-001461,,
+CLM-001462,,
+CLM-001463,,
+CLM-001464,,
+CLM-001465,0.0,"Reviewed, no fraud indicators found"
+CLM-001466,0.0,"Reviewed, no fraud indicators found"
+CLM-001467,0.0,"Reviewed, no fraud indicators found"
+CLM-001468,,
+CLM-001469,0.0,"Reviewed, no fraud indicators found"
+CLM-001470,,
+CLM-001471,1.0,Confirmed fraud indicators found in review
+CLM-001472,,
+CLM-001473,,
+CLM-001474,,
+CLM-001475,,
+CLM-001476,,
+CLM-001477,0.0,"Reviewed, no fraud indicators found"
+CLM-001478,0.0,"Reviewed, no fraud indicators found"
+CLM-001479,,
+CLM-001480,,
+CLM-001481,0.0,"Reviewed, no fraud indicators found"
+CLM-001482,,
+CLM-001483,,
+CLM-001484,,
+CLM-001485,,
+CLM-001486,0.0,"Reviewed, no fraud indicators found"
+CLM-001487,1.0,Confirmed fraud indicators found in review
+CLM-001488,,
+CLM-001489,,
+CLM-001490,,
+CLM-001491,,
+CLM-001492,,
+CLM-001493,,
+CLM-001494,,
+CLM-001495,0.0,"Reviewed, no fraud indicators found"
+CLM-001496,0.0,"Reviewed, no fraud indicators found"
+CLM-001497,1.0,Confirmed fraud indicators found in review
+CLM-001498,0.0,"Reviewed, no fraud indicators found"
+CLM-001499,0.0,"Reviewed, no fraud indicators found"
+CLM-001500,,
+CLM-001501,,
+CLM-001502,,
+CLM-001503,,
+CLM-001504,,
+CLM-001505,0.0,"Reviewed, no fraud indicators found"
+CLM-001506,0.0,"Reviewed, no fraud indicators found"
+CLM-001507,0.0,"Reviewed, no fraud indicators found"
+CLM-001508,,
+CLM-001509,,
+CLM-001510,,
+CLM-001511,0.0,"Reviewed, no fraud indicators found"
+CLM-001512,0.0,"Reviewed, no fraud indicators found"
+CLM-001513,0.0,"Reviewed, no fraud indicators found"
+CLM-001514,,
+CLM-001515,,
+CLM-001516,,
+CLM-001517,0.0,"Reviewed, no fraud indicators found"
+CLM-001518,0.0,"Reviewed, no fraud indicators found"
+CLM-001519,0.0,"Reviewed, no fraud indicators found"
+CLM-001520,,
+CLM-001521,,
+CLM-001522,0.0,"Reviewed, no fraud indicators found"
+CLM-001523,,
+CLM-001524,,
+CLM-001525,,
+CLM-001526,,
+CLM-001527,,
+CLM-001528,1.0,Confirmed fraud indicators found in review
+CLM-001529,,
+CLM-001530,0.0,"Reviewed, no fraud indicators found"
+CLM-001531,0.0,"Reviewed, no fraud indicators found"
+CLM-001532,0.0,"Reviewed, no fraud indicators found"
+CLM-001533,0.0,"Reviewed, no fraud indicators found"
+CLM-001534,,
+CLM-001535,0.0,"Reviewed, no fraud indicators found"
+CLM-001536,,
+CLM-001537,0.0,"Reviewed, no fraud indicators found"
+CLM-001538,0.0,"Reviewed, no fraud indicators found"
+CLM-001539,,
+CLM-001540,,
+CLM-001541,0.0,"Reviewed, no fraud indicators found"
+CLM-001542,0.0,"Reviewed, no fraud indicators found"
+CLM-001543,,
+CLM-001544,,
+CLM-001545,,
+CLM-001546,,
+CLM-001547,0.0,"Reviewed, no fraud indicators found"
+CLM-001548,0.0,"Reviewed, no fraud indicators found"
+CLM-001549,,
+CLM-001550,,
+CLM-001551,0.0,"Reviewed, no fraud indicators found"
+CLM-001552,,
+CLM-001553,,
+CLM-001554,0.0,"Reviewed, no fraud indicators found"
+CLM-001555,0.0,"Reviewed, no fraud indicators found"
+CLM-001556,,
+CLM-001557,,
+CLM-001558,0.0,"Reviewed, no fraud indicators found"
+CLM-001559,,
+CLM-001560,,
+CLM-001561,0.0,"Reviewed, no fraud indicators found"
+CLM-001562,,
+CLM-001563,1.0,Confirmed fraud indicators found in review
+CLM-001564,,
+CLM-001565,0.0,"Reviewed, no fraud indicators found"
+CLM-001566,0.0,"Reviewed, no fraud indicators found"
+CLM-001567,,
+CLM-001568,,
+CLM-001569,,
+CLM-001570,,
+CLM-001571,0.0,"Reviewed, no fraud indicators found"
+CLM-001572,,
+CLM-001573,,
+CLM-001574,,
+CLM-001575,,
+CLM-001576,,
+CLM-001577,,
+CLM-001578,0.0,"Reviewed, no fraud indicators found"
+CLM-001579,0.0,"Reviewed, no fraud indicators found"
+CLM-001580,1.0,Confirmed fraud indicators found in review
+CLM-001581,,
+CLM-001582,0.0,"Reviewed, no fraud indicators found"
+CLM-001583,0.0,"Reviewed, no fraud indicators found"
+CLM-001584,,
+CLM-001585,,
+CLM-001586,0.0,"Reviewed, no fraud indicators found"
+CLM-001587,,
+CLM-001588,,
+CLM-001589,0.0,"Reviewed, no fraud indicators found"
+CLM-001590,,
+CLM-001591,,
+CLM-001592,,
+CLM-001593,0.0,"Reviewed, no fraud indicators found"
+CLM-001594,0.0,"Reviewed, no fraud indicators found"
+CLM-001595,,
+CLM-001596,,
+CLM-001597,,
+CLM-001598,1.0,Confirmed fraud indicators found in review
+CLM-001599,0.0,"Reviewed, no fraud indicators found"
+CLM-001600,0.0,"Reviewed, no fraud indicators found"
+CLM-001601,0.0,"Reviewed, no fraud indicators found"
+CLM-001602,,
+CLM-001603,,
+CLM-001604,,
+CLM-001605,0.0,"Reviewed, no fraud indicators found"
+CLM-001606,,
+CLM-001607,,
+CLM-001608,1.0,Confirmed fraud indicators found in review
+CLM-001609,,
+CLM-001610,1.0,Confirmed fraud indicators found in review
+CLM-001611,0.0,"Reviewed, no fraud indicators found"
+CLM-001612,,
+CLM-001613,,
+CLM-001614,1.0,Confirmed fraud indicators found in review
+CLM-001615,0.0,"Reviewed, no fraud indicators found"
+CLM-001616,,
+CLM-001617,,
+CLM-001618,,
+CLM-001619,,
+CLM-001620,,
+CLM-001621,,
+CLM-001622,0.0,"Reviewed, no fraud indicators found"
+CLM-001623,0.0,"Reviewed, no fraud indicators found"
+CLM-001624,,
+CLM-001625,0.0,"Reviewed, no fraud indicators found"
+CLM-001626,0.0,"Reviewed, no fraud indicators found"
+CLM-001627,0.0,"Reviewed, no fraud indicators found"
+CLM-001628,0.0,"Reviewed, no fraud indicators found"
+CLM-001629,0.0,"Reviewed, no fraud indicators found"
+CLM-001630,0.0,"Reviewed, no fraud indicators found"
+CLM-001631,,
+CLM-001632,,
+CLM-001633,,
+CLM-001634,,
+CLM-001635,,
+CLM-001636,,
+CLM-001637,0.0,"Reviewed, no fraud indicators found"
+CLM-001638,0.0,"Reviewed, no fraud indicators found"
+CLM-001639,0.0,"Reviewed, no fraud indicators found"
+CLM-001640,0.0,"Reviewed, no fraud indicators found"
+CLM-001641,1.0,Confirmed fraud indicators found in review
+CLM-001642,,
+CLM-001643,0.0,"Reviewed, no fraud indicators found"
+CLM-001644,,
+CLM-001645,0.0,"Reviewed, no fraud indicators found"
+CLM-001646,0.0,"Reviewed, no fraud indicators found"
+CLM-001647,0.0,"Reviewed, no fraud indicators found"
+CLM-001648,0.0,"Reviewed, no fraud indicators found"
+CLM-001649,,
+CLM-001650,,
+CLM-001651,,
+CLM-001652,,
+CLM-001653,,
+CLM-001654,,
+CLM-001655,,
+CLM-001656,1.0,Confirmed fraud indicators found in review
+CLM-001657,0.0,"Reviewed, no fraud indicators found"
+CLM-001658,,
+CLM-001659,,
+CLM-001660,1.0,Confirmed fraud indicators found in review
+CLM-001661,,
+CLM-001662,,
+CLM-001663,,
+CLM-001664,,
+CLM-001665,1.0,Confirmed fraud indicators found in review
+CLM-001666,0.0,"Reviewed, no fraud indicators found"
+CLM-001667,,
+CLM-001668,0.0,"Reviewed, no fraud indicators found"
+CLM-001669,0.0,"Reviewed, no fraud indicators found"
+CLM-001670,0.0,"Reviewed, no fraud indicators found"
+CLM-001671,,
+CLM-001672,1.0,Confirmed fraud indicators found in review
+CLM-001673,,
+CLM-001674,,
+CLM-001675,0.0,"Reviewed, no fraud indicators found"
+CLM-001676,0.0,"Reviewed, no fraud indicators found"
+CLM-001677,0.0,"Reviewed, no fraud indicators found"
+CLM-001678,0.0,"Reviewed, no fraud indicators found"
+CLM-001679,1.0,Confirmed fraud indicators found in review
+CLM-001680,0.0,"Reviewed, no fraud indicators found"
+CLM-001681,1.0,Confirmed fraud indicators found in review
+CLM-001682,,
+CLM-001683,0.0,"Reviewed, no fraud indicators found"
+CLM-001684,,
+CLM-001685,0.0,"Reviewed, no fraud indicators found"
+CLM-001686,0.0,"Reviewed, no fraud indicators found"
+CLM-001687,,
+CLM-001688,,
+CLM-001689,,
+CLM-001690,0.0,"Reviewed, no fraud indicators found"
+CLM-001691,1.0,Confirmed fraud indicators found in review
+CLM-001692,0.0,"Reviewed, no fraud indicators found"
+CLM-001693,,
+CLM-001694,,
+CLM-001695,0.0,"Reviewed, no fraud indicators found"
+CLM-001696,1.0,Confirmed fraud indicators found in review
+CLM-001697,,
+CLM-001698,,
+CLM-001699,,
+CLM-001700,,
+CLM-001701,,
+CLM-001702,,
+CLM-001703,,
+CLM-001704,0.0,"Reviewed, no fraud indicators found"
+CLM-001705,,
+CLM-001706,0.0,"Reviewed, no fraud indicators found"
+CLM-001707,,
+CLM-001708,0.0,"Reviewed, no fraud indicators found"
+CLM-001709,,
+CLM-001710,,
+CLM-001711,0.0,"Reviewed, no fraud indicators found"
+CLM-001712,,
+CLM-001713,,
+CLM-001714,,
+CLM-001715,0.0,"Reviewed, no fraud indicators found"
+CLM-001716,,
+CLM-001717,,
+CLM-001718,0.0,"Reviewed, no fraud indicators found"
+CLM-001719,0.0,"Reviewed, no fraud indicators found"
+CLM-001720,1.0,Confirmed fraud indicators found in review
+CLM-001721,,
+CLM-001722,,
+CLM-001723,,
+CLM-001724,0.0,"Reviewed, no fraud indicators found"
+CLM-001725,0.0,"Reviewed, no fraud indicators found"
+CLM-001726,1.0,Confirmed fraud indicators found in review
+CLM-001727,,
+CLM-001728,1.0,Confirmed fraud indicators found in review
+CLM-001729,0.0,"Reviewed, no fraud indicators found"
+CLM-001730,0.0,"Reviewed, no fraud indicators found"
+CLM-001731,,
+CLM-001732,0.0,"Reviewed, no fraud indicators found"
+CLM-001733,0.0,"Reviewed, no fraud indicators found"
+CLM-001734,,
+CLM-001735,,
+CLM-001736,,
+CLM-001737,0.0,"Reviewed, no fraud indicators found"
+CLM-001738,,
+CLM-001739,1.0,Confirmed fraud indicators found in review
+CLM-001740,1.0,Confirmed fraud indicators found in review
+CLM-001741,,
+CLM-001742,0.0,"Reviewed, no fraud indicators found"
+CLM-001743,1.0,Confirmed fraud indicators found in review
+CLM-001744,,
+CLM-001745,,
+CLM-001746,0.0,"Reviewed, no fraud indicators found"
+CLM-001747,,
+CLM-001748,,
+CLM-001749,,
+CLM-001750,,
+CLM-001751,,
+CLM-001752,1.0,Confirmed fraud indicators found in review
+CLM-001753,,
+CLM-001754,,
+CLM-001755,,
+CLM-001756,,
+CLM-001757,0.0,"Reviewed, no fraud indicators found"
+CLM-001758,,
+CLM-001759,0.0,"Reviewed, no fraud indicators found"
+CLM-001760,,
+CLM-001761,0.0,"Reviewed, no fraud indicators found"
+CLM-001762,0.0,"Reviewed, no fraud indicators found"
+CLM-001763,,
+CLM-001764,,
+CLM-001765,,
+CLM-001766,,
+CLM-001767,0.0,"Reviewed, no fraud indicators found"
+CLM-001768,,
+CLM-001769,,
+CLM-001770,0.0,"Reviewed, no fraud indicators found"
+CLM-001771,0.0,"Reviewed, no fraud indicators found"
+CLM-001772,,
+CLM-001773,0.0,"Reviewed, no fraud indicators found"
+CLM-001774,,
+CLM-001775,1.0,Confirmed fraud indicators found in review
+CLM-001776,0.0,"Reviewed, no fraud indicators found"
+CLM-001777,0.0,"Reviewed, no fraud indicators found"
+CLM-001778,,
+CLM-001779,,
+CLM-001780,,
+CLM-001781,0.0,"Reviewed, no fraud indicators found"
+CLM-001782,0.0,"Reviewed, no fraud indicators found"
+CLM-001783,0.0,"Reviewed, no fraud indicators found"
+CLM-001784,0.0,"Reviewed, no fraud indicators found"
+CLM-001785,0.0,"Reviewed, no fraud indicators found"
+CLM-001786,0.0,"Reviewed, no fraud indicators found"
+CLM-001787,,
+CLM-001788,,
+CLM-001789,,
+CLM-001790,,
+CLM-001791,,
+CLM-001792,0.0,"Reviewed, no fraud indicators found"
+CLM-001793,,
+CLM-001794,,
+CLM-001795,,
+CLM-001796,,
+CLM-001797,0.0,"Reviewed, no fraud indicators found"
+CLM-001798,1.0,Confirmed fraud indicators found in review
+CLM-001799,,
+CLM-001800,,
+CLM-001801,,
+CLM-001802,0.0,"Reviewed, no fraud indicators found"
+CLM-001803,0.0,"Reviewed, no fraud indicators found"
+CLM-001804,,
+CLM-001805,,
+CLM-001806,0.0,"Reviewed, no fraud indicators found"
+CLM-001807,0.0,"Reviewed, no fraud indicators found"
+CLM-001808,0.0,"Reviewed, no fraud indicators found"
+CLM-001809,0.0,"Reviewed, no fraud indicators found"
+CLM-001810,,
+CLM-001811,0.0,"Reviewed, no fraud indicators found"
+CLM-001812,0.0,"Reviewed, no fraud indicators found"
+CLM-001813,,
+CLM-001814,0.0,"Reviewed, no fraud indicators found"
+CLM-001815,,
+CLM-001816,,
+CLM-001817,0.0,"Reviewed, no fraud indicators found"
+CLM-001818,,
+CLM-001819,,
+CLM-001820,0.0,"Reviewed, no fraud indicators found"
+CLM-001821,0.0,"Reviewed, no fraud indicators found"
+CLM-001822,,
+CLM-001823,0.0,"Reviewed, no fraud indicators found"
+CLM-001824,0.0,"Reviewed, no fraud indicators found"
+CLM-001825,,
+CLM-001826,,
+CLM-001827,,
+CLM-001828,,
+CLM-001829,0.0,"Reviewed, no fraud indicators found"
+CLM-001830,0.0,"Reviewed, no fraud indicators found"
+CLM-001831,0.0,"Reviewed, no fraud indicators found"
+CLM-001832,,
+CLM-001833,0.0,"Reviewed, no fraud indicators found"
+CLM-001834,0.0,"Reviewed, no fraud indicators found"
+CLM-001835,0.0,"Reviewed, no fraud indicators found"
+CLM-001836,,
+CLM-001837,,
+CLM-001838,0.0,"Reviewed, no fraud indicators found"
+CLM-001839,0.0,"Reviewed, no fraud indicators found"
+CLM-001840,0.0,"Reviewed, no fraud indicators found"
+CLM-001841,,
+CLM-001842,,
+CLM-001843,0.0,"Reviewed, no fraud indicators found"
+CLM-001844,0.0,"Reviewed, no fraud indicators found"
+CLM-001845,,
+CLM-001846,,
+CLM-001847,,
+CLM-001848,1.0,Confirmed fraud indicators found in review
+CLM-001849,,
+CLM-001850,,
+CLM-001851,,
+CLM-001852,,
+CLM-001853,,
+CLM-001854,,
+CLM-001855,,
+CLM-001856,,
+CLM-001857,1.0,Confirmed fraud indicators found in review
+CLM-001858,1.0,Confirmed fraud indicators found in review
+CLM-001859,0.0,"Reviewed, no fraud indicators found"
+CLM-001860,1.0,Confirmed fraud indicators found in review
+CLM-001861,1.0,Confirmed fraud indicators found in review
+CLM-001862,,
+CLM-001863,0.0,"Reviewed, no fraud indicators found"
+CLM-001864,1.0,Confirmed fraud indicators found in review
+CLM-001865,,
+CLM-001866,,
+CLM-001867,1.0,Confirmed fraud indicators found in review
+CLM-001868,0.0,"Reviewed, no fraud indicators found"
+CLM-001869,0.0,"Reviewed, no fraud indicators found"
+CLM-001870,,
+CLM-001871,,
+CLM-001872,0.0,"Reviewed, no fraud indicators found"
+CLM-001873,,
+CLM-001874,0.0,"Reviewed, no fraud indicators found"
+CLM-001875,,
+CLM-001876,,
+CLM-001877,,
+CLM-001878,,
+CLM-001879,0.0,"Reviewed, no fraud indicators found"
+CLM-001880,,
+CLM-001881,0.0,"Reviewed, no fraud indicators found"
+CLM-001882,,
+CLM-001883,,
+CLM-001884,,
+CLM-001885,,
+CLM-001886,,
+CLM-001887,0.0,"Reviewed, no fraud indicators found"
+CLM-001888,1.0,Confirmed fraud indicators found in review
+CLM-001889,0.0,"Reviewed, no fraud indicators found"
+CLM-001890,0.0,"Reviewed, no fraud indicators found"
+CLM-001891,,
+CLM-001892,0.0,"Reviewed, no fraud indicators found"
+CLM-001893,,
+CLM-001894,,
+CLM-001895,0.0,"Reviewed, no fraud indicators found"
+CLM-001896,,
+CLM-001897,,
+CLM-001898,0.0,"Reviewed, no fraud indicators found"
+CLM-001899,0.0,"Reviewed, no fraud indicators found"
+CLM-001900,,
+CLM-001901,,
+CLM-001902,1.0,Confirmed fraud indicators found in review
+CLM-001903,,
+CLM-001904,,
+CLM-001905,,
+CLM-001906,0.0,"Reviewed, no fraud indicators found"
+CLM-001907,,
+CLM-001908,0.0,"Reviewed, no fraud indicators found"
+CLM-001909,0.0,"Reviewed, no fraud indicators found"
+CLM-001910,,
+CLM-001911,0.0,"Reviewed, no fraud indicators found"
+CLM-001912,,
+CLM-001913,0.0,"Reviewed, no fraud indicators found"
+CLM-001914,0.0,"Reviewed, no fraud indicators found"
+CLM-001915,,
+CLM-001916,,
+CLM-001917,0.0,"Reviewed, no fraud indicators found"
+CLM-001918,,
+CLM-001919,,
+CLM-001920,,
+CLM-001921,1.0,Confirmed fraud indicators found in review
+CLM-001922,,
+CLM-001923,,
+CLM-001924,0.0,"Reviewed, no fraud indicators found"
+CLM-001925,,
+CLM-001926,,
+CLM-001927,0.0,"Reviewed, no fraud indicators found"
+CLM-001928,0.0,"Reviewed, no fraud indicators found"
+CLM-001929,0.0,"Reviewed, no fraud indicators found"
+CLM-001930,0.0,"Reviewed, no fraud indicators found"
+CLM-001931,,
+CLM-001932,,
+CLM-001933,0.0,"Reviewed, no fraud indicators found"
+CLM-001934,,
+CLM-001935,,
+CLM-001936,0.0,"Reviewed, no fraud indicators found"
+CLM-001937,1.0,Confirmed fraud indicators found in review
+CLM-001938,0.0,"Reviewed, no fraud indicators found"
+CLM-001939,0.0,"Reviewed, no fraud indicators found"
+CLM-001940,0.0,"Reviewed, no fraud indicators found"
+CLM-001941,0.0,"Reviewed, no fraud indicators found"
+CLM-001942,,
+CLM-001943,,
+CLM-001944,0.0,"Reviewed, no fraud indicators found"
+CLM-001945,0.0,"Reviewed, no fraud indicators found"
+CLM-001946,,
+CLM-001947,,
+CLM-001948,,
+CLM-001949,,
+CLM-001950,0.0,"Reviewed, no fraud indicators found"
+CLM-001951,,
+CLM-001952,,
+CLM-001953,0.0,"Reviewed, no fraud indicators found"
+CLM-001954,0.0,"Reviewed, no fraud indicators found"
+CLM-001955,,
+CLM-001956,,
+CLM-001957,,
+CLM-001958,,
+CLM-001959,,
+CLM-001960,,
+CLM-001961,,
+CLM-001962,,
+CLM-001963,,
+CLM-001964,,
+CLM-001965,1.0,Confirmed fraud indicators found in review
+CLM-001966,,
+CLM-001967,0.0,"Reviewed, no fraud indicators found"
+CLM-001968,0.0,"Reviewed, no fraud indicators found"
+CLM-001969,0.0,"Reviewed, no fraud indicators found"
+CLM-001970,0.0,"Reviewed, no fraud indicators found"
+CLM-001971,0.0,"Reviewed, no fraud indicators found"
+CLM-001972,1.0,Confirmed fraud indicators found in review
+CLM-001973,0.0,"Reviewed, no fraud indicators found"
+CLM-001974,0.0,"Reviewed, no fraud indicators found"
+CLM-001975,,
+CLM-001976,,
+CLM-001977,,
+CLM-001978,,
+CLM-001979,,
+CLM-001980,,
+CLM-001981,0.0,"Reviewed, no fraud indicators found"
+CLM-001982,,
+CLM-001983,0.0,"Reviewed, no fraud indicators found"
+CLM-001984,1.0,Confirmed fraud indicators found in review
+CLM-001985,0.0,"Reviewed, no fraud indicators found"
+CLM-001986,,
+CLM-001987,,
+CLM-001988,,
+CLM-001989,,
+CLM-001990,,
+CLM-001991,,
+CLM-001992,,
+CLM-001993,,
+CLM-001994,,
+CLM-001995,0.0,"Reviewed, no fraud indicators found"
+CLM-001996,,
+CLM-001997,,
+CLM-001998,0.0,"Reviewed, no fraud indicators found"
+CLM-001999,,
+CLM-002000,0.0,"Reviewed, no fraud indicators found"
+CLM-002001,,
+CLM-002002,,
+CLM-002003,,
+CLM-002004,,
+CLM-002005,,
+CLM-002006,,
+CLM-002007,0.0,"Reviewed, no fraud indicators found"
+CLM-002008,,
+CLM-002009,0.0,"Reviewed, no fraud indicators found"
+CLM-002010,,
+CLM-002011,,
+CLM-002012,0.0,"Reviewed, no fraud indicators found"
+CLM-002013,0.0,"Reviewed, no fraud indicators found"
+CLM-002014,0.0,"Reviewed, no fraud indicators found"
+CLM-002015,,
+CLM-002016,,
+CLM-002017,,
+CLM-002018,0.0,"Reviewed, no fraud indicators found"
+CLM-002019,,
+CLM-002020,,
+CLM-002021,0.0,"Reviewed, no fraud indicators found"
+CLM-002022,0.0,"Reviewed, no fraud indicators found"
+CLM-002023,,
+CLM-002024,0.0,"Reviewed, no fraud indicators found"
+CLM-002025,,
+CLM-002026,,
+CLM-002027,,
+CLM-002028,,
+CLM-002029,,
+CLM-002030,,
+CLM-002031,,
+CLM-002032,,
+CLM-002033,,
+CLM-002034,,
+CLM-002035,0.0,"Reviewed, no fraud indicators found"
+CLM-002036,,
+CLM-002037,0.0,"Reviewed, no fraud indicators found"
+CLM-002038,0.0,"Reviewed, no fraud indicators found"
+CLM-002039,0.0,"Reviewed, no fraud indicators found"
+CLM-002040,0.0,"Reviewed, no fraud indicators found"
+CLM-002041,,
+CLM-002042,,
+CLM-002043,0.0,"Reviewed, no fraud indicators found"
+CLM-002044,0.0,"Reviewed, no fraud indicators found"
+CLM-002045,,
+CLM-002046,0.0,"Reviewed, no fraud indicators found"
+CLM-002047,,
+CLM-002048,1.0,Confirmed fraud indicators found in review
+CLM-002049,0.0,"Reviewed, no fraud indicators found"
+CLM-002050,,
+CLM-002051,,
+CLM-002052,0.0,"Reviewed, no fraud indicators found"
+CLM-002053,0.0,"Reviewed, no fraud indicators found"
+CLM-002054,,
+CLM-002055,0.0,"Reviewed, no fraud indicators found"
+CLM-002056,,
+CLM-002057,0.0,"Reviewed, no fraud indicators found"
+CLM-002058,,
+CLM-002059,0.0,"Reviewed, no fraud indicators found"
+CLM-002060,,
+CLM-002061,0.0,"Reviewed, no fraud indicators found"
+CLM-002062,,
+CLM-002063,,
+CLM-002064,,
+CLM-002065,,
+CLM-002066,,
+CLM-002067,0.0,"Reviewed, no fraud indicators found"
+CLM-002068,0.0,"Reviewed, no fraud indicators found"
+CLM-002069,0.0,"Reviewed, no fraud indicators found"
+CLM-002070,,
+CLM-002071,0.0,"Reviewed, no fraud indicators found"
+CLM-002072,,
+CLM-002073,,
+CLM-002074,,
+CLM-002075,,
+CLM-002076,,
+CLM-002077,0.0,"Reviewed, no fraud indicators found"
+CLM-002078,0.0,"Reviewed, no fraud indicators found"
+CLM-002079,,
+CLM-002080,,
+CLM-002081,0.0,"Reviewed, no fraud indicators found"
+CLM-002082,0.0,"Reviewed, no fraud indicators found"
+CLM-002083,,
+CLM-002084,,
+CLM-002085,,
+CLM-002086,0.0,"Reviewed, no fraud indicators found"
+CLM-002087,,
+CLM-002088,,
+CLM-002089,,
+CLM-002090,,
+CLM-002091,,
+CLM-002092,,
+CLM-002093,1.0,Confirmed fraud indicators found in review
+CLM-002094,,
+CLM-002095,,
+CLM-002096,,
+CLM-002097,0.0,"Reviewed, no fraud indicators found"
+CLM-002098,,
+CLM-002099,,
+CLM-002100,,
+CLM-002101,0.0,"Reviewed, no fraud indicators found"
+CLM-002102,0.0,"Reviewed, no fraud indicators found"
+CLM-002103,0.0,"Reviewed, no fraud indicators found"
+CLM-002104,0.0,"Reviewed, no fraud indicators found"
+CLM-002105,,
+CLM-002106,,
+CLM-002107,0.0,"Reviewed, no fraud indicators found"
+CLM-002108,,
+CLM-002109,,
+CLM-002110,,
+CLM-002111,0.0,"Reviewed, no fraud indicators found"
+CLM-002112,,
+CLM-002113,0.0,"Reviewed, no fraud indicators found"
+CLM-002114,0.0,"Reviewed, no fraud indicators found"
+CLM-002115,,
+CLM-002116,,
+CLM-002117,,
+CLM-002118,0.0,"Reviewed, no fraud indicators found"
+CLM-002119,,
+CLM-002120,,
+CLM-002121,0.0,"Reviewed, no fraud indicators found"
+CLM-002122,,
+CLM-002123,,
+CLM-002124,,
+CLM-002125,,
+CLM-002126,0.0,"Reviewed, no fraud indicators found"
+CLM-002127,0.0,"Reviewed, no fraud indicators found"
+CLM-002128,,
+CLM-002129,,
+CLM-002130,,
+CLM-002131,,
+CLM-002132,,
+CLM-002133,0.0,"Reviewed, no fraud indicators found"
+CLM-002134,0.0,"Reviewed, no fraud indicators found"
+CLM-002135,,
+CLM-002136,0.0,"Reviewed, no fraud indicators found"
+CLM-002137,0.0,"Reviewed, no fraud indicators found"
+CLM-002138,,
+CLM-002139,,
+CLM-002140,0.0,"Reviewed, no fraud indicators found"
+CLM-002141,0.0,"Reviewed, no fraud indicators found"
+CLM-002142,,
+CLM-002143,0.0,"Reviewed, no fraud indicators found"
+CLM-002144,0.0,"Reviewed, no fraud indicators found"
+CLM-002145,0.0,"Reviewed, no fraud indicators found"
+CLM-002146,,
+CLM-002147,1.0,Confirmed fraud indicators found in review
+CLM-002148,,
+CLM-002149,,
+CLM-002150,,
+CLM-002151,,
+CLM-002152,0.0,"Reviewed, no fraud indicators found"
+CLM-002153,,
+CLM-002154,,
+CLM-002155,0.0,"Reviewed, no fraud indicators found"
+CLM-002156,,
+CLM-002157,0.0,"Reviewed, no fraud indicators found"
+CLM-002158,,
+CLM-002159,0.0,"Reviewed, no fraud indicators found"
+CLM-002160,,
+CLM-002161,0.0,"Reviewed, no fraud indicators found"
+CLM-002162,0.0,"Reviewed, no fraud indicators found"
+CLM-002163,,
+CLM-002164,,
+CLM-002165,,
+CLM-002166,0.0,"Reviewed, no fraud indicators found"
+CLM-002167,,
+CLM-002168,0.0,"Reviewed, no fraud indicators found"
+CLM-002169,0.0,"Reviewed, no fraud indicators found"
+CLM-002170,0.0,"Reviewed, no fraud indicators found"
+CLM-002171,,
+CLM-002172,0.0,"Reviewed, no fraud indicators found"
+CLM-002173,0.0,"Reviewed, no fraud indicators found"
+CLM-002174,,
+CLM-002175,0.0,"Reviewed, no fraud indicators found"
+CLM-002176,,
+CLM-002177,0.0,"Reviewed, no fraud indicators found"
+CLM-002178,,
+CLM-002179,,
+CLM-002180,,
+CLM-002181,1.0,Confirmed fraud indicators found in review
+CLM-002182,,
+CLM-002183,,
+CLM-002184,,
+CLM-002185,,
+CLM-002186,1.0,Confirmed fraud indicators found in review
+CLM-002187,0.0,"Reviewed, no fraud indicators found"
+CLM-002188,,
+CLM-002189,,
+CLM-002190,,
+CLM-002191,0.0,"Reviewed, no fraud indicators found"
+CLM-002192,,
+CLM-002193,0.0,"Reviewed, no fraud indicators found"
+CLM-002194,,
+CLM-002195,,
+CLM-002196,,
+CLM-002197,1.0,Confirmed fraud indicators found in review
+CLM-002198,,
+CLM-002199,0.0,"Reviewed, no fraud indicators found"
+CLM-002200,0.0,"Reviewed, no fraud indicators found"
+CLM-002201,,
+CLM-002202,1.0,Confirmed fraud indicators found in review
+CLM-002203,,
+CLM-002204,,
+CLM-002205,0.0,"Reviewed, no fraud indicators found"
+CLM-002206,,
+CLM-002207,,
+CLM-002208,0.0,"Reviewed, no fraud indicators found"
+CLM-002209,0.0,"Reviewed, no fraud indicators found"
+CLM-002210,,
+CLM-002211,,
+CLM-002212,,
+CLM-002213,0.0,"Reviewed, no fraud indicators found"
+CLM-002214,,
+CLM-002215,,
+CLM-002216,0.0,"Reviewed, no fraud indicators found"
+CLM-002217,0.0,"Reviewed, no fraud indicators found"
+CLM-002218,0.0,"Reviewed, no fraud indicators found"
+CLM-002219,0.0,"Reviewed, no fraud indicators found"
+CLM-002220,,
+CLM-002221,0.0,"Reviewed, no fraud indicators found"
+CLM-002222,,
+CLM-002223,,
+CLM-002224,0.0,"Reviewed, no fraud indicators found"
+CLM-002225,,
+CLM-002226,,
+CLM-002227,,
+CLM-002228,0.0,"Reviewed, no fraud indicators found"
+CLM-002229,,
+CLM-002230,,
+CLM-002231,,
+CLM-002232,1.0,Confirmed fraud indicators found in review
+CLM-002233,0.0,"Reviewed, no fraud indicators found"
+CLM-002234,,
+CLM-002235,,
+CLM-002236,0.0,"Reviewed, no fraud indicators found"
+CLM-002237,0.0,"Reviewed, no fraud indicators found"
+CLM-002238,0.0,"Reviewed, no fraud indicators found"
+CLM-002239,,
+CLM-002240,,
+CLM-002241,,
+CLM-002242,,
+CLM-002243,0.0,"Reviewed, no fraud indicators found"
+CLM-002244,,
+CLM-002245,,
+CLM-002246,,
+CLM-002247,1.0,Confirmed fraud indicators found in review
+CLM-002248,,
+CLM-002249,0.0,"Reviewed, no fraud indicators found"
+CLM-002250,,
+CLM-002251,,
+CLM-002252,1.0,Confirmed fraud indicators found in review
+CLM-002253,1.0,Confirmed fraud indicators found in review
+CLM-002254,0.0,"Reviewed, no fraud indicators found"
+CLM-002255,,
+CLM-002256,0.0,"Reviewed, no fraud indicators found"
+CLM-002257,0.0,"Reviewed, no fraud indicators found"
+CLM-002258,,
+CLM-002259,,
+CLM-002260,0.0,"Reviewed, no fraud indicators found"
+CLM-002261,,
+CLM-002262,,
+CLM-002263,0.0,"Reviewed, no fraud indicators found"
+CLM-002264,0.0,"Reviewed, no fraud indicators found"
+CLM-002265,,
+CLM-002266,,
+CLM-002267,,
+CLM-002268,,
+CLM-002269,0.0,"Reviewed, no fraud indicators found"
+CLM-002270,,
+CLM-002271,0.0,"Reviewed, no fraud indicators found"
+CLM-002272,0.0,"Reviewed, no fraud indicators found"
+CLM-002273,0.0,"Reviewed, no fraud indicators found"
+CLM-002274,,
+CLM-002275,0.0,"Reviewed, no fraud indicators found"
+CLM-002276,0.0,"Reviewed, no fraud indicators found"
+CLM-002277,,
+CLM-002278,0.0,"Reviewed, no fraud indicators found"
+CLM-002279,1.0,Confirmed fraud indicators found in review
+CLM-002280,,
+CLM-002281,,
+CLM-002282,0.0,"Reviewed, no fraud indicators found"
+CLM-002283,0.0,"Reviewed, no fraud indicators found"
+CLM-002284,0.0,"Reviewed, no fraud indicators found"
+CLM-002285,,
+CLM-002286,,
+CLM-002287,,
+CLM-002288,0.0,"Reviewed, no fraud indicators found"
+CLM-002289,1.0,Confirmed fraud indicators found in review
+CLM-002290,0.0,"Reviewed, no fraud indicators found"
+CLM-002291,,
+CLM-002292,1.0,Confirmed fraud indicators found in review
+CLM-002293,,
+CLM-002294,,
+CLM-002295,0.0,"Reviewed, no fraud indicators found"
+CLM-002296,,
+CLM-002297,0.0,"Reviewed, no fraud indicators found"
+CLM-002298,,
+CLM-002299,0.0,"Reviewed, no fraud indicators found"
+CLM-002300,,
+CLM-002301,,
+CLM-002302,,
+CLM-002303,0.0,"Reviewed, no fraud indicators found"
+CLM-002304,,
+CLM-002305,,
+CLM-002306,,
+CLM-002307,0.0,"Reviewed, no fraud indicators found"
+CLM-002308,,
+CLM-002309,,
+CLM-002310,,
+CLM-002311,,
+CLM-002312,,
+CLM-002313,,
+CLM-002314,1.0,Confirmed fraud indicators found in review
+CLM-002315,0.0,"Reviewed, no fraud indicators found"
+CLM-002316,,
+CLM-002317,,
+CLM-002318,0.0,"Reviewed, no fraud indicators found"
+CLM-002319,,
+CLM-002320,,
+CLM-002321,0.0,"Reviewed, no fraud indicators found"
+CLM-002322,,
+CLM-002323,1.0,Confirmed fraud indicators found in review
+CLM-002324,0.0,"Reviewed, no fraud indicators found"
+CLM-002325,,
+CLM-002326,,
+CLM-002327,,
+CLM-002328,0.0,"Reviewed, no fraud indicators found"
+CLM-002329,,
+CLM-002330,,
+CLM-002331,,
+CLM-002332,,
+CLM-002333,,
+CLM-002334,,
+CLM-002335,,
+CLM-002336,1.0,Confirmed fraud indicators found in review
+CLM-002337,1.0,Confirmed fraud indicators found in review
+CLM-002338,0.0,"Reviewed, no fraud indicators found"
+CLM-002339,,
+CLM-002340,0.0,"Reviewed, no fraud indicators found"
+CLM-002341,0.0,"Reviewed, no fraud indicators found"
+CLM-002342,,
+CLM-002343,,
+CLM-002344,,
+CLM-002345,1.0,Confirmed fraud indicators found in review
+CLM-002346,0.0,"Reviewed, no fraud indicators found"
+CLM-002347,,
+CLM-002348,0.0,"Reviewed, no fraud indicators found"
+CLM-002349,0.0,"Reviewed, no fraud indicators found"
+CLM-002350,,
+CLM-002351,0.0,"Reviewed, no fraud indicators found"
+CLM-002352,,
+CLM-002353,,
+CLM-002354,,
+CLM-002355,1.0,Confirmed fraud indicators found in review
+CLM-002356,0.0,"Reviewed, no fraud indicators found"
+CLM-002357,,
+CLM-002358,0.0,"Reviewed, no fraud indicators found"
+CLM-002359,,
+CLM-002360,,
+CLM-002361,,
+CLM-002362,,
+CLM-002363,,
+CLM-002364,,
+CLM-002365,0.0,"Reviewed, no fraud indicators found"
+CLM-002366,,
+CLM-002367,1.0,Confirmed fraud indicators found in review
+CLM-002368,1.0,Confirmed fraud indicators found in review
+CLM-002369,,
+CLM-002370,,
+CLM-002371,0.0,"Reviewed, no fraud indicators found"
+CLM-002372,0.0,"Reviewed, no fraud indicators found"
+CLM-002373,,
+CLM-002374,1.0,Confirmed fraud indicators found in review
+CLM-002375,0.0,"Reviewed, no fraud indicators found"
+CLM-002376,,
+CLM-002377,0.0,"Reviewed, no fraud indicators found"
+CLM-002378,1.0,Confirmed fraud indicators found in review
+CLM-002379,0.0,"Reviewed, no fraud indicators found"
+CLM-002380,,
+CLM-002381,0.0,"Reviewed, no fraud indicators found"
+CLM-002382,,
+CLM-002383,,
+CLM-002384,0.0,"Reviewed, no fraud indicators found"
+CLM-002385,,
+CLM-002386,0.0,"Reviewed, no fraud indicators found"
+CLM-002387,,
+CLM-002388,,
+CLM-002389,,
+CLM-002390,,
+CLM-002391,,
+CLM-002392,0.0,"Reviewed, no fraud indicators found"
+CLM-002393,,
+CLM-002394,,
+CLM-002395,1.0,Confirmed fraud indicators found in review
+CLM-002396,0.0,"Reviewed, no fraud indicators found"
+CLM-002397,,
+CLM-002398,,
+CLM-002399,0.0,"Reviewed, no fraud indicators found"
+CLM-002400,0.0,"Reviewed, no fraud indicators found"
+CLM-002401,,
+CLM-002402,,
+CLM-002403,0.0,"Reviewed, no fraud indicators found"
+CLM-002404,0.0,"Reviewed, no fraud indicators found"
+CLM-002405,0.0,"Reviewed, no fraud indicators found"
+CLM-002406,,
+CLM-002407,,
+CLM-002408,,
+CLM-002409,1.0,Confirmed fraud indicators found in review
+CLM-002410,0.0,"Reviewed, no fraud indicators found"
+CLM-002411,0.0,"Reviewed, no fraud indicators found"
+CLM-002412,,
+CLM-002413,,
+CLM-002414,0.0,"Reviewed, no fraud indicators found"
+CLM-002415,,
+CLM-002416,0.0,"Reviewed, no fraud indicators found"
+CLM-002417,,
+CLM-002418,0.0,"Reviewed, no fraud indicators found"
+CLM-002419,,
+CLM-002420,,
+CLM-002421,,
+CLM-002422,,
+CLM-002423,,
+CLM-002424,0.0,"Reviewed, no fraud indicators found"
+CLM-002425,,
+CLM-002426,,
+CLM-002427,0.0,"Reviewed, no fraud indicators found"
+CLM-002428,0.0,"Reviewed, no fraud indicators found"
+CLM-002429,0.0,"Reviewed, no fraud indicators found"
+CLM-002430,,
+CLM-002431,,
+CLM-002432,,
+CLM-002433,0.0,"Reviewed, no fraud indicators found"
+CLM-002434,,
+CLM-002435,0.0,"Reviewed, no fraud indicators found"
+CLM-002436,,
+CLM-002437,0.0,"Reviewed, no fraud indicators found"
+CLM-002438,0.0,"Reviewed, no fraud indicators found"
+CLM-002439,0.0,"Reviewed, no fraud indicators found"
+CLM-002440,,
+CLM-002441,,
+CLM-002442,0.0,"Reviewed, no fraud indicators found"
+CLM-002443,,
+CLM-002444,,
+CLM-002445,1.0,Confirmed fraud indicators found in review
+CLM-002446,,
+CLM-002447,,
+CLM-002448,,
+CLM-002449,0.0,"Reviewed, no fraud indicators found"
+CLM-002450,,
+CLM-002451,,
+CLM-002452,1.0,Confirmed fraud indicators found in review
+CLM-002453,,
+CLM-002454,,
+CLM-002455,,
+CLM-002456,0.0,"Reviewed, no fraud indicators found"
+CLM-002457,0.0,"Reviewed, no fraud indicators found"
+CLM-002458,,
+CLM-002459,1.0,Confirmed fraud indicators found in review
+CLM-002460,,
+CLM-002461,1.0,Confirmed fraud indicators found in review
+CLM-002462,0.0,"Reviewed, no fraud indicators found"
+CLM-002463,,
+CLM-002464,,
+CLM-002465,0.0,"Reviewed, no fraud indicators found"
+CLM-002466,0.0,"Reviewed, no fraud indicators found"
+CLM-002467,0.0,"Reviewed, no fraud indicators found"
+CLM-002468,,
+CLM-002469,0.0,"Reviewed, no fraud indicators found"
+CLM-002470,,
+CLM-002471,,
+CLM-002472,,
+CLM-002473,1.0,Confirmed fraud indicators found in review
+CLM-002474,,
+CLM-002475,,
+CLM-002476,,
+CLM-002477,0.0,"Reviewed, no fraud indicators found"
+CLM-002478,,
+CLM-002479,0.0,"Reviewed, no fraud indicators found"
+CLM-002480,0.0,"Reviewed, no fraud indicators found"
+CLM-002481,,
+CLM-002482,,
+CLM-002483,,
+CLM-002484,0.0,"Reviewed, no fraud indicators found"
+CLM-002485,,
+CLM-002486,,
+CLM-002487,0.0,"Reviewed, no fraud indicators found"
+CLM-002488,,
+CLM-002489,,
+CLM-002490,,
+CLM-002491,,
+CLM-002492,,
+CLM-002493,0.0,"Reviewed, no fraud indicators found"
+CLM-002494,0.0,"Reviewed, no fraud indicators found"
+CLM-002495,0.0,"Reviewed, no fraud indicators found"
+CLM-002496,0.0,"Reviewed, no fraud indicators found"
+CLM-002497,0.0,"Reviewed, no fraud indicators found"
+CLM-002498,0.0,"Reviewed, no fraud indicators found"
+CLM-002499,0.0,"Reviewed, no fraud indicators found"
+CLM-002500,,
+CLM-002501,0.0,"Reviewed, no fraud indicators found"
+CLM-002502,0.0,"Reviewed, no fraud indicators found"
+CLM-002503,,
+CLM-002504,,
+CLM-002505,0.0,"Reviewed, no fraud indicators found"
+CLM-002506,0.0,"Reviewed, no fraud indicators found"
+CLM-002507,,
+CLM-002508,,
+CLM-002509,,
+CLM-002510,1.0,Confirmed fraud indicators found in review
+CLM-002511,1.0,Confirmed fraud indicators found in review
+CLM-002512,,
+CLM-002513,,
+CLM-002514,,
+CLM-002515,,
+CLM-002516,,
+CLM-002517,,
+CLM-002518,,
+CLM-002519,0.0,"Reviewed, no fraud indicators found"
+CLM-002520,,
+CLM-002521,,
+CLM-002522,,
+CLM-002523,,
+CLM-002524,,
+CLM-002525,,
+CLM-002526,,
+CLM-002527,,
+CLM-002528,1.0,Confirmed fraud indicators found in review
+CLM-002529,,
+CLM-002530,0.0,"Reviewed, no fraud indicators found"
+CLM-002531,1.0,Confirmed fraud indicators found in review
+CLM-002532,,
+CLM-002533,,
+CLM-002534,,
+CLM-002535,0.0,"Reviewed, no fraud indicators found"
+CLM-002536,0.0,"Reviewed, no fraud indicators found"
+CLM-002537,,
+CLM-002538,,
+CLM-002539,,
+CLM-002540,0.0,"Reviewed, no fraud indicators found"
+CLM-002541,0.0,"Reviewed, no fraud indicators found"
+CLM-002542,0.0,"Reviewed, no fraud indicators found"
+CLM-002543,0.0,"Reviewed, no fraud indicators found"
+CLM-002544,,
+CLM-002545,0.0,"Reviewed, no fraud indicators found"
+CLM-002546,,
+CLM-002547,0.0,"Reviewed, no fraud indicators found"
+CLM-002548,,
+CLM-002549,0.0,"Reviewed, no fraud indicators found"
+CLM-002550,0.0,"Reviewed, no fraud indicators found"
+CLM-002551,,
+CLM-002552,1.0,Confirmed fraud indicators found in review
+CLM-002553,,
+CLM-002554,,
+CLM-002555,0.0,"Reviewed, no fraud indicators found"
+CLM-002556,,
+CLM-002557,0.0,"Reviewed, no fraud indicators found"
+CLM-002558,,
+CLM-002559,,
+CLM-002560,,
+CLM-002561,0.0,"Reviewed, no fraud indicators found"
+CLM-002562,,
+CLM-002563,,
+CLM-002564,,
+CLM-002565,,
+CLM-002566,,
+CLM-002567,0.0,"Reviewed, no fraud indicators found"
+CLM-002568,0.0,"Reviewed, no fraud indicators found"
+CLM-002569,1.0,Confirmed fraud indicators found in review
+CLM-002570,0.0,"Reviewed, no fraud indicators found"
+CLM-002571,,
+CLM-002572,0.0,"Reviewed, no fraud indicators found"
+CLM-002573,,
+CLM-002574,,
+CLM-002575,0.0,"Reviewed, no fraud indicators found"
+CLM-002576,,
+CLM-002577,,
+CLM-002578,,
+CLM-002579,,
+CLM-002580,,
+CLM-002581,,
+CLM-002582,0.0,"Reviewed, no fraud indicators found"
+CLM-002583,,
+CLM-002584,0.0,"Reviewed, no fraud indicators found"
+CLM-002585,,
+CLM-002586,,
+CLM-002587,1.0,Confirmed fraud indicators found in review
+CLM-002588,,
+CLM-002589,1.0,Confirmed fraud indicators found in review
+CLM-002590,,
+CLM-002591,,
+CLM-002592,,
+CLM-002593,,
+CLM-002594,,
+CLM-002595,,
+CLM-002596,,
+CLM-002597,,
+CLM-002598,,
+CLM-002599,0.0,"Reviewed, no fraud indicators found"
+CLM-002600,,
+CLM-002601,0.0,"Reviewed, no fraud indicators found"
+CLM-002602,,
+CLM-002603,,
+CLM-002604,0.0,"Reviewed, no fraud indicators found"
+CLM-002605,,
+CLM-002606,,
+CLM-002607,0.0,"Reviewed, no fraud indicators found"
+CLM-002608,,
+CLM-002609,0.0,"Reviewed, no fraud indicators found"
+CLM-002610,,
+CLM-002611,,
+CLM-002612,,
+CLM-002613,,
+CLM-002614,,
+CLM-002615,,
+CLM-002616,0.0,"Reviewed, no fraud indicators found"
+CLM-002617,0.0,"Reviewed, no fraud indicators found"
+CLM-002618,,
+CLM-002619,,
+CLM-002620,1.0,Confirmed fraud indicators found in review
+CLM-002621,0.0,"Reviewed, no fraud indicators found"
+CLM-002622,,
+CLM-002623,,
+CLM-002624,,
+CLM-002625,0.0,"Reviewed, no fraud indicators found"
+CLM-002626,0.0,"Reviewed, no fraud indicators found"
+CLM-002627,0.0,"Reviewed, no fraud indicators found"
+CLM-002628,,
+CLM-002629,0.0,"Reviewed, no fraud indicators found"
+CLM-002630,,
+CLM-002631,,
+CLM-002632,0.0,"Reviewed, no fraud indicators found"
+CLM-002633,,
+CLM-002634,1.0,Confirmed fraud indicators found in review
+CLM-002635,,
+CLM-002636,,
+CLM-002637,0.0,"Reviewed, no fraud indicators found"
+CLM-002638,1.0,Confirmed fraud indicators found in review
+CLM-002639,,
+CLM-002640,,
+CLM-002641,0.0,"Reviewed, no fraud indicators found"
+CLM-002642,,
+CLM-002643,,
+CLM-002644,,
+CLM-002645,0.0,"Reviewed, no fraud indicators found"
+CLM-002646,,
+CLM-002647,0.0,"Reviewed, no fraud indicators found"
+CLM-002648,,
+CLM-002649,,
+CLM-002650,,
+CLM-002651,,
+CLM-002652,,
+CLM-002653,,
+CLM-002654,0.0,"Reviewed, no fraud indicators found"
+CLM-002655,0.0,"Reviewed, no fraud indicators found"
+CLM-002656,0.0,"Reviewed, no fraud indicators found"
+CLM-002657,,
+CLM-002658,,
+CLM-002659,,
+CLM-002660,0.0,"Reviewed, no fraud indicators found"
+CLM-002661,,
+CLM-002662,,
+CLM-002663,,
+CLM-002664,,
+CLM-002665,0.0,"Reviewed, no fraud indicators found"
+CLM-002666,,
+CLM-002667,0.0,"Reviewed, no fraud indicators found"
+CLM-002668,0.0,"Reviewed, no fraud indicators found"
+CLM-002669,0.0,"Reviewed, no fraud indicators found"
+CLM-002670,0.0,"Reviewed, no fraud indicators found"
+CLM-002671,,
+CLM-002672,,
+CLM-002673,,
+CLM-002674,,
+CLM-002675,0.0,"Reviewed, no fraud indicators found"
+CLM-002676,,
+CLM-002677,,
+CLM-002678,0.0,"Reviewed, no fraud indicators found"
+CLM-002679,,
+CLM-002680,0.0,"Reviewed, no fraud indicators found"
+CLM-002681,,
+CLM-002682,,
+CLM-002683,0.0,"Reviewed, no fraud indicators found"
+CLM-002684,0.0,"Reviewed, no fraud indicators found"
+CLM-002685,,
+CLM-002686,0.0,"Reviewed, no fraud indicators found"
+CLM-002687,,
+CLM-002688,,
+CLM-002689,0.0,"Reviewed, no fraud indicators found"
+CLM-002690,0.0,"Reviewed, no fraud indicators found"
+CLM-002691,,
+CLM-002692,1.0,Confirmed fraud indicators found in review
+CLM-002693,0.0,"Reviewed, no fraud indicators found"
+CLM-002694,0.0,"Reviewed, no fraud indicators found"
+CLM-002695,0.0,"Reviewed, no fraud indicators found"
+CLM-002696,1.0,Confirmed fraud indicators found in review
+CLM-002697,,
+CLM-002698,,
+CLM-002699,0.0,"Reviewed, no fraud indicators found"
+CLM-002700,0.0,"Reviewed, no fraud indicators found"
+CLM-002701,,
+CLM-002702,,
+CLM-002703,,
+CLM-002704,,
+CLM-002705,0.0,"Reviewed, no fraud indicators found"
+CLM-002706,,
+CLM-002707,0.0,"Reviewed, no fraud indicators found"
+CLM-002708,,
+CLM-002709,0.0,"Reviewed, no fraud indicators found"
+CLM-002710,1.0,Confirmed fraud indicators found in review
+CLM-002711,,
+CLM-002712,,
+CLM-002713,,
+CLM-002714,0.0,"Reviewed, no fraud indicators found"
+CLM-002715,,
+CLM-002716,,
+CLM-002717,,
+CLM-002718,,
+CLM-002719,,
+CLM-002720,,
+CLM-002721,0.0,"Reviewed, no fraud indicators found"
+CLM-002722,0.0,"Reviewed, no fraud indicators found"
+CLM-002723,,
+CLM-002724,,
+CLM-002725,,
+CLM-002726,,
+CLM-002727,,
+CLM-002728,1.0,Confirmed fraud indicators found in review
+CLM-002729,,
+CLM-002730,,
+CLM-002731,,
+CLM-002732,,
+CLM-002733,,
+CLM-002734,,
+CLM-002735,,
+CLM-002736,,
+CLM-002737,,
+CLM-002738,,
+CLM-002739,,
+CLM-002740,0.0,"Reviewed, no fraud indicators found"
+CLM-002741,0.0,"Reviewed, no fraud indicators found"
+CLM-002742,,
+CLM-002743,,
+CLM-002744,0.0,"Reviewed, no fraud indicators found"
+CLM-002745,,
+CLM-002746,,
+CLM-002747,,
+CLM-002748,,
+CLM-002749,0.0,"Reviewed, no fraud indicators found"
+CLM-002750,,
+CLM-002751,0.0,"Reviewed, no fraud indicators found"
+CLM-002752,0.0,"Reviewed, no fraud indicators found"
+CLM-002753,0.0,"Reviewed, no fraud indicators found"
+CLM-002754,0.0,"Reviewed, no fraud indicators found"
+CLM-002755,1.0,Confirmed fraud indicators found in review
+CLM-002756,0.0,"Reviewed, no fraud indicators found"
+CLM-002757,,
+CLM-002758,0.0,"Reviewed, no fraud indicators found"
+CLM-002759,,
+CLM-002760,,
+CLM-002761,0.0,"Reviewed, no fraud indicators found"
+CLM-002762,,
+CLM-002763,,
+CLM-002764,,
+CLM-002765,,
+CLM-002766,,
+CLM-002767,,
+CLM-002768,,
+CLM-002769,,
+CLM-002770,,
+CLM-002771,0.0,"Reviewed, no fraud indicators found"
+CLM-002772,0.0,"Reviewed, no fraud indicators found"
+CLM-002773,,
+CLM-002774,0.0,"Reviewed, no fraud indicators found"
+CLM-002775,,
+CLM-002776,0.0,"Reviewed, no fraud indicators found"
+CLM-002777,0.0,"Reviewed, no fraud indicators found"
+CLM-002778,,
+CLM-002779,0.0,"Reviewed, no fraud indicators found"
+CLM-002780,,
+CLM-002781,0.0,"Reviewed, no fraud indicators found"
+CLM-002782,1.0,Confirmed fraud indicators found in review
+CLM-002783,0.0,"Reviewed, no fraud indicators found"
+CLM-002784,0.0,"Reviewed, no fraud indicators found"
+CLM-002785,0.0,"Reviewed, no fraud indicators found"
+CLM-002786,0.0,"Reviewed, no fraud indicators found"
+CLM-002787,0.0,"Reviewed, no fraud indicators found"
+CLM-002788,1.0,Confirmed fraud indicators found in review
+CLM-002789,,
+CLM-002790,,
+CLM-002791,,
+CLM-002792,,
+CLM-002793,0.0,"Reviewed, no fraud indicators found"
+CLM-002794,0.0,"Reviewed, no fraud indicators found"
+CLM-002795,,
+CLM-002796,,
+CLM-002797,,
+CLM-002798,0.0,"Reviewed, no fraud indicators found"
+CLM-002799,,
+CLM-002800,0.0,"Reviewed, no fraud indicators found"
+CLM-002801,,
+CLM-002802,,
+CLM-002803,1.0,Confirmed fraud indicators found in review
+CLM-002804,0.0,"Reviewed, no fraud indicators found"
+CLM-002805,,
+CLM-002806,,
+CLM-002807,,
+CLM-002808,0.0,"Reviewed, no fraud indicators found"
+CLM-002809,0.0,"Reviewed, no fraud indicators found"
+CLM-002810,0.0,"Reviewed, no fraud indicators found"
+CLM-002811,0.0,"Reviewed, no fraud indicators found"
+CLM-002812,,
+CLM-002813,0.0,"Reviewed, no fraud indicators found"
+CLM-002814,,
+CLM-002815,0.0,"Reviewed, no fraud indicators found"
+CLM-002816,,
+CLM-002817,,
+CLM-002818,,
+CLM-002819,0.0,"Reviewed, no fraud indicators found"
+CLM-002820,,
+CLM-002821,0.0,"Reviewed, no fraud indicators found"
+CLM-002822,1.0,Confirmed fraud indicators found in review
+CLM-002823,,
+CLM-002824,0.0,"Reviewed, no fraud indicators found"
+CLM-002825,,
+CLM-002826,0.0,"Reviewed, no fraud indicators found"
+CLM-002827,,
+CLM-002828,,
+CLM-002829,,
+CLM-002830,0.0,"Reviewed, no fraud indicators found"
+CLM-002831,0.0,"Reviewed, no fraud indicators found"
+CLM-002832,0.0,"Reviewed, no fraud indicators found"
+CLM-002833,0.0,"Reviewed, no fraud indicators found"
+CLM-002834,0.0,"Reviewed, no fraud indicators found"
+CLM-002835,,
+CLM-002836,,
+CLM-002837,,
+CLM-002838,0.0,"Reviewed, no fraud indicators found"
+CLM-002839,,
+CLM-002840,0.0,"Reviewed, no fraud indicators found"
+CLM-002841,0.0,"Reviewed, no fraud indicators found"
+CLM-002842,,
+CLM-002843,,
+CLM-002844,0.0,"Reviewed, no fraud indicators found"
+CLM-002845,,
+CLM-002846,1.0,Confirmed fraud indicators found in review
+CLM-002847,,
+CLM-002848,1.0,Confirmed fraud indicators found in review
+CLM-002849,,
+CLM-002850,0.0,"Reviewed, no fraud indicators found"
+CLM-002851,0.0,"Reviewed, no fraud indicators found"
+CLM-002852,0.0,"Reviewed, no fraud indicators found"
+CLM-002853,0.0,"Reviewed, no fraud indicators found"
+CLM-002854,0.0,"Reviewed, no fraud indicators found"
+CLM-002855,,
+CLM-002856,,
+CLM-002857,0.0,"Reviewed, no fraud indicators found"
+CLM-002858,,
+CLM-002859,,
+CLM-002860,1.0,Confirmed fraud indicators found in review
+CLM-002861,,
+CLM-002862,0.0,"Reviewed, no fraud indicators found"
+CLM-002863,0.0,"Reviewed, no fraud indicators found"
+CLM-002864,0.0,"Reviewed, no fraud indicators found"
+CLM-002865,,
+CLM-002866,0.0,"Reviewed, no fraud indicators found"
+CLM-002867,0.0,"Reviewed, no fraud indicators found"
+CLM-002868,0.0,"Reviewed, no fraud indicators found"
+CLM-002869,,
+CLM-002870,0.0,"Reviewed, no fraud indicators found"
+CLM-002871,,
+CLM-002872,,
+CLM-002873,,
+CLM-002874,,
+CLM-002875,0.0,"Reviewed, no fraud indicators found"
+CLM-002876,0.0,"Reviewed, no fraud indicators found"
+CLM-002877,,
+CLM-002878,0.0,"Reviewed, no fraud indicators found"
+CLM-002879,0.0,"Reviewed, no fraud indicators found"
+CLM-002880,,
+CLM-002881,,
+CLM-002882,,
+CLM-002883,,

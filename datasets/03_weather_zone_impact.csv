@@ -1,0 +1,7 @@
+storm_id,zone_id,zone_name,peak_wind_experienced_mph,storm_surge_ft
+MARISOL2026,Z1,Port Alden,132,11.2
+MARISOL2026,Z2,Marsh Point,138,13.5
+MARISOL2026,Z3,Cape Verrin,121,8.7
+MARISOL2026,Z4,Ridgeview,79,
+MARISOL2026,Z5,Hollow Bay,68,
+MARISOL2026,Z6,Millbrook,61,
