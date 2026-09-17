@@ -6,6 +6,8 @@ Using a fictional insurer (Gulf Crest Insurance Company) and a fictional hurrica
 
 Gulf Crest Insurance Company, Hurricane Marisol, and every dataset and figure in this repository are fictional. Underlying assumptions were calibrated against public industry benchmarks and research sources (see References below) so the module behaves the way real insurer data would, without representing any real company, storm, or individual.
 
+This repository holds the module's runnable materials (code, data, dashboard). The full teaching package, including the Instructor Guide, Student Workbook, Presentation, Assessment Package, Teaching Notes, and Solution Manuals, is distributed separately as the submission's Google Drive folder; see that folder's `Gulf_Crest_Submission_Documentation.docx` for the complete package overview and access details.
+
 ## Repository Structure
 
 | Folder | Contents |
@@ -13,7 +15,6 @@ Gulf Crest Insurance Company, Hurricane Marisol, and every dataset and figure in
 | `/notebooks` | `01_Introduction.ipynb` through `08_Final_Recommendation.ipynb`, plus `requirements.txt` and a setup guide |
 | `/datasets` | The 8 CSV files behind the case (policies, claims, weather, economic indicators, repair costs, fraud labels, reserve history, company financials) |
 | `/dashboard` | The Power BI (`.pbip`) project source, plus a build guide and setup notes |
-| `/docs` | Word exports of the Instructor Guide, Student Workbook, and Assessment Package |
 | `LICENSE` | CC BY 4.0 (Creative Commons Attribution 4.0 International) |
 
 ## Getting Started
@@ -29,7 +30,6 @@ Gulf Crest Insurance Company, Hurricane Marisol, and every dataset and figure in
    ```
 3. **Run the notebooks**, in order, with Jupyter Notebook, JupyterLab, or Google Colab (no local install needed). See `notebooks/00_SETUP_README.md` for details.
 4. **Open the dashboard** with Power BI Desktop (free), or use the interactive HTML alternative referenced in `dashboard/README_SETUP.md`.
-5. **Read the teaching materials** in `/docs`, or in full (including the Presentation, Teaching Notes, and Solution Manuals) in the accompanying Google Drive submission package.
 
 ## Notebook Roadmap
 
@@ -44,14 +44,13 @@ Gulf Crest Insurance Company, Hurricane Marisol, and every dataset and figure in
 | 07_Scenario_Analysis | Sensitivity analysis | Make actuarial decisions |
 | 08_Final_Recommendation | Executive recommendation | Communicate recommendations |
 
-Each notebook maps to one activity in the Student Workbook and one learning objective in the Instructor Guide; see `docs/Gulf_Crest_Instructor_Guide.docx`, Chapter 3, for the full objective-to-notebook mapping.
+Each notebook maps to one activity in the Student Workbook and one learning objective in the Instructor Guide (see the full teaching package in the Google Drive submission folder for that mapping in detail).
 
 ## Software Requirements
 
 - Python 3.9+ with pandas, numpy, scikit-learn, and matplotlib (see `notebooks/requirements.txt`)
 - Jupyter Notebook / JupyterLab, or Google Colab
 - Power BI Desktop (free), or a browser for the HTML dashboard alternative
-- Microsoft Word (or a compatible reader) for the `/docs` files
 
 No paid software is required to run any part of this module.
 
